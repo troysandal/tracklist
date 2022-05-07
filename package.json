@@ -4,10 +4,17 @@
   "description": "Utility to convert Traktor NML files into human readable track lists.",
   "main": "index.html",
   "scripts": {
-    "start": "open index.html",
+    "start": "http-server ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["NML", "Traktor", "Tracklist"],
+  "keywords": [
+    "NML",
+    "Traktor",
+    "Tracklist"
+  ],
   "author": "Troy Sandal",
-  "license": "Creative Commons Attribution-ShareAlike 4.0 International License."
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License.",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
 }
