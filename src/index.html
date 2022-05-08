@@ -41,7 +41,7 @@
             var parseerror = $(xmlDoc).find("parsererror");
 
             if (parseerror.length !== 0) {
-                alert('Bad NML File')
+                document.getElementById('trackList').value = 'Bad NML File'
                 return
             }
 
@@ -59,9 +59,13 @@
                 $('#nml').val(reader.result.toString())
                 convert()
             }
+            e.target.value = ''
         }
 
-        function myFunction() {
+        /** 
+         * Doesn't work - haven't debugged.
+         */
+        function copyToClipboard() {
             const copyText = document.getElementById("trackList")
             copyText.select()
             copyText.setSelectionRange(0, 99999) /* For mobile devices */
@@ -83,14 +87,12 @@
     <p>Paste in your NML file below or press Import to upload it.</p>
     <p><input type="file" accept=".nml" id="nmlFile"></p>
     <textarea id="nml"></textarea>
-    <div>
-        <button onclick="convert()">Convert</button>
-    </div>
     <h2>Your Tracklist</h2>
-    <!-- <p><button onclick="myFunction()">Copy To Clipboard</button></p> -->
+    <!-- <p><button onclick="copyToClipboard()">Copy To Clipboard</button></p> -->
     <textarea id="trackList"></textarea>
     <script>
         document.getElementById('nmlFile').addEventListener("change", upload, false)
+        document.getElementById('nml').addEventListener("input", convert, false)
     </script>
 </body>
 
