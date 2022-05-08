@@ -21,7 +21,10 @@
             return $(xmlDoc)
                 .find("ENTRY")
                 .map((index, entry) => {
-                    return { title: entry.getAttribute('TITLE'), artist: entry.getAttribute('ARTIST') }
+                    return { 
+                        title: entry.getAttribute('TITLE') || 'Unknown Title', 
+                        artist: entry.getAttribute('ARTIST') || 'Unknown Artist'
+                    }
                 })
                 .filter((index, track) => !!track.title).toArray()
         }
