@@ -22,11 +22,12 @@
                 .find("ENTRY")
                 .map((index, entry) => {
                     return { 
-                        title: entry.getAttribute('TITLE') || 'Unknown Title', 
-                        artist: entry.getAttribute('ARTIST') || 'Unknown Artist'
+                        title: entry.getAttribute('TITLE'), 
+                        artist: entry.getAttribute('ARTIST')
                     }
                 })
-                .filter((index, track) => !!track.title).toArray()
+                .filter((index, track) => track.title || track.artist)
+                .toArray()
         }
 
         function formatTrackList(trackList, formatString) {
@@ -41,8 +42,8 @@
                 const padding = trackList.length.toString().length
                 return formatString.replace('${INDEX_PADDED}', (index + 1).toString().padStart(padding, '0'))
             },
-            TITLE: (trackList, index, formatString) => formatString.replace('${TITLE}', trackList[index].title),
-            ARTIST: (trackList, index, formatString) => formatString.replace('${ARTIST}', trackList[index].artist),
+            TITLE: (trackList, index, formatString) => formatString.replace('${TITLE}', trackList[index].title || 'Unknown Title'),
+            ARTIST: (trackList, index, formatString) => formatString.replace('${ARTIST}', trackList[index].artist || 'Unknown Artist'),
         }
 
         function format(trackList, index, formatString) {
@@ -60,7 +61,7 @@
             var parseerror = $(xmlDoc).find("parsererror");
 
             if (parseerror.length !== 0) {
-                document.getElementById('trackList').value = 'Bad NML File'
+                setTrackList('Bad NML File')
                 return
             }
 
@@ -70,7 +71,11 @@
                 formatString = '${INDEX}. ${TITLE} - ${ARTIST}'
             }
 
-            document.getElementById('trackList').value = formatTrackList(tracks, formatString)
+            setTrackList(formatTrackList(tracks, formatString))
+        }
+
+        function setTrackList(trackList) {
+            document.getElementById('trackList').textContent = trackList
         }
 
         function upload(e) {
@@ -90,7 +95,7 @@
          * Doesn't work - haven't debugged.
          */
         function copyToClipboard() {
-            const copyText = document.getElementById("trackList")
+            const copyText = document.getElementById('trackList')
             copyText.select()
             copyText.setSelectionRange(0, 99999) /* For mobile devices */
             navigator.permissions.query({ name: "clipboard-write" }).then(result => {
@@ -119,7 +124,7 @@
     </div>
     <h2>Your Tracklist</h2>
     <!-- <p><button onclick="copyToClipboard()">Copy To Clipboard</button></p> -->
-    <textarea id="trackList"></textarea>
+    <pre id="trackList">No tracks found</pre>
     <script>
         document.getElementById('nmlFile').addEventListener("change", upload, false)
         document.getElementById('formatString').addEventListener("input", convert, false)
