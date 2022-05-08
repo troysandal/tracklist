@@ -10,6 +10,9 @@
             width: 800px;
             height: 300px;
         }
+        #formatString {
+            width:600px;
+        }
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -23,16 +26,29 @@
                 .filter((index, track) => !!track.title).toArray()
         }
 
-        function formatTrackList(trackList) {
-            const padding = trackList.length.toString().length
-            const formatTrack = (track, index) => {
-                return `${(index + 1)}. ${track.title} - ${track.artist}`
-            }
-
+        function formatTrackList(trackList, formatString) {
             return trackList
-                .map(formatTrack)
+                .map((track, index) => format(trackList, index, formatString))
                 .join('\n')
         }
+
+        const TRACK_FIELDS = {
+            INDEX: (trackList, index, formatString) => formatString.replace('${INDEX}', index + 1),
+            INDEX_PADDED: (trackList, index, formatString) => {
+                const padding = trackList.length.toString().length
+                return formatString.replace('${INDEX_PADDED}', (index + 1).toString().padStart(padding, '0'))
+            },
+            TITLE: (trackList, index, formatString) => formatString.replace('${TITLE}', trackList[index].title),
+            ARTIST: (trackList, index, formatString) => formatString.replace('${ARTIST}', trackList[index].artist),
+        }
+
+        function format(trackList, index, formatString) {
+            Object.keys(TRACK_FIELDS).forEach((key) => {
+                formatString = TRACK_FIELDS[key](trackList, index, formatString)
+            })
+            return formatString
+        }
+
         function convert() {
             const nml = document.getElementById('nml').value
 
@@ -46,7 +62,12 @@
             }
 
             const tracks = nmlToTracks(xmlDoc)
-            document.getElementById('trackList').value = formatTrackList(tracks)
+            let formatString = document.getElementById('formatString').value
+            if (formatString.length === 0) {
+                formatString = '${INDEX}. ${TITLE} - ${ARTIST}'
+            }
+
+            document.getElementById('trackList').value = formatTrackList(tracks, formatString)
         }
 
         function upload(e) {
@@ -87,12 +108,25 @@
     <p>Paste in your NML file below or press Import to upload it.</p>
     <p><input type="file" accept=".nml" id="nmlFile"></p>
     <textarea id="nml"></textarea>
+    <div>
+        <p>Track Format String:
+            <input type="text" id="formatString" value="${INDEX}. ${TITLE} by ${ARTIST}" />
+        </p>
+        <p id="fieldList">Available Fields: </p>
+    </div>
     <h2>Your Tracklist</h2>
     <!-- <p><button onclick="copyToClipboard()">Copy To Clipboard</button></p> -->
     <textarea id="trackList"></textarea>
     <script>
         document.getElementById('nmlFile').addEventListener("change", upload, false)
+        document.getElementById('formatString').addEventListener("input", convert, false)
         document.getElementById('nml').addEventListener("input", convert, false)
+
+        const fieldList = Object.keys(TRACK_FIELDS)
+            .map((fieldName) => `\${${fieldName}}`)
+            .join(' ')
+        document.getElementById('fieldList').textContent =
+        document.getElementById('fieldList').textContent + fieldList
     </script>
 </body>
 
