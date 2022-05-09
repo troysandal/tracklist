@@ -1,14 +1,32 @@
 function nmlToTracks(xmlDoc) {
-    return $(xmlDoc)
-        .find("ENTRY")
+    xmlDoc = $(xmlDoc)
+    
+    // Step 1 - Build Track Database
+    const trackList = xmlDoc
+        .find("COLLECTION ENTRY")
         .map((index, entry) => {
-            return { 
+            const track = { 
                 title: entry.getAttribute('TITLE'), 
                 artist: entry.getAttribute('ARTIST')
             }
+            const location = $(entry).find('LOCATION')
+            track.key = location.attr('VOLUMEID') + location.attr('DIR') + location.attr('FILE')
+            return track
         })
-        .filter((index, track) => track.title || track.artist)
         .toArray()
+        .reduce((prev, curr) => {prev[curr.key] = curr; return prev}, {})
+    
+    // Step 2 - Get Playlist with Sorted Track Order
+    const playList = xmlDoc
+        .find('PLAYLISTS PLAYLIST ENTRY')
+        .map((_, entry) => {
+            const key = $(entry).find('PRIMARYKEY')
+            return key.attr('KEY')
+        })
+        .toArray()
+
+    // Step 3 - return tracks in order played
+    return playList.map((entry) => trackList[entry])
 }
 
 function formatTrackList(trackList, formatString) {
