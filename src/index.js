@@ -1,8 +1,14 @@
-function nmlToTracks(xmlDoc) {
-    xmlDoc = $(xmlDoc)
-    
-    // Step 1 - Build Track Database
-    const trackList = xmlDoc
+/**
+ * Returns the NML COLLECTION as a map from track KEY to a track object which has shape
+ * {title:'track name', artist:'Artist', key:'UID'} for every unique track that appears in 
+ * any of the playlists in the file. The track key is built from it's LOCATION node
+ * which is used to map to Playlist items.
+ * 
+ * @param {XMLDocument} xmlDoc 
+ * @returns Map of track keys to collection item.
+ */
+function nmlCollection(xmlDoc) {
+    return $(xmlDoc)
         .find("COLLECTION ENTRY")
         .map((index, entry) => {
             const track = { 
@@ -16,25 +22,71 @@ function nmlToTracks(xmlDoc) {
         })
         .toArray()
         .reduce((prev, curr) => {prev[curr.key] = curr; return prev}, {})
+}
+
+/**
+ * Returns an array of playlists that are present in the NML.  Each entry is an object
+ * with shape {name:'Playlist Name', tracks: [KEY1, ...KEYN]}.  The order of the `tracks` 
+ * array is the order in which the tracks were played/sorted.
+ * 
+ * @param {XMLDocument} xmlDoc
+ * @returns Array of playlists.
+ */
+function nmlPlaylists(xmlDoc) {
+    const playlistNodes = $(xmlDoc).find("NODE[TYPE=PLAYLIST]")
+
+    var x = playlistNodes.map((_,v) => {
+        const playList = {
+            name: v.getAttribute('NAME'),
+            tracks: []
+        }
+        playList.tracks = $('PLAYLIST ENTRY', v)
+            .map((_, entry) => {
+                const key = $(entry).find('PRIMARYKEY')
+                return key.attr('KEY')
+            })
+            .toArray()
+        return playList
+    })
+    return x.toArray()
+}
+
+/**
+ * Given the contents of an NML file, converts all playlists within to a 
+ * human readable form.
+ * 
+ * @param {string} nmlText  NML file contents.
+ * @returns null if NML file is invalid
+ */
+function nmlToPlaylists(nmlText) {
+    // Step 1 - Parse NML File
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(nmlText, "text/xml");
+    const parseerror = $(xmlDoc).find("parsererror");
+
+    if (parseerror.length !== 0) {
+        return null
+    }
+
+    // Step 2 - Build Track Database
+    const collection = nmlCollection(xmlDoc)
     
-    // Step 2 - Get Playlist with Sorted Track Order
-    const playList = xmlDoc
-        .find('PLAYLISTS PLAYLIST ENTRY')
-        .map((_, entry) => {
-            const key = $(entry).find('PRIMARYKEY')
-            return key.attr('KEY')
-        })
-        .toArray()
+    // Step 3 - Walk all Playlists in the NML and make it Readable
+    let result = []
+    const playlists = nmlPlaylists(xmlDoc)
+    const FORMAT_STRING = getFormatString()
 
-    // Step 3 - return tracks in order played
-    return playList.map((entry) => trackList[entry])
+    playlists.forEach((playList) => {
+        if (result.length) { result.push('\n')}
+        result.push(playList.name)
+
+        const trackList = playList.tracks.map((key) => collection[key])
+        trackList.map((_, index) => result.push(format(trackList, index, FORMAT_STRING)))
+    })
+
+    return result.join('\n')
 }
 
-function formatTrackList(trackList, formatString) {
-    return trackList
-        .map((track, index) => format(trackList, index, formatString))
-        .join('\n')
-}
 
 const TRACK_FIELDS = {
     INDEX: (trackList, index, formatString) => formatString.replace('${INDEX}', index + 1),
@@ -53,25 +105,23 @@ function format(trackList, index, formatString) {
     return formatString
 }
 
-function convert() {
-    const nml = document.getElementById('nml').value
-
-    var parser = new DOMParser();
-    var xmlDoc = parser.parseFromString(nml, "text/xml");
-    var parseerror = $(xmlDoc).find("parsererror");
-
-    if (parseerror.length !== 0) {
-        setTrackList('Bad NML File')
-        return
-    }
-
-    const tracks = nmlToTracks(xmlDoc)
+function getFormatString() {
     let formatString = document.getElementById('formatString').value
     if (formatString.length === 0) {
         formatString = '${INDEX}. ${TITLE} - ${ARTIST}'
     }
+    return formatString
+}
 
-    setTrackList(formatTrackList(tracks, formatString))
+function convert() {
+    const nmlText = document.getElementById('nml').value
+    let humanReadableText = nmlToPlaylists(nmlText)
+
+    if (humanReadableText === null) {
+        humanReadableText = 'Bad NML File or No Playlist(s) found.'
+    }
+
+    setTrackList(humanReadableText)
 }
 
 function setTrackList(trackList) {
