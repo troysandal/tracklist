@@ -10,8 +10,8 @@ function nmlToTracks(xmlDoc) {
                 artist: entry.getAttribute('ARTIST')
             }
             const location = $(entry).find('LOCATION')
-            track.key = location.attr('VOLUMEID') + location.attr('DIR') + location.attr('FILE')
-            track.key = track.key.toLowerCase()
+            track.key = location.attr('VOLUME') + location.attr('DIR') + location.attr('FILE')
+            track.key = track.key
             return track
         })
         .toArray()
@@ -22,7 +22,7 @@ function nmlToTracks(xmlDoc) {
         .find('PLAYLISTS PLAYLIST ENTRY')
         .map((_, entry) => {
             const key = $(entry).find('PRIMARYKEY')
-            return key.attr('KEY').toLowerCase()
+            return key.attr('KEY')
         })
         .toArray()
 
