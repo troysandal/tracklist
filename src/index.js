@@ -87,6 +87,33 @@ function nmlToPlaylists(nmlText) {
     return result.join('\n')
 }
 
+// Functions to parse EXTENDEDDATA STARTDATE 
+function year(x) { return x >> 16 }
+function month(x) { return (x >> 8) % 256 }
+function day(x) { return x % 256 }
+
+function NMLDateToDate(nmlDate) {
+    return {
+        year: year(nmlDate),
+        month: month(nmlDate),
+        day: day(nmlDate)
+    }
+}
+function DateToNMLDate(date) {
+    return date.year * 2**16 + date.month * 2**8 + date.day
+}
+
+// Functions to parse EXTENDEDDATA STARTTIME 
+function seconds(t) { return t % 60 }
+function minutes(t) { return Math.floor((t - 3600*Math.floor(t/3600))/60) }
+function hours(t) { return Math.floor(t/3600) }
+
+function timeString(t) {
+    const HH = hours(t).toString().padStart(2, '0')
+    const MM = minutes(t).toString().padStart(2, '0')
+    const SS = seconds(t).toString().padStart(2, '0')
+    return `${HH}:${MM}:${SS}`
+}
 
 const TRACK_FIELDS = {
     INDEX: (trackList, index, formatString) => formatString.replace('${INDEX}', index + 1),
