@@ -27,7 +27,10 @@ function nmlCollection(xmlDoc) {
 /**
  * Returns an array of playlists that are present in the NML.  Each entry is an object
  * with shape shown below.  The order of the `tracks` array is the order in which the
- * tracks were sorted in the Traktor UI.
+ * tracks were sorted in the Traktor UI. `startTrackIndex` is useful when your playlist
+ * has a ton of tracks you previewed before you went live.  None of them wound up 
+ * in the mix so you don't want them in your playlist.  You'd think you could
+ * just delete these in Traktor Explorer -> Archive -> History but no.
  *
  * {
  *   name: 'My Playlist',
@@ -44,9 +47,11 @@ function nmlCollection(xmlDoc) {
  * 
  * @param {XMLDocument} xmlDoc
  * @param {Collection} Collection from nmlCollection(xmlDoc)
+ * @param {number} startTrackIndex - specifies the track where playlists start.
+ * @param {boolean} onlyPlayedTracks - only show tracks that were played.
  * @returns Array of playlists.
  */
-function nmlPlaylists(xmlDoc, collection) {
+function nmlPlaylists(xmlDoc, collection, startTrackIndex, onlyPlayedTracks) {
     const playlistNodes = $(xmlDoc).find("NODE[TYPE=PLAYLIST]")
 
     var playlists = playlistNodes.map((_,playlistNode) => {
@@ -58,7 +63,6 @@ function nmlPlaylists(xmlDoc, collection) {
             .map((index, entry) => {
                 const track = { }
                 const key = $(entry).find('PRIMARYKEY')
-                track.index = index
                 track.key = key.attr('KEY')
                 track.collectionEntry = collection[track.key]
 
@@ -77,9 +81,13 @@ function nmlPlaylists(xmlDoc, collection) {
                         track.startTime.minutes,
                         track.startTime.seconds
                     )
+                } else {
+                    track.playedPublic = true
                 }
                 return track
             })
+            .filter((index, _) => index >= (startTrackIndex - 1))
+            .filter((_, track) => onlyPlayedTracks ? track.playedPublic : true)
             .toArray()
         
         computeTrackOffsets(playList)
@@ -118,13 +126,13 @@ function computeTrackOffsets(playList) {
  * @param {string} nmlText  NML file contents.
  * @returns null if NML file is invalid
  */
-function nmlToPlaylists(nmlText) {
+function nmlToPlaylists(nmlText, startTrackIndex, onlyPlayedTracks) {
     // Step 1 - Parse NML File
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(nmlText, "text/xml");
-    const parseerror = $(xmlDoc).find("parsererror");
+    const parseError = $(xmlDoc).find("parsererror");
 
-    if (parseerror.length !== 0) {
+    if (parseError.length !== 0) {
         return null
     }
 
@@ -133,14 +141,15 @@ function nmlToPlaylists(nmlText) {
     
     // Step 3 - Walk all Playlists in the NML and make Human Readable
     let result = []
-    const playlists = nmlPlaylists(xmlDoc, collection)
+    const playlists = nmlPlaylists(xmlDoc, collection, startTrackIndex, onlyPlayedTracks)
     const FORMAT_STRING = getFormatString()
 
     playlists.forEach((playList) => {
         if (result.length) { result.push('\n')}
         result.push(playList.name)
 
-        playList.tracks.map((track) => result.push(format(playList, track, FORMAT_STRING)))
+        playList.tracks
+            .map((track, index) => result.push(format(playList, index, FORMAT_STRING)))
     })
 
     return result.join('\n')
@@ -187,22 +196,22 @@ function NMLTimeToTime(nmlTime) {
 }
 
 const TRACK_FIELDS = {
-    INDEX: (playList, track, formatString) => formatString.replace('${INDEX}', track.index + 1),
-    INDEX_PADDED: (playList, track, formatString) => {
+    INDEX: (playList, trackIndex, formatString) => formatString.replace('${INDEX}', trackIndex + 1),
+    INDEX_PADDED: (playList, trackIndex, formatString) => {
         const padding = playList.tracks.length.toString().length
-        return formatString.replace('${INDEX_PADDED}', (track.index + 1).toString().padStart(padding, '0'))
+        return formatString.replace('${INDEX_PADDED}', (trackIndex + 1).toString().padStart(padding, '0'))
     },
-    TITLE: (playList, track, formatString) => formatString.replace('${TITLE}', track.collectionEntry.title || 'Unknown Title'),
-    ARTIST: (playList, track, formatString) => formatString.replace('${ARTIST}', track.collectionEntry.artist || 'Unknown Artist'),
-    OFFSET: (playList, track, formatString) => {
-        const substitution = track?.timeOffsetString ?? ''
+    TITLE: (playList, trackIndex, formatString) => formatString.replace('${TITLE}', playList.tracks[trackIndex].collectionEntry.title || 'Unknown Title'),
+    ARTIST: (playList, trackIndex, formatString) => formatString.replace('${ARTIST}', playList.tracks[trackIndex].collectionEntry.artist || 'Unknown Artist'),
+    OFFSET: (playList, trackIndex, formatString) => {
+        const substitution = playList.tracks[trackIndex]?.timeOffsetString ?? ''
         return formatString.replace('${OFFSET}', substitution)
     }
 }
 
-function format(playList, track, formatString) {
+function format(playList, trackIndex, formatString) {
     Object.keys(TRACK_FIELDS).forEach((trackKey) => {
-        formatString = TRACK_FIELDS[trackKey](playList, track, formatString)
+        formatString = TRACK_FIELDS[trackKey](playList, trackIndex, formatString)
     })
     return formatString
 }
@@ -217,7 +226,9 @@ function getFormatString() {
 
 function convert() {
     const nmlText = document.getElementById('nml').value
-    let humanReadableText = nmlToPlaylists(nmlText)
+    const startTrackIndex = Math.max(1, document.getElementById('startTrackIndex').value)
+    const onlyPlayPublicTracks = document.getElementById('publicTracks').checked
+    let humanReadableText = nmlToPlaylists(nmlText, startTrackIndex, onlyPlayPublicTracks)
 
     if (humanReadableText === null) {
         humanReadableText = 'Bad NML File or No Playlist(s) found.'

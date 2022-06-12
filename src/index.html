@@ -36,13 +36,22 @@
         </p>
         <p id="fieldList">Available Fields: </p>
     </div>
-    <h2>Your Tracklist</h2>
+    <div>
+        <label for="startTrackIndex">Starting Track Index</label>
+        <input type="number" id="startTrackIndex" value="1" min="1" />
+        <br />
+        <label for="publicTracks">Only Show Tracks That Went Live</label>
+        <input type="checkbox" id="publicTracks" />
+    </div>
+    <h2>Your Playlist(s)</h2>
     <!-- <p><button onclick="copyToClipboard()">Copy To Clipboard</button></p> -->
     <pre id="trackList">No tracks found</pre>
     <script>
         document.getElementById('nmlFile').addEventListener("change", upload, false)
         document.getElementById('formatString').addEventListener("input", convert, false)
         document.getElementById('nml').addEventListener("input", convert, false)
+        document.getElementById('startTrackIndex').addEventListener("input", convert, false)
+        document.getElementById('publicTracks').addEventListener("input", convert, false)
 
         const fieldList = Object.keys(TRACK_FIELDS)
             .map((fieldName) => `\${${fieldName}}`)
