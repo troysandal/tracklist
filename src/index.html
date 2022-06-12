@@ -28,8 +28,10 @@
     <h2>NML</h2>
     <p>Paste in your NML file below or press this button to upload a file: 
         <input text="Import" type="file" accept=".nml" id="nmlFile">
+        <br />
+        <button onclick="showNML()" id="showNML">Show NML Contents</button>
     </p>
-    <textarea id="nml"></textarea>
+    <textarea id="nml" style="display:none"></textarea>
     <div>
         <p>Track Format String:
             <input type="text" id="formatString" value="${INDEX}. ${TITLE} by ${ARTIST}" />
@@ -58,6 +60,12 @@
             .join(' ')
         document.getElementById('fieldList').textContent =
         document.getElementById('fieldList').textContent + fieldList
+
+        function showNML() {
+            $('#nml').show()
+            $('#showNML').hide()
+        }
+
     </script>
 </body>
 
