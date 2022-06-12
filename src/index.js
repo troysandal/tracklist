@@ -26,30 +26,90 @@ function nmlCollection(xmlDoc) {
 
 /**
  * Returns an array of playlists that are present in the NML.  Each entry is an object
- * with shape {name:'Playlist Name', tracks: [KEY1, ...KEYN]}.  The order of the `tracks` 
- * array is the order in which the tracks were played/sorted.
+ * with shape shown below.  The order of the `tracks` array is the order in which the
+ * tracks were sorted in the Traktor UI.
+ *
+ * {
+ *   name: 'My Playlist',
+ *   tracks: [{
+ *       key: 'track_key'
+ *       // Only if EXTENDEDDATA present.
+ *       startTime: 123
+ *       startDate: 1234
+ *       playedPublic: true
+ *     },
+ *     ...
+ *   ]
+ * }
  * 
  * @param {XMLDocument} xmlDoc
+ * @param {Collection} Collection from nmlCollection(xmlDoc)
  * @returns Array of playlists.
  */
-function nmlPlaylists(xmlDoc) {
+function nmlPlaylists(xmlDoc, collection) {
     const playlistNodes = $(xmlDoc).find("NODE[TYPE=PLAYLIST]")
 
-    var x = playlistNodes.map((_,v) => {
+    var playlists = playlistNodes.map((_,playlistNode) => {
         const playList = {
-            name: v.getAttribute('NAME'),
+            name: playlistNode.getAttribute('NAME'),
             tracks: []
         }
-        playList.tracks = $('PLAYLIST ENTRY', v)
-            .map((_, entry) => {
+        playList.tracks = $('PLAYLIST ENTRY', playlistNode)
+            .map((index, entry) => {
+                const track = { }
                 const key = $(entry).find('PRIMARYKEY')
-                return key.attr('KEY')
+                track.index = index
+                track.key = key.attr('KEY')
+                track.collectionEntry = collection[track.key]
+
+                const extendedData = $(entry).find('EXTENDEDDATA')
+                if (extendedData.length) {
+                    track.playedPublic = !!parseInt(extendedData.attr('PLAYEDPUBLIC'))
+                    track.startTime = parseInt(extendedData.attr('STARTTIME'))
+                    track.startTime = NMLTimeToTime(track.startTime)
+                    track.startDate = parseInt(extendedData.attr('STARTDATE'))
+                    track.startDate = NMLDateToDate(track.startDate)
+                    track.startTimeJS = new Date(
+                        track.startDate.year,
+                        track.startDate.month,
+                        track.startDate.day,
+                        track.startTime.hours,
+                        track.startTime.minutes,
+                        track.startTime.seconds
+                    )
+                }
+                return track
             })
             .toArray()
+        
+        computeTrackOffsets(playList)
         return playList
     })
-    return x.toArray()
+    return playlists.toArray()
 }
+
+/**
+ * If extendeddata attributes are present in the playlist, computes the offset
+ * that the track started at in [HH:]MM:SS format.
+ * 
+ * @param {PlayList} playList 
+ */
+function computeTrackOffsets(playList) {
+    // Don't compute if EXTENDEDDATA does not exist
+    if (!playList.tracks[0]?.startTimeJS) {
+        return
+    }
+
+    const start = playList.tracks[0].startTimeJS
+    const lastTime = playList.tracks[playList.tracks.length - 1].startTimeJS
+    const hasHours = NMLTimeToTime((lastTime - start) / 1000).hours > 0
+    
+    playList.tracks.forEach((track) => {
+        track.timeOffset = (track.startTimeJS - start) / 1000
+        track.timeOffsetString = timeString(track.timeOffset, !hasHours)
+    })
+}
+
 
 /**
  * Given the contents of an NML file, converts all playlists within to a 
@@ -71,17 +131,16 @@ function nmlToPlaylists(nmlText) {
     // Step 2 - Build Track Database
     const collection = nmlCollection(xmlDoc)
     
-    // Step 3 - Walk all Playlists in the NML and make it Readable
+    // Step 3 - Walk all Playlists in the NML and make Human Readable
     let result = []
-    const playlists = nmlPlaylists(xmlDoc)
+    const playlists = nmlPlaylists(xmlDoc, collection)
     const FORMAT_STRING = getFormatString()
 
     playlists.forEach((playList) => {
         if (result.length) { result.push('\n')}
         result.push(playList.name)
 
-        const trackList = playList.tracks.map((key) => collection[key])
-        trackList.map((_, index) => result.push(format(trackList, index, FORMAT_STRING)))
+        playList.tracks.map((track) => result.push(format(playList, track, FORMAT_STRING)))
     })
 
     return result.join('\n')
@@ -108,26 +167,42 @@ function seconds(t) { return t % 60 }
 function minutes(t) { return Math.floor((t - 3600*Math.floor(t/3600))/60) }
 function hours(t) { return Math.floor(t/3600) }
 
-function timeString(t) {
+function timeString(t, stripHours) {
     const HH = hours(t).toString().padStart(2, '0')
     const MM = minutes(t).toString().padStart(2, '0')
     const SS = seconds(t).toString().padStart(2, '0')
-    return `${HH}:${MM}:${SS}`
+    if (stripHours) {
+        return `${MM}:${SS}`
+    } else {
+        return `${HH}:${MM}:${SS}`
+    }
+}
+
+function NMLTimeToTime(nmlTime) {
+    return {
+        hours: hours(nmlTime),
+        minutes: minutes(nmlTime),
+        seconds: seconds(nmlTime)
+    }
 }
 
 const TRACK_FIELDS = {
-    INDEX: (trackList, index, formatString) => formatString.replace('${INDEX}', index + 1),
-    INDEX_PADDED: (trackList, index, formatString) => {
-        const padding = trackList.length.toString().length
-        return formatString.replace('${INDEX_PADDED}', (index + 1).toString().padStart(padding, '0'))
+    INDEX: (playList, track, formatString) => formatString.replace('${INDEX}', track.index + 1),
+    INDEX_PADDED: (playList, track, formatString) => {
+        const padding = playList.tracks.length.toString().length
+        return formatString.replace('${INDEX_PADDED}', (track.index + 1).toString().padStart(padding, '0'))
     },
-    TITLE: (trackList, index, formatString) => formatString.replace('${TITLE}', trackList[index].title || 'Unknown Title'),
-    ARTIST: (trackList, index, formatString) => formatString.replace('${ARTIST}', trackList[index].artist || 'Unknown Artist'),
+    TITLE: (playList, track, formatString) => formatString.replace('${TITLE}', track.collectionEntry.title || 'Unknown Title'),
+    ARTIST: (playList, track, formatString) => formatString.replace('${ARTIST}', track.collectionEntry.artist || 'Unknown Artist'),
+    OFFSET: (playList, track, formatString) => {
+        const substitution = track?.timeOffsetString ?? ''
+        return formatString.replace('${OFFSET}', substitution)
+    }
 }
 
-function format(trackList, index, formatString) {
-    Object.keys(TRACK_FIELDS).forEach((key) => {
-        formatString = TRACK_FIELDS[key](trackList, index, formatString)
+function format(playList, track, formatString) {
+    Object.keys(TRACK_FIELDS).forEach((trackKey) => {
+        formatString = TRACK_FIELDS[trackKey](playList, track, formatString)
     })
     return formatString
 }
