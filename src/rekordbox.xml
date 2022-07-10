@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="rekordbox.xsl"?>
+<!-- <?xml-stylesheet type="text/xsl" href="rekordbox.xsl"?> -->
 <DJ_PLAYLISTS Version="1.0.0">
   <PRODUCT Name="rekordbox" Version="6.6.3" Company="AlphaTheta"/>
   <COLLECTION Entries="17">

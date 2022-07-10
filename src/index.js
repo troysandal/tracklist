@@ -1,4 +1,5 @@
 import { parseTraktor } from './traktor.js'
+import { parseRekordBox } from './rekordbox.js'
 
 const TRACK_FIELDS = {
     INDEX: (playList, trackIndex, formatString) => formatString.replace('${INDEX}', trackIndex + 1),
@@ -46,7 +47,11 @@ function getFormatString() {
     }
 
     // Step 2 - Convert to Canonical JSON
-    const archive = parseTraktor(xmlDoc, startTrackIndex, onlyPlayedTracks)
+    let archive = parseRekordBox(xmlDoc, startTrackIndex, onlyPlayedTracks)
+
+    if (!archive) {
+        archive = parseTraktor(xmlDoc, startTrackIndex, onlyPlayedTracks)
+    }
     
     // Step 3 - Walk all Playlists in the archive and make Human Readable
     let result = []
