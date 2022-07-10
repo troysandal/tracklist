@@ -17,7 +17,7 @@
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 </head>
 
 <body>
@@ -30,11 +30,11 @@
     </p>
     <h2>NML</h2>
     <p>Press this button to upload a Traktor NML file: 
-        <input text="Import" type="file" accept=".nml" id="nmlFile">
+        <input text="Import" type="file" accept=".nml" id="archiveFile">
         <br />
-        <button onclick="showNML()" id="showNML">Show NML Contents</button>
+        <button id="showArchive">Show Archive Contents</button>
     </p>
-    <textarea id="nml" style="display:none"></textarea>
+    <textarea id="archive" style="display:none"></textarea>
     <div>
         <p>Track Format String:
             <input type="text" id="formatString" value="${INDEX}. ${TITLE} by ${ARTIST}" />
@@ -51,25 +51,6 @@
     <h2>Your Playlist(s)</h2>
     <!-- <p><button onclick="copyToClipboard()">Copy To Clipboard</button></p> -->
     <pre id="trackList">No tracks found</pre>
-    <script>
-        document.getElementById('nmlFile').addEventListener("change", upload, false)
-        document.getElementById('formatString').addEventListener("input", convert, false)
-        document.getElementById('nml').addEventListener("input", convert, false)
-        document.getElementById('startTrackIndex').addEventListener("input", convert, false)
-        document.getElementById('publicTracks').addEventListener("input", convert, false)
-
-        const fieldList = Object.keys(TRACK_FIELDS)
-            .map((fieldName) => `\${${fieldName}}`)
-            .join(' ')
-        document.getElementById('fieldList').textContent =
-        document.getElementById('fieldList').textContent + fieldList
-
-        function showNML() {
-            $('#nml').show()
-            $('#showNML').hide()
-        }
-
-    </script>
 </body>
 
 </html>
