@@ -38,7 +38,8 @@ function parsePlaylists(xmlDoc, collection, startTrackIndex, onlyPlayedTracks) {
         playList.tracks = $('TRACK', playlistNode)
             .map((index, entry) => {
                 const track = {
-                    key: $(entry).attr('Key')
+                    key: $(entry).attr('Key'),
+                    playedPublic: true
                 }
                 track.collectionEntry = collection[track.key]
                 return track
