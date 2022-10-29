@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Traktor or RekordBox To Human Readable Playlist</title>
     <meta name="description" content="You can use this tool to turn a Traktor NML or RekordBox XML file into a human readable
@@ -11,8 +12,9 @@
             width: 800px;
             height: 300px;
         }
+
         #formatString {
-            width:600px;
+            width: 600px;
         }
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -21,11 +23,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-62V9C0FV03"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-62V9C0FV03');
+        gtag('config', 'G-62V9C0FV03');
     </script>
 </head>
 
@@ -33,33 +35,46 @@
     <h1>Traktor or RekordBox To Human Readable Playlist</h1>
     <p>You can use this tool to turn a Traktor NML or RekordBox XML file into a human readable
         format that is ready to post to MixCloud, SoundCloud or wherever you want to
-        give people the list of tracks in your set.  Use the Format String to
-        modify what each entry in the playlist looks like.  There are multiple
+        give people the list of tracks in your set. Use the Format String to
+        modify what each entry in the playlist looks like. There are multiple
         fields you can choose from to get the look you want.
     </p>
-    <h2>Collection</h2>
-    <p>Press this button to upload a file: 
-        <input text="Import" type="file" accept=".nml,.xml" id="archiveFile">
+
+    <h2>Step 1 - Upload Track Collection</h2>
+    <p>Use the button below to choose the Traktor NML or RekordBox XML file you want to convert.</p>
+    <p>Press this button to upload a file:
+        <input value="Upload" type="file" accept=".nml,.xml" id="archiveFile">
         <br />
-        <button id="showArchive">Show Archive Contents</button>
     </p>
-    <textarea id="archive" style="display:none"></textarea>
+
+    <h2>Step 2 - Track Formatting</h2>
+    <p>The format string defines what your tracks looks like in the playlist.  We've chosen a default for you
+        that shows the track index, title and artist name but you can customize
+        it however you want.</p>
     <div>
         <p>Track Format String:
             <input type="text" id="formatString" value="${INDEX}. ${TITLE} by ${ARTIST}" />
+            <textarea id="archive" style="display:none"></textarea>
         </p>
         <p id="fieldList">Available Fields: </p>
     </div>
+    <h2>Step 3 - Filters</h2>
+    <p>No, we aren't talking about echo, reverb or delay here. we're talking about filtering out tracks
+        you don't want.  For example, let's say you previewed 5 tracks before you started, you don't want those showing up.  
+        When that's the case set the <b>Starting Track Index</b> to 6 to make the playlist start at the 6th track.
+        If you're using Traktor you can check the <b>Only Show Tracks That Went Live</b> button and it
+        will remove any tracks you previewed but didn't bring up the levels on. Neat eh?</p>
     <div>
         <label for="startTrackIndex">Starting Track Index</label>
         <input type="number" id="startTrackIndex" value="1" min="1" />
         <br />
-        <label for="publicTracks">Only Show Tracks That Went Live</label>
+        <label for="publicTracks">Only Show Tracks That Went Live (Traktor Only)</label>
         <input type="checkbox" id="publicTracks" />
     </div>
+
     <h2>Your Playlist(s)</h2>
     <!-- <p><button onclick="copyToClipboard()">Copy To Clipboard</button></p> -->
-    <pre id="trackList">No tracks found</pre>
+    <pre id="trackList">No tracks found yet, upload something!</pre>
 </body>
 
 </html>

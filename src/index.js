@@ -119,18 +119,11 @@ function copyToClipboard() {
 }
 
 
-function showArchiveContents() {
-    $('#archive').show()
-    $('#showArchive').hide()
-}
-
 $(() => {
     document.getElementById('archiveFile').addEventListener("change", upload, false)
     document.getElementById('formatString').addEventListener("input", convert, false)
-    document.getElementById('archive').addEventListener("input", convert, false)
     document.getElementById('startTrackIndex').addEventListener("input", convert, false)
     document.getElementById('publicTracks').addEventListener("input", convert, false)
-    document.getElementById('showArchive').addEventListener("click", showArchiveContents, false)
     
     const fieldList = Object.keys(TRACK_FIELDS)
         .map((fieldName) => `\${${fieldName}}`)
