@@ -107,18 +107,8 @@ function upload(e) {
  * Doesn't work - haven't debugged.
  */
 function copyToClipboard() {
-    const copyText = document.getElementById('trackList')
-    copyText.select()
-    copyText.setSelectionRange(0, 99999) /* For mobile devices */
-    navigator.permissions.query({ name: "clipboard-write" }).then(result => {
-        if (result.state == "granted" || result.state == "prompt") {
-            navigator.clipboard.writeText(copyText.value)
-            console.log(copyText.value)
-            alert("Track list copied to Clipbaord")
-        } else {
-            alert('Sorry, no clipboard access.')
-        }
-    });
+    const copyText = document.getElementById('trackList').innerText
+    navigator.clipboard.writeText(copyText)
 }
 
 
@@ -127,6 +117,7 @@ $(() => {
     document.getElementById('formatString').addEventListener("input", convert, false)
     document.getElementById('startTrackIndex').addEventListener("input", convert, false)
     document.getElementById('publicTracks').addEventListener("input", convert, false)
+    document.getElementById('copyToClipboard').addEventListener("click", copyToClipboard, false)
     
     const fieldList = Object.keys(TRACK_FIELDS)
         .map((fieldName) => `\${${fieldName}}`)
