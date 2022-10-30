@@ -14,14 +14,13 @@ export function parseM3U(contents, startTrackIndex, onlyPlayedTracks) {
     const lines = contents.split('\n')
     
     lines.forEach((line) => {
-        const regex = /^#EXTINF:(\d+),(.*)/g
+        const regex = /^#EXTINF:(\d+),(([^-]*$)|(.*)( - )(.*))/g
         const match = regex.exec(line)
         if (match) {
-            const data = match[2].split(' - ')
             archive.collection[match[1]] = {
                 key: match[1],
-                title: data[1],
-                artist: data[0]
+                title: match[6] || match[3],
+                artist: match[4] || ''
             }
             archive.playlists[0].tracks.push({
                 key: match[1],
