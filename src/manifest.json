@@ -8,6 +8,7 @@
 
     "permissions" : [
         "http://*/*",
+        "https://*/*",
         "clipboardWrite"
     ]
 }
