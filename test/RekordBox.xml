@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DJ_PLAYLISTS Version="1.0.0">
+  <PRODUCT Name="rekordbox" Version="6.6.4" Company="AlphaTheta"/>
+  <COLLECTION Entries="39">
+    <TRACK TrackID="185913047" Name="NOISE" Artist="" Composer="" Album=""
+           Grouping="" Genre="" Kind="WAV File" Size="1382226" TotalTime="5"
+           DiscNumber="0" TrackNumber="0" Year="0" AverageBpm="0.00" DateAdded="2022-06-19"
+           BitRate="2116" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/PioneerDJ/Sampler/OSC_SAMPLER/PRESET%20ONESHOT/NOISE.wav"
+           Remixer="" Tonality="" Label="" Mix=""/>
+    <TRACK TrackID="4926341" Name="SINEWAVE" Artist="" Composer="" Album=""
+           Grouping="" Genre="" Kind="WAV File" Size="1515258" TotalTime="5"
+           DiscNumber="0" TrackNumber="0" Year="0" AverageBpm="0.00" DateAdded="2022-06-19"
+           BitRate="2116" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/PioneerDJ/Sampler/OSC_SAMPLER/PRESET%20ONESHOT/SINEWAVE.wav"
+           Remixer="" Tonality="" Label="" Mix=""/>
+    <TRACK TrackID="122354280" Name="SIREN" Artist="" Composer="" Album=""
+           Grouping="" Genre="" Kind="WAV File" Size="1941204" TotalTime="7"
+           DiscNumber="0" TrackNumber="0" Year="0" AverageBpm="0.00" DateAdded="2022-06-19"
+           BitRate="2116" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/PioneerDJ/Sampler/OSC_SAMPLER/PRESET%20ONESHOT/SIREN.wav"
+           Remixer="" Tonality="" Label="" Mix=""/>
+    <TRACK TrackID="206930907" Name="HORN" Artist="" Composer="" Album=""
+           Grouping="" Genre="" Kind="WAV File" Size="2010816" TotalTime="7"
+           DiscNumber="0" TrackNumber="0" Year="0" AverageBpm="0.00" DateAdded="2022-06-19"
+           BitRate="2116" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/PioneerDJ/Sampler/OSC_SAMPLER/PRESET%20ONESHOT/HORN.wav"
+           Remixer="" Tonality="" Label="" Mix=""/>
+    <TRACK TrackID="12923898" Name="Demo Track 1" Artist="Loopmasters" Composer=""
+           Album="" Grouping="" Genre="" Kind="MP3 File" Size="6899624"
+           TotalTime="172" DiscNumber="0" TrackNumber="0" Year="0" AverageBpm="128.00"
+           DateAdded="2022-06-19" BitRate="320" SampleRate="44100" Comments="Tracks by www.loopmasters.com"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/PioneerDJ/Demo%20Tracks/Demo%20Track%201.mp3"
+           Remixer="" Tonality="" Label="Loopmasters" Mix="">
+      <TEMPO Inizio="0.025" Bpm="128.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="208760751" Name="Demo Track 2" Artist="Loopmasters"
+           Composer="" Album="" Grouping="" Genre="" Kind="MP3 File" Size="5124342"
+           TotalTime="128" DiscNumber="0" TrackNumber="0" Year="0" AverageBpm="120.00"
+           DateAdded="2022-06-19" BitRate="320" SampleRate="44100" Comments="Tracks by www.loopmasters.com"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/PioneerDJ/Demo%20Tracks/Demo%20Track%202.mp3"
+           Remixer="" Tonality="" Label="Loopmasters" Mix="">
+      <TEMPO Inizio="0.025" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="48.026" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="48.525" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="49.026" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="49.525" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="50.026" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="50.525" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="51.026" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="51.525" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="52.026" Bpm="120.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="255959972" Name="Man In Soul (Original Mix)" Artist="Angelo Ferreri"
+           Composer="" Album="Hot Stuff - Summer 2022" Grouping="" Genre="Funky House"
+           Kind="MP3 File" Size="16085343" TotalTime="391" DiscNumber="0"
+           TrackNumber="15" Year="2022" AverageBpm="124.00" DateAdded="2022-06-18"
+           BitRate="320" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Angelo%20Ferreri/Hot%20Stuff%20-%20Summer%202022/16561247_Man%20In%20Soul_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="8d" Label="Hot Stuff" Mix="">
+      <TEMPO Inizio="0.075" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="83993052" Name="Everybody Pumpin&apos; (Original Mix)"
+           Artist="Antoine Clamaran, Agua Sin Gas" Composer="" Album="Houseu Picks 2022"
+           Grouping="" Genre="Funky House" Kind="MP3 File" Size="14197443"
+           TotalTime="311" DiscNumber="0" TrackNumber="2" Year="2022" AverageBpm="126.00"
+           DateAdded="2022-06-18" BitRate="320" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Antoine%20Clamaran,%20Agua%20Sin%20Gas/Houseu%20Picks%202022/16397819_Everybody%20Pumpin__(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="4A" Label="HouseU Tunes" Mix="">
+      <TEMPO Inizio="0.075" Bpm="126.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="0.552" Bpm="126.00" Metro="4/4" Battito="2"/>
+    </TRACK>
+    <TRACK TrackID="143022260" Name="Boogie Renegade (Original Mix)" Artist="Block &amp; Crown"
+           Composer="" Album="Boogie Renegade" Grouping="" Genre="Funky House"
+           Kind="MP3 File" Size="12317485" TotalTime="293" DiscNumber="0"
+           TrackNumber="1" Year="2022" AverageBpm="126.00" DateAdded="2022-06-18"
+           BitRate="320" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Block%20%26%20Crown/Boogie%20Renegade/16599425_Boogie%20Renegade_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="7A" Label="Save The Nightlife" Mix="">
+      <TEMPO Inizio="0.077" Bpm="126.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="61572173" Name="Holdin On (Original Mix)" Artist="Da Funk Junkies, Rubber People"
+           Composer="" Album="The Best of Rubber People, Vol. 1" Grouping=""
+           Genre="Funky House" Kind="MP3 File" Size="11952855" TotalTime="293"
+           DiscNumber="0" TrackNumber="4" Year="2022" AverageBpm="126.00"
+           DateAdded="2022-06-18" BitRate="320" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Da%20Funk%20Junkies,%20Rubber%20People/The%20Best%20of%20Rubber%20People,%20Vol.%201/16266992_Holdin%20On_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="10A" Label="InStereo Recordings" Mix="">
+      <TEMPO Inizio="0.075" Bpm="126.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="73595920" Name="Funkology (Original Mix)" Artist="Dirty &amp; Acid"
+           Composer="" Album="Rock The Disco" Grouping="" Genre="Breaks / Breakbeat / UK Bass"
+           Kind="MP3 File" Size="14513936" TotalTime="361" DiscNumber="0"
+           TrackNumber="2" Year="2011" AverageBpm="135.00" DateAdded="2022-06-18"
+           BitRate="320" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Dirty%20%26%20Acid/Rock%20The%20Disco/1793274_Funkology_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="7A" Label="iBreaks Spain" Mix="">
+      <TEMPO Inizio="0.301" Bpm="135.00" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="227437866" Name="Party Starter (Original Mix)" Artist="DJ Dan, Mike Balance, Fleetwood Smack"
+           Composer="" Album="The Best of Mike Balance, Vol. 2" Grouping=""
+           Genre="Funky House" Kind="MP3 File" Size="15002995" TotalTime="371"
+           DiscNumber="0" TrackNumber="6" Year="2022" AverageBpm="124.00"
+           DateAdded="2022-06-18" BitRate="320" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/DJ%20Dan,%20Mike%20Balance,%20Fleetwood%20Smack/The%20Best%20of%20Mike%20Balance,%20Vol.%202/16361165_Party%20Starter_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="10A" Label="InStereo Recordings" Mix="">
+      <TEMPO Inizio="0.077" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="238345674" Name="Rock Tha Show (Original Mix)" Artist="Jay Vegas"
+           Composer="" Album="Hot Stuff - Summer 2022" Grouping="" Genre="House"
+           Kind="MP3 File" Size="13614742" TotalTime="331" DiscNumber="0"
+           TrackNumber="1" Year="2022" AverageBpm="123.00" DateAdded="2022-06-18"
+           BitRate="320" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Jay%20Vegas/Hot%20Stuff%20-%20Summer%202022/16561214_Rock%20Tha%20Show_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="8A" Label="Hot Stuff" Mix="">
+      <TEMPO Inizio="0.079" Bpm="123.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="168936620" Name="One Day (Original Mix)" Artist="Jay Vegas"
+           Composer="" Album="Hot Stuff - Summer 2022" Grouping="" Genre="House"
+           Kind="MP3 File" Size="14901000" TotalTime="363" DiscNumber="0"
+           TrackNumber="2" Year="2022" AverageBpm="124.00" DateAdded="2022-06-18"
+           BitRate="320" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Jay%20Vegas/Hot%20Stuff%20-%20Summer%202022/16561218_One%20Day_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="11A" Label="Hot Stuff" Mix="">
+      <TEMPO Inizio="0.079" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="116879830" Name="Body &amp; Soul (2020 Reboot)" Artist="Jay Vegas"
+           Composer="" Album="Hot Stuff - Summer 2022" Grouping="" Genre="Funky House"
+           Kind="MP3 File" Size="14438121" TotalTime="352" DiscNumber="0"
+           TrackNumber="6" Year="2022" AverageBpm="124.00" DateAdded="2022-06-18"
+           BitRate="320" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Jay%20Vegas/Hot%20Stuff%20-%20Summer%202022/16561226_Body%20%26%20Soul_(2020%20Reboot)_PN.mp3"
+           Remixer="" Tonality="12A" Label="Hot Stuff" Mix="">
+      <TEMPO Inizio="0.114" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="48090619" Name="Break Ya Down (Crazibiza Remix)" Artist="Jay Vegas"
+           Composer="" Album="Hot Stuff - Summer 2022" Grouping="" Genre="Funky House"
+           Kind="MP3 File" Size="13146637" TotalTime="320" DiscNumber="0"
+           TrackNumber="14" Year="2022" AverageBpm="123.00" DateAdded="2022-06-18"
+           BitRate="320" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Jay%20Vegas/Hot%20Stuff%20-%20Summer%202022/16561245_Break%20Ya%20Down_(Crazibiza%20Remix)_PN.mp3"
+           Remixer="" Tonality="7A" Label="Hot Stuff" Mix="">
+      <TEMPO Inizio="0.076" Bpm="123.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="141557684" Name="Shok Zoom (Jay Vegas&apos; The Breaks Remix)"
+           Artist="Kenny Summit" Composer="" Album="Shok Zoom" Grouping=""
+           Genre="House" Kind="MP3 File" Size="14480211" TotalTime="346"
+           DiscNumber="0" TrackNumber="2" Year="2022" AverageBpm="124.00"
+           DateAdded="2022-06-18" BitRate="320" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Kenny%20Summit/Shok%20Zoom/16454718_Shok%20Zoom_(Jay%20Vegas_%20The%20Breaks%20Remix)_PN.mp3"
+           Remixer="" Tonality="12A" Label="Good For You Records" Mix="">
+      <TEMPO Inizio="0.336" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="187760163" Name="Like I Used To" Artist="Steven Weston feat. Låpsley"
+           Composer="" Album="Like I Used To" Grouping="" Genre="" Kind="MP3 File"
+           Size="12031132" TotalTime="296" DiscNumber="1" TrackNumber="1"
+           Year="2022" AverageBpm="120.00" DateAdded="2022-08-20" BitRate="320"
+           SampleRate="44100" Comments="5A - Energy 5" PlayCount="1" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Steven%20Weston%20feat.%20L%c3%a5psley/Like%20I%20Used%20To/Like%20I%20Used%20To-001-Steven%20Weston%20feat%20L%c3%a5psley-Like%20I%20Used%20To_PN.mp3"
+           Remixer="" Tonality="5A" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.079" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="222.080" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="222.579" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="223.080" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="223.579" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="224.080" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="224.579" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="225.080" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="225.579" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="226.080" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="226.579" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="227.080" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="227.579" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="228.080" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="228.579" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="229.080" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="229.579" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="230.080" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="230.579" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="231.080" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="231.579" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="232.080" Bpm="120.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="144302665" Name="Always (Tinlicker Extended Mix)" Artist="Zoe Johnston, Above &amp; Beyond"
+           Composer="" Album="Anjunabeats Volume 14 Sampler" Grouping=""
+           Genre="Trance" Kind="MP3 File" Size="20670638" TotalTime="503"
+           DiscNumber="0" TrackNumber="2" Year="2019" AverageBpm="123.00"
+           DateAdded="2022-08-20" BitRate="320" SampleRate="44100" Comments="8A - Energy 6"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Zoe%20Johnston,%20Above%20%26%20Beyond/Anjunabeats%20Volume%2014%20Sampler/11973489_Always_(Tinlicker%20Extended%20Mix).mp3"
+           Remixer="" Tonality="1m" Label="Anjunabeats" Mix="">
+      <TEMPO Inizio="0.183" Bpm="123.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="208578159" Name="Garden of Eden (Extended Mix)" Artist="Sebastian Sellares"
+           Composer="" Album="Anjunadeep Explorations 17" Grouping="" Genre="Organic House / Downtempo"
+           Kind="MP3 File" Size="22934689" TotalTime="552" DiscNumber="0"
+           TrackNumber="2" Year="2021" AverageBpm="122.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="9A - Energy 6" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Sebastian%20Sellares/Anjunadeep%20Explorations%2017/15068716_Garden%20of%20Eden_(Extended%20Mix).mp3"
+           Remixer="" Tonality="2m" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.157" Bpm="122.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="229489561" Name="Rift (Alex O’Rion Extended Mix)"
+           Artist="Matt Lange" Composer="" Album="20 Years Of Anjunabeats: The Deep Mixes"
+           Grouping="" Genre="Progressive House" Kind="MP3 File" Size="23249757"
+           TotalTime="516" DiscNumber="0" TrackNumber="7" Year="2021" AverageBpm="120.00"
+           DateAdded="2022-08-20" BitRate="320" SampleRate="44100" Comments="11A - Energy 6"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Matt%20Lange/20%20Years%20Of%20Anjunabeats_%20The%20Deep%20Mixes/15395788_Rift_(Alex%20O%e2%80%99Rion%20Extended%20Mix).mp3"
+           Remixer="" Tonality="4m" Label="Anjunabeats" Mix="">
+      <TEMPO Inizio="0.140" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="73.641" Bpm="120.00" Metro="4/4" Battito="4"/>
+    </TRACK>
+    <TRACK TrackID="148760114" Name="Rye &amp; Eggs (Mem Aleph Extended Dark Mix)"
+           Artist="Fingerprint" Composer="" Album="Anjunadeep Explorations 14"
+           Grouping="" Genre="Organic House / Downtempo" Kind="MP3 File"
+           Size="17951556" TotalTime="435" DiscNumber="0" TrackNumber="2"
+           Year="2020" AverageBpm="120.00" DateAdded="2022-08-20" BitRate="320"
+           SampleRate="44100" Comments="9A - Energy 6" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Fingerprint/Anjunadeep%20Explorations%2014/14126658_Rye%20%26%20Eggs_(Mem%20Aleph%20Extended%20Dark%20Mix)_PN.mp3"
+           Remixer="" Tonality="2m" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.139" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="53.640" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="54.139" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="54.640" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="55.139" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="55.640" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="129.141" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="129.640" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="130.141" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="130.640" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="131.141" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="131.640" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="132.141" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="201.142" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="201.641" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="202.142" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="202.641" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="203.142" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="203.641" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="204.142" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="273.143" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="273.642" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="274.143" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="274.642" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="275.143" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="275.642" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="276.143" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="346.144" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="346.643" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="347.144" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="347.643" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="348.144" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="348.643" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="349.144" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="418.145" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="418.644" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="419.145" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="419.644" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="420.145" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="420.644" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="421.145" Bpm="120.00" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="83351782" Name="Waterfalls (Extended Mix)" Artist="Maxxim"
+           Composer="" Album="Anjunadeep Explorations 20" Grouping="" Genre="Organic House / Downtempo"
+           Kind="MP3 File" Size="19789406" TotalTime="473" DiscNumber="0"
+           TrackNumber="3" Year="2021" AverageBpm="120.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="4A - Energy 6" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Maxxim/Anjunadeep%20Explorations%2020/15798863_Waterfalls_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="9m" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.213" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="41.212" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="99.211" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="157.210" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="216.709" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="274.208" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="332.207" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="390.206" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="448.205" Bpm="120.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="265706281" Name="Hyper Dream (Extended Mix)" Artist="Weird Sounding Dude"
+           Composer="" Album="Anjunadeep Explorations 20" Grouping="" Genre="Organic House / Downtempo"
+           Kind="MP3 File" Size="18702555" TotalTime="446" DiscNumber="0"
+           TrackNumber="6" Year="2021" AverageBpm="121.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="12A - Energy 6" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Weird%20Sounding%20Dude/Anjunadeep%20Explorations%2020/15798868_Hyper%20Dream_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="5m" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.165" Bpm="121.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="24237747" Name="Another Planet feat. Sun Ra (Extended Mix)"
+           Artist="Marsh, Sun Ra" Composer="" Album="Another Planet EP"
+           Grouping="" Genre="Melodic House &amp; Techno" Kind="MP3 File"
+           Size="16871013" TotalTime="408" DiscNumber="0" TrackNumber="1"
+           Year="2021" AverageBpm="124.00" DateAdded="2022-08-20" BitRate="320"
+           SampleRate="44100" Comments="8A - Energy 5" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Marsh,%20Sun%20Ra/Another%20Planet%20EP/15655869_Another%20Planet%20feat.%20Sun%20Ra_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="1m" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.101" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="53335739" Name="The Garden (Original Mix)" Artist="Lisandro (AR)"
+           Composer="" Album="Canopy Sounds" Grouping="" Genre="Deep House"
+           Kind="MP3 File" Size="21216247" TotalTime="522" DiscNumber="0"
+           TrackNumber="11" Year="2019" AverageBpm="118.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="7A - Energy 6" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Lisandro%20(AR)/Canopy%20Sounds/12574957_The%20Garden_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="12m" Label="Canopy Sounds" Mix="">
+      <TEMPO Inizio="0.079" Bpm="118.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="0.588" Bpm="118.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="210.587" Bpm="118.00" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="231233742" Name="Enfants" Artist="Julien Pastel" Composer=""
+           Album="Enfants" Grouping="" Genre="Dance &amp; DJ" Kind="MP3 File"
+           Size="6811780" TotalTime="167" DiscNumber="1" TrackNumber="1"
+           Year="2021" AverageBpm="118.00" DateAdded="2022-08-20" BitRate="320"
+           SampleRate="44100" Comments="6A - Energy 5 - Amazon.com Song ID: 200000420170033"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Julien%20Pastel/Enfants/01%20-%20Enfants_PN.mp3"
+           Remixer="" Tonality="11m" Label="" Mix="">
+      <TEMPO Inizio="0.107" Bpm="118.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="0.616" Bpm="118.00" Metro="4/4" Battito="2"/>
+    </TRACK>
+    <TRACK TrackID="237212755" Name="Innocence (Extended Mix)" Artist="Marsh"
+           Composer="" Album="Heaven EP" Grouping="" Genre="Melodic House &amp; Techno"
+           Kind="MP3 File" Size="18343213" TotalTime="434" DiscNumber="0"
+           TrackNumber="3" Year="2021" AverageBpm="124.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="5A - Energy 6" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Marsh/Heaven%20EP/15393832_Innocence_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="10m" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.152" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="106960911" Name="La Naissance De Vénus" Artist="Julien Pastel"
+           Composer="" Album="La Naissance De Vénus" Grouping="" Genre="Dance &amp; DJ"
+           Kind="MP3 File" Size="6219843" TotalTime="152" DiscNumber="1"
+           TrackNumber="1" Year="2021" AverageBpm="117.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="9A - Energy 6 - Amazon.com Song ID: 200000416246959"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Julien%20Pastel/La%20Naissance%20De%20V%c3%a9nus/01%20-%20La%20Naissance%20De%20V%c3%a9nus_PN.mp3"
+           Remixer="" Tonality="2m" Label="" Mix="">
+      <TEMPO Inizio="0.076" Bpm="117.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="49474479" Name="Let Me Go feat. TENDER (Extended Mix)"
+           Artist="Nils Hoffmann, Tender" Composer="" Album="Let Me Go"
+           Grouping="" Genre="Dance / Electro Pop" Kind="MP3 File" Size="13998113"
+           TotalTime="328" DiscNumber="0" TrackNumber="1" Year="2022" AverageBpm="120.00"
+           DateAdded="2022-08-20" BitRate="320" SampleRate="44100" Comments="8A - Energy 7"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Nils%20Hoffmann,%20Tender/Let%20Me%20Go/16652578_Let%20Me%20Go%20feat.%20TENDER_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="1m" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.180" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="34.179" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="34.680" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="35.179" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="35.680" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="36.179" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="36.680" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="37.179" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="101.178" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="101.679" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="102.178" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="102.679" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="103.178" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="103.679" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="104.178" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="168.177" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="168.678" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="169.177" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="169.678" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="170.177" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="170.678" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="171.177" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="235.176" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="235.677" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="236.176" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="236.677" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="237.176" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="237.677" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="238.176" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="302.175" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="302.676" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="303.175" Bpm="120.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="303.676" Bpm="120.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="304.175" Bpm="120.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="304.676" Bpm="120.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="305.175" Bpm="120.00" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="223907749" Name="My Stripes (Extended Mix)" Artist="Leo Wood, Marsh"
+           Composer="" Album="My Stripes" Grouping="" Genre="Melodic House &amp; Techno"
+           Kind="MP3 File" Size="15789291" TotalTime="390" DiscNumber="0"
+           TrackNumber="1" Year="2020" AverageBpm="124.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="9A - Energy 5" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Leo%20Wood,%20Marsh/My%20Stripes/14397915_My%20Stripes_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="2m" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.198" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="147996977" Name="Silhouette feat. Sansa (Original Mix)"
+           Artist="Yotto, Sansa" Composer="" Album="Silhouette" Grouping=""
+           Genre="Organic House / Downtempo" Kind="MP3 File" Size="9122870"
+           TotalTime="213" DiscNumber="0" TrackNumber="1" Year="2022" AverageBpm="142.90"
+           DateAdded="2022-08-20" BitRate="320" SampleRate="44100" Comments="10B - Energy 2"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Yotto,%20Sansa/Silhouette/16570973_Silhouette%20feat.%20Sansa_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="10B" Label="Reflections" Mix="">
+      <TEMPO Inizio="0.140" Bpm="142.90" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="8508716" Name="Learning to Let Go (Original Mix)" Artist="Weird Sounding Dude"
+           Composer="" Album="Star Child" Grouping="" Genre="Progressive House"
+           Kind="MP3 File" Size="22446386" TotalTime="555" DiscNumber="0"
+           TrackNumber="2" Year="2020" AverageBpm="118.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="11A - Energy 6" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Weird%20Sounding%20Dude/Star%20Child/13739199_Learning%20to%20Let%20Go_(Original%20Mix)_PN.mp3"
+           Remixer="" Tonality="4m" Label="3rd Avenue" Mix="">
+      <TEMPO Inizio="0.090" Bpm="118.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="0.599" Bpm="118.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="35067727" Name="All The Love (Extended Mix)" Artist="Dosem"
+           Composer="" Album="Time After Time EP" Grouping="" Genre="Melodic House &amp; Techno"
+           Kind="MP3 File" Size="15875289" TotalTime="382" DiscNumber="0"
+           TrackNumber="1" Year="2022" AverageBpm="123.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="4A - Energy 7" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Dosem/Time%20After%20Time%20EP/16556978_All%20The%20Love_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="9m" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.077" Bpm="123.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="140396186" Name="Don&apos;t Miss It" Artist="Dr. Phil"
+           Composer="" Album="" Grouping="" Genre="" Kind="MP3 File" Size="13064063"
+           TotalTime="325" DiscNumber="0" TrackNumber="0" Year="0" AverageBpm="124.00"
+           DateAdded="2022-08-20" BitRate="320" SampleRate="44100" Comments="7A - Energy 6"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Unknown%20Artist/Unknown%20Album/Dr.%20Phile%20dont-miss-it_PN.mp3"
+           Remixer="" Tonality="12m" Label="" Mix="">
+      <TEMPO Inizio="0.075" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="247206880" Name="Muse Of Mine (Extended Mix)" Artist="Westseven, Ross Farren"
+           Composer="" Album="Anjunadeep 13 Sampler" Grouping="" Genre="Melodic House &amp; Techno"
+           Kind="MP3 File" Size="19865162" TotalTime="476" DiscNumber="0"
+           TrackNumber="1" Year="2022" AverageBpm="119.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="2A - Energy 5" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Westseven,%20Ross%20Farren/Anjunadeep%2013%20Sampler/16313228_Muse%20Of%20Mine_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="2A" Label="Anjunadeep" Mix="">
+      <TEMPO Inizio="0.202" Bpm="119.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="62.722" Bpm="119.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="130.284" Bpm="119.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="200.367" Bpm="119.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="270.450" Bpm="119.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="340.533" Bpm="119.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="410.616" Bpm="119.00" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="44929284" Name="Ether (Club Mix)" Artist="Darren Tate"
+           Composer="" Album="Ether" Grouping="" Genre="Trance" Kind="MP3 File"
+           Size="18094626" TotalTime="419" DiscNumber="0" TrackNumber="1"
+           Year="2022" AverageBpm="128.00" DateAdded="2022-08-20" BitRate="320"
+           SampleRate="44100" Comments="11B - Energy 6" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Darren%20Tate/Ether/16640778_Ether_(Club%20Mix)_PN.mp3"
+           Remixer="" Tonality="11B" Label="Mondo Records" Mix="">
+      <TEMPO Inizio="0.093" Bpm="128.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="99719470" Name="Heaven (Extended Mix)" Artist="Oliver Schories, Fredrik Ferrier"
+           Composer="" Album="Heaven" Grouping="" Genre="Deep House" Kind="MP3 File"
+           Size="16326728" TotalTime="394" DiscNumber="0" TrackNumber="1"
+           Year="2022" AverageBpm="122.00" DateAdded="2022-08-20" BitRate="320"
+           SampleRate="44100" Comments="4A - Energy 5" PlayCount="0" Rating="0"
+           Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Oliver%20Schories,%20Fredrik%20Ferrier/Heaven/16679629_Heaven_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="4A" Label="Purified Records" Mix="">
+      <TEMPO Inizio="0.180" Bpm="122.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="96645300" Name="Moving On (Extended Mix)" Artist="Yotto"
+           Composer="" Album="The Valley EP" Grouping="" Genre="Melodic House &amp; Techno"
+           Kind="MP3 File" Size="14243388" TotalTime="315" DiscNumber="0"
+           TrackNumber="1" Year="2022" AverageBpm="125.00" DateAdded="2022-08-20"
+           BitRate="320" SampleRate="44100" Comments="6A - Energy 6" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/troy/Music/iTunes/iTunes%20Media/Music/Yotto/The%20Valley%20EP/16534163_Moving%20On_(Extended%20Mix)_PN.mp3"
+           Remixer="" Tonality="6A" Label="Odd One Out" Mix="">
+      <TEMPO Inizio="0.081" Bpm="125.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+  </COLLECTION>
+  <PLAYLISTS>
+    <NODE Type="0" Name="ROOT" Count="3">
+      <NODE Name="Rezidence 22" Type="1" KeyType="0" Entries="22">
+        <TRACK Key="187760163"/>
+        <TRACK Key="144302665"/>
+        <TRACK Key="208578159"/>
+        <TRACK Key="229489561"/>
+        <TRACK Key="148760114"/>
+        <TRACK Key="83351782"/>
+        <TRACK Key="265706281"/>
+        <TRACK Key="24237747"/>
+        <TRACK Key="53335739"/>
+        <TRACK Key="231233742"/>
+        <TRACK Key="237212755"/>
+        <TRACK Key="106960911"/>
+        <TRACK Key="49474479"/>
+        <TRACK Key="223907749"/>
+        <TRACK Key="147996977"/>
+        <TRACK Key="8508716"/>
+        <TRACK Key="35067727"/>
+        <TRACK Key="140396186"/>
+        <TRACK Key="247206880"/>
+        <TRACK Key="44929284"/>
+        <TRACK Key="99719470"/>
+        <TRACK Key="96645300"/>
+      </NODE>
+      <NODE Name="Untitled Playlist" Type="1" KeyType="0" Entries="0"/>
+      <NODE Name="rezidence 20" Type="1" KeyType="0" Entries="11">
+        <TRACK Key="255959972"/>
+        <TRACK Key="83993052"/>
+        <TRACK Key="143022260"/>
+        <TRACK Key="61572173"/>
+        <TRACK Key="73595920"/>
+        <TRACK Key="227437866"/>
+        <TRACK Key="238345674"/>
+        <TRACK Key="168936620"/>
+        <TRACK Key="116879830"/>
+        <TRACK Key="48090619"/>
+        <TRACK Key="141557684"/>
+      </NODE>
+    </NODE>
+  </PLAYLISTS>
+</DJ_PLAYLISTS>
