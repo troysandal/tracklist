@@ -1,10 +1,13 @@
 {
-  "name": "Convert NML to Track List",
+  "name": "tracklist",
   "version": "1.0.0",
   "description": "Utility to convert Traktor NML files into human readable track lists.",
-  "main": "index.html",
+  "source": "src/index.html",
   "scripts": {
-    "start": "http-server ./src",
+    "build": "parcel build",
+    "debug": "parcel",
+    "postinstall": "parcel build",
+    "start": "http-server ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,6 +18,9 @@
   "author": "Troy Sandal",
   "license": "Creative Commons Attribution-ShareAlike 4.0 International License.",
   "dependencies": {
-    "http-server": "^14.1.0"
+    "@parcel/packager-raw-url": "^2.7.0",
+    "@parcel/transformer-webmanifest": "^2.7.0",
+    "http-server": "^14.1.0",
+    "parcel": "^2.7.0"
   }
 }
