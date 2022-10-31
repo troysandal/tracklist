@@ -3,8 +3,9 @@
 
 <head>
     <title>Traktor or RekordBox To Human Readable Playlist</title>
-    <meta name="description" content="You can use this tool to turn a Traktor NML or RekordBox XML file into a human readable
-    format that is ready to post to MixCloud, SoundCloud, etc.">
+    <meta name="description" content="You can use this tool to turn a Traktor or
+        RekordBox playlist into a human readable format that is ready to post to
+        MixCloud, SoundCloud, etc.">
     <link rel="manifest" href="manifest.json">
     <meta charset="utf-8">
     <style>
@@ -17,8 +18,6 @@
             width: 600px;
         }
     </style>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="index.js" type="module"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-62V9C0FV03"></script>
@@ -33,11 +32,8 @@
 
 <body>
     <h1>Traktor or RekordBox To Human Readable Playlist</h1>
-    <p>You can use this tool to turn a Traktor NML or RekordBox XML file into a human readable
-        format that is ready to post to MixCloud, SoundCloud or wherever you want to
-        give people the list of tracks in your set. Use the Format String to
-        modify what each entry in the playlist looks like. There are multiple
-        fields you can choose from to get the look you want.
+    <p>Use this to turn a Traktor or RekordBox playlist into a 
+        human readable format.
     </p>
 
     <h2>Step 1 - Upload Track Collection</h2>
@@ -49,9 +45,9 @@
     </p>
 
     <h2>Step 2 - Track Formatting</h2>
-    <p>The format string defines what your tracks looks like in the playlist.  We've chosen a default for you
-        that shows the track index, title and artist name but you can customize
-        it however you want.</p>
+    <p>The format string defines what your tracks looks like in the playlist.  
+        We've chosen a default for you that shows the track index, title and 
+        artist name but you can customize it however you want.</p>
     <div>
         <p>Track Format String:
             <input type="text" id="formatString" value="${INDEX}. ${TITLE} by ${ARTIST}" />
@@ -60,11 +56,7 @@
         <p id="fieldList">Available Fields: </p>
     </div>
     <h2>Step 3 - Filters</h2>
-    <p>No, we aren't talking about echo, reverb or delay here. we're talking about filtering out tracks
-        you don't want.  For example, let's say you previewed 5 tracks before you started, you don't want those showing up.  
-        When that's the case set the <b>Starting Track Index</b> to 6 to make the playlist start at the 6th track.
-        If you're using Traktor you can check the <b>Only Show Tracks That Went Live</b> button and it
-        will remove any tracks you previewed but didn't bring up the levels on. Neat eh?</p>
+    <p>Allows you to eliminate tracks you previewed or didn't play live.</p>
     <div>
         <label for="startTrackIndex">Starting Track Index</label>
         <input type="number" id="startTrackIndex" value="1" min="1" />

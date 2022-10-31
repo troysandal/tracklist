@@ -1,6 +1,6 @@
-import { parseTraktor } from './traktor.js'
-import { parseRekordBox } from './rekordbox.js'
-import { parseM3U } from './m3u.js'
+import { parseTraktor } from './traktor'
+import { parseRekordBox } from './rekordbox'
+import { parseM3U } from './m3u'
 
 const TRACK_FIELDS = {
     INDEX: (playList, trackIndex, formatString) => formatString.replace('${INDEX}', trackIndex + 1),
@@ -41,9 +41,9 @@ function getFormatString() {
     // Step 1 - Convert to Canonical JSON
     let archive = parseM3U(xmlText)
     if (!archive) {
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlText, "text/xml");
-        const parseError = $(xmlDoc).find("parsererror");
+        const parser = new DOMParser()
+        const xmlDoc = parser.parseFromString(xmlText, "text/xml")
+        const parseError = xmlDoc.getElementsByTagName("parsererror")
 
         if (parseError.length !== 0) {
             return null
@@ -95,7 +95,8 @@ function upload(e) {
 
     reader.readAsText(file);
     reader.onload = function () {
-        $('#archive').val(reader.result.toString())
+        const archive = document.getElementById('archive')
+        archive.value = reader.result.toString()
         convert()
     }
     // If you upload the same file twice the second upload won't trigger
@@ -111,8 +112,7 @@ function copyToClipboard() {
     navigator.clipboard.writeText(copyText)
 }
 
-
-$(() => {
+window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('archiveFile').addEventListener("change", upload, false)
     document.getElementById('formatString').addEventListener("input", convert, false)
     document.getElementById('startTrackIndex').addEventListener("input", convert, false)
@@ -124,5 +124,4 @@ $(() => {
         .join(' ')
     document.getElementById('fieldList').textContent =
         document.getElementById('fieldList').textContent + fieldList
-})
-
+});

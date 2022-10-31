@@ -18,19 +18,20 @@ export function parseTraktor(xmlDoc, startTrackIndex, onlyPlayedTracks) {
  * @returns Map of track keys to collection item.
  */
 function nmlCollection(xmlDoc) {
-    return $(xmlDoc)
-        .find("COLLECTION ENTRY")
-        .map((index, entry) => {
+    return Array.prototype.map.call(xmlDoc
+        .querySelectorAll("NML > COLLECTION > ENTRY"),
+        (entry, index) => {
             const track = { 
-                title: entry.getAttribute('TITLE'), 
-                artist: entry.getAttribute('ARTIST')
+                title: entry.attributes['TITLE']?.value, 
+                artist: entry.attributes['ARTIST']?.value
             }
-            const location = $(entry).find('LOCATION')
-            track.key = location.attr('VOLUME') + location.attr('DIR') + location.attr('FILE')
+            const location = entry.querySelectorAll('LOCATION')[0]
+            track.key = location.attributes['VOLUME'].value +
+                location.attributes['DIR'].value +
+                location.attributes['FILE'].value
             track.key = track.key
             return track
         })
-        .toArray()
         .reduce((collection, track) => {collection[track.key] = track; return collection}, {})
 }
 
@@ -62,26 +63,26 @@ function nmlCollection(xmlDoc) {
  * @returns Array of playlists.
  */
 function nmlPlaylists(xmlDoc, collection, startTrackIndex, onlyPlayedTracks) {
-    const playlistNodes = $(xmlDoc).find("NODE[TYPE=PLAYLIST]")
+    const playlistNodes = xmlDoc.querySelectorAll("NML PLAYLISTS NODE[TYPE='PLAYLIST']")
 
-    var playlists = playlistNodes.map((_,playlistNode) => {
+    var playlists = Array.prototype.map.call(playlistNodes, (playlistNode) => {
         const playList = {
-            name: playlistNode.getAttribute('NAME'),
+            name: playlistNode.attributes['NAME']?.value,
             tracks: []
         }
-        playList.tracks = $('PLAYLIST ENTRY', playlistNode)
-            .map((index, entry) => {
+        playList.tracks = Array.prototype.map.call(playlistNode.querySelectorAll('PLAYLIST > ENTRY'),
+            (entry, index) => {
                 const track = { }
-                const key = $(entry).find('PRIMARYKEY')
-                track.key = key.attr('KEY')
+                const key = entry.getElementsByTagName('PRIMARYKEY')[0]
+                track.key = key.attributes['KEY'].value
                 track.collectionEntry = collection[track.key]
 
-                const extendedData = $(entry).find('EXTENDEDDATA')
-                if (extendedData.length) {
-                    track.playedPublic = !!parseInt(extendedData.attr('PLAYEDPUBLIC'))
-                    const startTime = parseInt(extendedData.attr('STARTTIME'))
+                const extendedData = entry.getElementsByTagName('EXTENDEDDATA')[0]
+                if (extendedData) {
+                    track.playedPublic = !!parseInt(extendedData.attributes['PLAYEDPUBLIC'].value)
+                    const startTime = parseInt(extendedData.attributes['STARTTIME'].value)
                     track.startTime = NMLTimeToTime(startTime)
-                    const startDate = parseInt(extendedData.attr('STARTDATE'))
+                    const startDate = parseInt(extendedData.attributes['STARTDATE'].value)
                     track.startDate = NMLDateToDate(startDate)
                     track.startTimeJS = new Date(
                         track.startDate.year,
@@ -96,14 +97,13 @@ function nmlPlaylists(xmlDoc, collection, startTrackIndex, onlyPlayedTracks) {
                 }
                 return track
             })
-            .filter((index, _) => index >= (startTrackIndex - 1))
-            .filter((_, track) => onlyPlayedTracks ? track.playedPublic : true)
-            .toArray()
+            .filter((_, index) => index >= (startTrackIndex - 1))
+            .filter((track) => onlyPlayedTracks ? track.playedPublic : true)
         
         computeTrackOffsets(playList)
         return playList
     })
-    return playlists.toArray()
+    return playlists
 }
 
 /**
