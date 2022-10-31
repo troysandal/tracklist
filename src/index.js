@@ -1,6 +1,8 @@
-import { parseTraktor } from './traktor'
-import { parseRekordBox } from './rekordbox'
-import { parseM3U } from './m3u'
+import { TraktorParser } from './traktor'
+import { RekordBoxParser } from './rekordbox'
+import { M3UParser } from './m3u'
+
+const PARSERS = [TraktorParser, RekordBoxParser, M3UParser]
 
 const TRACK_FIELDS = {
     INDEX: (playList, trackIndex, formatString) => formatString.replace('${INDEX}', trackIndex + 1),
@@ -39,22 +41,15 @@ function getFormatString() {
  */
  function archiveToPlaylists(xmlText, startTrackIndex, onlyPlayedTracks) {
     // Step 1 - Convert to Canonical JSON
-    let archive = parseM3U(xmlText)
-    if (!archive) {
-        const parser = new DOMParser()
-        const xmlDoc = parser.parseFromString(xmlText, "text/xml")
-        const parseError = xmlDoc.getElementsByTagName("parsererror")
-
-        if (parseError.length !== 0) {
-            return null
+    const supportedParsers = PARSERS.map((parserClass) => {
+        const parser = new parserClass()
+        if (parser.supports(xmlText)) {
+            return parser
         }
-
-        archive = parseRekordBox(xmlDoc, startTrackIndex, onlyPlayedTracks)
-
-        if (!archive) {
-            archive = parseTraktor(xmlDoc, startTrackIndex, onlyPlayedTracks)
-        }
-    }
+    }).filter((v) => v)
+    if (!supportedParsers.length) { return null }
+    const archive = supportedParsers[0].parse(xmlText, startTrackIndex, onlyPlayedTracks)
+    if (!archive) { return null }
     
     // Step 3 - Walk all Playlists in the archive and make Human Readable
     let result = []
@@ -124,4 +119,8 @@ window.addEventListener('DOMContentLoaded', () => {
         .join(' ')
     document.getElementById('fieldList').textContent =
         document.getElementById('fieldList').textContent + fieldList
+
+    const extensions = PARSERS.map((parser) => parser.extensions ).flat()
+    const uploadInput = document.getElementById('archiveFile')
+    uploadInput.accept = extensions.join(',')
 });

@@ -1,6 +1,6 @@
 export class M3UParser implements Parser {
-    format = "M3U"
-    extensions = ['.m3u8']
+    static format = "M3U"
+    static extensions = ['.m3u8']
 
     supports(contents: string): boolean {
         return contents.startsWith('#EXTM3U')
@@ -11,7 +11,7 @@ export class M3UParser implements Parser {
     }  
 }
 
-export function parseM3U(
+function parseM3U(
     contents: string) {
     if (!contents.startsWith('#EXTM3U')) {
         return null

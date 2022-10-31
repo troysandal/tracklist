@@ -33,10 +33,7 @@ interface Archive {
     format: string
 }
 
-interface Parser {
-    format: string
-    extensions: Array<string>
-    
+interface Parser {    
     supports(contents:string): boolean
     parse(
         contents: string, 

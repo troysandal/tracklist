@@ -1,4 +1,40 @@
-export function parseTraktor(xmlDoc, startTrackIndex, onlyPlayedTracks) {
+export class TraktorParser {
+    static format = "Traktor"
+    static extensions = ['.nml']
+
+    parseXML(contents) {
+        const parser = new DOMParser()
+        const xmlDoc = parser.parseFromString(contents, "text/xml")
+        const parseError = xmlDoc.getElementsByTagName("parsererror")
+
+        if (parseError.length !== 0) {
+            return null
+        }
+        return xmlDoc
+    }
+
+    supports(contents) {
+        const xmlDoc = this.parseXML(contents)
+
+        if (!xmlDoc) {
+            return false
+        }
+        const root = xmlDoc.getElementsByTagName("NML")
+        return root.length > 0
+    }
+    
+    parse(contents, startTrackIndex, onlyPlayedTracks) {
+        const xmlDoc = this.parseXML(contents)
+
+        if (!xmlDoc) {
+            return null
+        }
+
+        return parseTraktor(xmlDoc, startTrackIndex, onlyPlayedTracks)
+    }  
+}
+
+function parseTraktor(xmlDoc, startTrackIndex, onlyPlayedTracks) {
     const archive = {
         collection: nmlCollection(xmlDoc),
         playlists: [],

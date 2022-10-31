@@ -1,20 +1,8 @@
 export class RekordBoxParser {
-    format = "RekordBox"
-    extensions = ['.xml']
+    static format = "RekordBox"
+    static extensions = ['.xml']
 
-    supports(contents) {
-        const parser = new DOMParser()
-        const xmlDoc = parser.parseFromString(contents, "text/xml")
-        const parseError = xmlDoc.getElementsByTagName("parsererror")
-
-        if (parseError.length !== 0) {
-            return false
-        }
-        const rekordBoxRoot = xmlDoc.getElementsByTagName("DJ_PLAYLISTS")
-        return rekordBoxRoot.length > 0
-    }
-    
-    parse(contents, startTrackIndex, onlyPlayedTracks) {
+    parseXML(contents) {
         const parser = new DOMParser()
         const xmlDoc = parser.parseFromString(contents, "text/xml")
         const parseError = xmlDoc.getElementsByTagName("parsererror")
@@ -22,12 +10,31 @@ export class RekordBoxParser {
         if (parseError.length !== 0) {
             return null
         }
+        return xmlDoc
+    }
 
-        return parseRekordBox(contents, startTrackIndex, onlyPlayedTracks)
+    supports(contents) {
+        const xmlDoc = this.parseXML(contents)
+
+        if (!xmlDoc) {
+            return false
+        }
+        const rekordBoxRoot = xmlDoc.getElementsByTagName("DJ_PLAYLISTS")
+        return rekordBoxRoot.length > 0
+    }
+    
+    parse(contents, startTrackIndex, onlyPlayedTracks) {
+        const xmlDoc = this.parseXML(contents)
+
+        if (!xmlDoc) {
+            return null
+        }
+
+        return parseRekordBox(xmlDoc, startTrackIndex, onlyPlayedTracks)
     }  
 }
 
-export function parseRekordBox(xmlDoc, startTrackIndex, onlyPlayedTracks) {
+function parseRekordBox(xmlDoc, startTrackIndex, onlyPlayedTracks) {
     const rekordBoxRoot = xmlDoc.getElementsByTagName("DJ_PLAYLISTS")
     if (!rekordBoxRoot.length) {
         return null
