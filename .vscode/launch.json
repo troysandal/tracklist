@@ -5,6 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debug Mocha",
+            "request": "launch",
+            "runtimeArgs": [
+                "run",
+                "test:debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
