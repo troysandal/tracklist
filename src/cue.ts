@@ -1,4 +1,5 @@
 import {Parser, Archive, Playlist, PlaylistTrack, ArchiveTrack} from 'src/archive'
+import {lineReader} from './common'
 
 // https://wiki.hydrogenaud.io/index.php?title=Cue_sheet
 export class CUEParser implements Parser {
@@ -51,16 +52,6 @@ export class Command {
         const lines = this.data.split(' ')
         return lines[index]
     }
-}
-
-function lineReader(contents:string, cb: (command:string) => void): void {
-    const lines = contents.split('\n')
-    lines.forEach((line) => {
-        line = line.trim()
-        if (line.length) {
-            cb(line)
-        }
-    })
 }
 
 type Context = {
@@ -168,7 +159,7 @@ class TrackState implements State {
 }
 
 export function cueReader(contents:string, cb:(command:Command) => void) {
-    lineReader(contents, (commandString:string) => {
+    lineReader(contents, (commandString:string, index:number) => {
         const command:Command = new Command(commandString)
         cb(command)
     })

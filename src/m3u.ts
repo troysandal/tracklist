@@ -1,3 +1,5 @@
+import { Archive, Parser, Playlist, PlaylistTrack } from "./archive"
+
 export class M3UParser implements Parser {
     static format = "M3U"
     static extensions = ['.m3u8']
