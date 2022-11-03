@@ -5,7 +5,7 @@ PERFORMER "The Acidic Rabbi"
 FILE "01 Music and Love.wav" WAVE
 	TRACK 01 AUDIO
 		TITLE "Channel"
-		PERFORMER "Nile Delta, Knightlife, Chicken Lips, Tornado Wallace"
+		REM PERFORMER "Nile Delta, Knightlife, Chicken Lips, Tornado Wallace"
 		FILE "/Users/benlazar/Downloads/TunesKitMusicConverter/Channel.mp3" WAVE
 		INDEX 01 00:00:00
 	TRACK 02 AUDIO

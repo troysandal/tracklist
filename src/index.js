@@ -1,8 +1,9 @@
 import { TraktorParser } from './traktor'
 import { RekordBoxParser } from './rekordbox'
 import { M3UParser } from './m3u'
+import { CUEParser } from './cue'
 
-const PARSERS = [TraktorParser, RekordBoxParser, M3UParser]
+const PARSERS = [TraktorParser, RekordBoxParser, M3UParser, CUEParser]
 
 const TRACK_FIELDS = {
     INDEX: (playList, trackIndex, formatString) => formatString.replace('${INDEX}', trackIndex + 1),

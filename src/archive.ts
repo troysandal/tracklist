@@ -1,19 +1,19 @@
-interface ArchiveTrack {
+export interface ArchiveTrack {
     key: string
     title: string
     artist: string
 }
-interface PlayedTime {
+export interface PlayedTime {
     hours: number
     minutes: number
     seconds: number
 }
-interface PlayedDate {
+export interface PlayedDate {
     year: number
     month: number
     day: number
 }
-interface PlaylistTrack {
+export interface PlaylistTrack {
     key: string
     collectionEntry: ArchiveTrack
     playedPublic: boolean
@@ -23,17 +23,17 @@ interface PlaylistTrack {
     timeOffset?: number
     timeOffsetString?: string
 }
-interface Playlist {
+export interface Playlist {
     name: string
     tracks: Array<PlaylistTrack>
 }
-interface Archive {
+export interface Archive {
     collection: { [n: string]: ArchiveTrack }
     playlists: Array<Playlist>
     format: string
 }
 
-interface Parser {    
+export interface Parser {    
     supports(contents:string): boolean
     parse(
         contents: string, 

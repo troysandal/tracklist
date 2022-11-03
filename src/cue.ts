@@ -1,3 +1,5 @@
+import {Parser, Archive, Playlist, PlaylistTrack, ArchiveTrack} from 'src/archive'
+
 // https://wiki.hydrogenaud.io/index.php?title=Cue_sheet
 export class CUEParser implements Parser {
     static format = "RekordBox CUE"
@@ -12,116 +14,181 @@ export class CUEParser implements Parser {
     }
     
     parse(contents: string, startTrackIndex: number, onlyPlayedTracks: boolean): Archive | null {
-        this.archive = {
-            collection: {},
-            playlists: [{
-                name: '',
-                tracks: [] as Array<PlaylistTrack>
-            }] as Array<Playlist>,
-            format: CUEParser.format
-        }
-        this.playlist = this.archive.playlists[0] as Playlist
-
-        let state = this.parseHeader
-        const lines = contents.split('\n')
-        for (let i = 0 ; i < lines.length ; i++) {
-            let nextState = state(lines, i)
-
-        }
-
-        return archive
-    }  
-    parseHeader(lines:string[], index:number) {
-        while (index < lines.length) {
-            const line:string = lines[index] as string
-            if (line.startsWith('\t')) {
-                return index
-            }
-            /TITLE 
-            if (line.startsWith('TITLE ')) {
-                this.playlist.name = 
-            }
-        }
-    }
-    
-    parseTrack(){
-
-    }
-
-    parseTrackDetails(){
-
+        return cueParser(contents)
     }
 }
 
-class Command {
+export class Command {
     data:string 
     
     constructor(data:string) {
         this.data = data
     }
+
     get name():string {
         const match = /(\w+)(\s|$)/g.exec(this.data)
-        if (match?.[0]) {
-            return match[0]
+        if (match?.[1]) {
+            return match[1].toUpperCase()
         }
         return ''
     }
+
+    stringParam() :string|undefined {
+        // Quoted Strings
+        const QUOTED = /^\s*(\w+)\s"(.*)"/
+        let match = QUOTED.exec(this.data)
+        if (match?.[2]) {
+            return match[2]
+        }
+        // Embedded Quotes
+        match = /^\s*\w+\s(.*)$/.exec(this.data)
+        if (match?.[1]) {
+            return match[1]
+        }
+        return undefined
+    }
+    param(index:number): string|undefined {
+        const lines = this.data.split(' ')
+        return lines[index]
+    }
 }
 
-function cueReader(contents:string, cb: (command:Command) => void): void {
+function lineReader(contents:string, cb: (command:string) => void): void {
     const lines = contents.split('\n')
     lines.forEach((line) => {
+        line = line.trim()
         if (line.length) {
-            cb(new Command(line))
+            cb(line)
         }
     })
 }
 
 type Context = {
-    archive:Archive
+    archive: Archive,
+    header: HeaderState
 }
 
 interface State {
-    onCommand(context:Context, command:Command): void
+    onCommand(context: Context, command:Command): void
+    onNextState(context: Context, command:Command): State
 }
 
 class HeaderState implements State {
+    title: string|undefined
+    performer: string|undefined
+
     onCommand(context: Context, command: Command): void {
-        throw new Error("Method not implemented.")
+        switch (command.name) {
+            case 'TITLE':
+                this.title = command.stringParam()
+                break
+            case 'PERFORMER':
+                this.performer = command.stringParam()
+                break
+        }
+    }
+    onNextState(context: Context, command: Command): State {
+        if (command.name === 'FILE') {
+            return new PlaylistState()
+        }
+        return this
     }
 }
 
 class PlaylistState implements State {
     onCommand(context: Context, command: Command): void {
+        const nameFields = [context.header.title, context.header.performer]
+            .filter((field) => field)
         const playlist: Playlist = {
-            name: 'foo',
+            name: (nameFields.join(' - ')),
             tracks: []
         }
         context.archive.playlists.push(playlist)
     } 
+    onNextState(context: Context, command: Command): State {
+        if (command.name === 'TRACK') {
+            return new TrackState(context, command.param(1))
+        }
+        return this
+    }
 }
 
 class TrackState implements State {
+    id: string
+
+    constructor(context:Context, id:string|undefined) {
+        this.id = id  ?? '' + Math.random()
+        const collectionTrack:ArchiveTrack = {
+            key: this.id,
+            title: '',
+            artist: ''
+        }
+        const playlist = context.archive.playlists[context.archive.playlists.length - 1]
+        const playlistTrack: PlaylistTrack = {
+            key: collectionTrack.key,
+            collectionEntry: collectionTrack,
+            playedPublic: true
+        }
+        playlist?.tracks.push(playlistTrack)
+    context.archive.collection[collectionTrack.key] = collectionTrack
+    }
+
+    playlist(context: Context, ): Playlist {
+        return context.archive.playlists[context.archive.playlists.length - 1] as Playlist
+    }
+
+    playlistTrack(context: Context, ): PlaylistTrack {
+        const playlist: Playlist = this.playlist(context)
+        return playlist.tracks[playlist.tracks.length - 1] as PlaylistTrack
+    }
+
+    collectionTrack(context: Context, ): ArchiveTrack {
+        const playlistTrack = this.playlistTrack(context)
+        return context.archive.collection[playlistTrack.key] as ArchiveTrack
+    }
+
     onCommand(context: Context, command: Command): void {
-        throw new Error("Method not implemented.")
+        const collectionTrack = this.collectionTrack(context)
+
+        switch (command.name) {
+            case 'TITLE':
+                collectionTrack.title = command.stringParam() ?? ''
+                break
+            case 'PERFORMER':
+                collectionTrack.artist = command.stringParam() ?? ''
+                break
+        }
+    }
+    onNextState(context: Context, command: Command): State {
+        if (command.name === 'TRACK') {
+            return new TrackState(context, command.param(1))
+        }
+        return this
     }
 }
 
-let state = new HeaderState()
-const context = {archive:null}
+export function cueReader(contents:string, cb:(command:Command) => void) {
+    lineReader(contents, (commandString:string) => {
+        const command:Command = new Command(commandString)
+        cb(command)
+    })
+}
 
-cueReader("contents", (command:Command) => {
-    if (command.name === "FILE") {
-        state = new PlaylistState()
-    } else if (command.name === "TRACK") {
-        state = new TrackState()
+export function cueParser(contents:string):Archive {
+    let state:State = new HeaderState()
+    const context:Context = {
+        archive:{
+            collection: {},
+            playlists: [],
+            format: 'CUE'
+        } as Archive,
+        header: state as HeaderState
     }
-    state.onCommand(context, command)
-})
 
-const commands = {
-    "REM": () => {},
-    "TITLE": () => {},
-    "PERFORMER":() => {},
-    "FILE": () => 
+    cueReader(contents, (command:Command) => {
+        state.onCommand(context, command)
+        state = state = state.onNextState(context, command)
+    })
+
+    return context.archive
 }
