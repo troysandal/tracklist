@@ -1,0 +1,7 @@
+{
+    "env": {
+        "params": {
+            "env": "NODE_PATH=./src"
+        }
+    }
+}
