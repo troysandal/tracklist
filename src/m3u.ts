@@ -1,4 +1,5 @@
-import { Archive, Parser, Playlist, PlaylistTrack } from "./archive"
+import { Archive, ArchiveTrack, Parser, Playlist, PlaylistTrack } from "./archive"
+import { lineReader } from "./common"
 
 export class M3UParser implements Parser {
     static format = "M3U"
@@ -28,25 +29,35 @@ function parseM3U(
         tracks: [] as Array<PlaylistTrack>
     }
     archive.playlists.push(playlist)
+    
+    let currentArchiveTrack: ArchiveTrack | undefined
+    let currentTrack: PlaylistTrack | undefined
 
-    const lines = contents.split('\n')
-
-    lines.forEach((line) => {
+    lineReader(contents, (line) => {
         const regex = /^#EXTINF:(\d+),(([^-]*$)|(.*)( - )(.*))/g
         const match:RegExpExecArray|null = regex.exec(line)
+
         if (match && match[1]) {
-            const collectionEntry = {
-                key: match[1],
+            currentArchiveTrack = {
+                key: '__TEMP__',
                 title: match[6] || match[3] || '',
                 artist: match[4] || ''
             }
-            const playlistTrack = {
-                key: match[1] || '',
+            currentTrack = {
+                key: currentArchiveTrack.key,
                 playedPublic: true,
-                collectionEntry
+                collectionEntry: currentArchiveTrack
             }
-            archive.collection[match[1]] = collectionEntry
-            playlist.tracks.push(playlistTrack)
+        } else if (currentTrack && currentArchiveTrack) {
+            const key:string = line
+
+            // The line after the EXTINF has the file path which we use as our
+            // unique key as the integer after EXTINF is not sufficient.
+            currentArchiveTrack.key = key
+            currentTrack.key = key
+
+            archive.collection[key] = currentArchiveTrack
+            playlist.tracks.push(currentTrack)
         }
     })
     return archive
