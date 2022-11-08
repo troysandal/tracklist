@@ -37,61 +37,106 @@ function getFormatString() {
 }
 
 /**
- * Given an archive, converts all playlists within to a human readable form.
+ * Parses the uploaded file contents with the first matching parser, returning
+ * the archive in canonical JSON format.
  * 
  * @param {string} fileContents  Archive file contents.
  * @param {number} startTrackIndex Offset at which to start displaing tracks.
  * @param {boolean} onlyPlayedTracks (Traktor Only) Only return tracks that 
  *                                   were played live.
- * @returns null if Archive file is invalid
+ * @return Archive if parsed, otherwise null.
  */
- function archiveToPlaylists(fileContents, startTrackIndex, onlyPlayedTracks) {
-    // Step 1 - Find all parsers that support this file type.
+function parserArchive(fileContents, startTrackIndex, onlyPlayedTracks) {
     const supportedParsers = PARSERS.map((parserClass) => {
         const parser = new parserClass()
         if (parser.supports(fileContents)) {
             return parser
         }
     }).filter((v) => v)
-    if (!supportedParsers.length) { return null }
 
-    // Step 2 - Convert to Canonical JSON
-    // TODO startTrack and onlyLive should be per playlist, not globa.
-    const archive = supportedParsers[0].parse(fileContents, startTrackIndex, onlyPlayedTracks)
-    if (!archive) { 
+    if (!supportedParsers.length) {
         return null
     }
-    
-    // Step 3 - Walk all Playlists in the archive and make Human Readable
-    let result = []
+
+    return supportedParsers[0].parse(fileContents, startTrackIndex, onlyPlayedTracks)
+}
+/**
+ * Converts a playlist to a human readable form.
+ * 
+ * @param {Playlist} playlist  Playlist to turn into a human readable string.
+ */
+ function playlistToReadable(playlist) {
+    const result = []
     const FORMAT_STRING = getFormatString()
 
-    archive.playlists.forEach((playList) => {
-        if (result.length) {
-            result.push('\n')
-        }
-        result.push(playList.name)
+    result.push(playlist.name)
 
-        playList.tracks
-            .map((track, index) => result.push(format(playList, index, FORMAT_STRING)))
-    })
+    playlist.tracks
+        .map((track, index) => result.push(format(playlist, index, FORMAT_STRING)))
 
     return result.join('\n')
 }
 
 function convertToReadable() {
     const fileContents = document.getElementById('archive').value
-    const startTrackIndex = Math.max(1, document.getElementById('startTrackIndex').value)
-    const onlyPlayPublicTracks = document.getElementById('publicTracks').checked
-    let humanReadableText = archiveToPlaylists(fileContents, startTrackIndex, onlyPlayPublicTracks)
+    const archive = parserArchive(fileContents)
 
-    if (humanReadableText === null) {
-        humanReadableText = 'Bad File or No Playlist(s) found.'
+    hideErrorResult()
+    hidePlaylistResults()
+
+    if (!archive) {
+        showErrorResult('Sorry, we could not parse that file.')
+        document.getElementById('trackList').innerText = "No playlists found."
+        return
     }
-
-    document.getElementById('trackList').textContent = humanReadableText
+    
+    // playlistsDropDown
+    const dropDown = document.getElementById('playlistsDropDown')
+    dropDown.replaceChildren('')
+    archive.playlists.forEach((playlist, index) => {
+        const option = document.createElement('option')
+        if (playlist.name.trim().length) {
+            option.innerText = playlist.name
+        } else {
+            option.innerText = `Playlist ${index + 1}`
+        }
+        option.playlist = playlist
+        dropDown.appendChild(option)
+    })
+    showPlaylistResults()
+    updateSelectedPlaylist()
 }
 
+function hidePlaylistResults() {
+    const div = document.getElementById('playlistResults')
+    div.setAttribute('class', 'hidden')
+}
+
+function showPlaylistResults() {
+    const div = document.getElementById('playlistResults')
+    div.setAttribute('class', '')
+}
+
+function hideErrorResult() {
+    const div = document.getElementById('errorResults')
+    div.setAttribute('class', 'hidden')
+}
+function showErrorResult(errorMessage) {
+    const div = document.getElementById('errorResults')
+    div.setAttribute('class', '')
+    const errorMessageElement = document.getElementById('errorMessage')
+    errorMessageElement.innerText = errorMessage
+}
+
+function updateSelectedPlaylist() {
+    const dropDown = document.getElementById('playlistsDropDown')
+    const selectedOption = dropDown.selectedOptions[0]
+    const startTrackIndex = Math.max(1, document.getElementById('startTrackIndex').value) - 1
+    const onlyPlayedTracks = document.getElementById('publicTracks').checked
+    const playlist = selectedOption.playlist
+    const filteredPlaylist = playlist.filter(startTrackIndex, onlyPlayedTracks)
+    document.getElementById('trackList').textContent = playlistToReadable(filteredPlaylist)
+}
 function uploadTracklist(e) {
     const file = e.target.files[0]
     if (!file) {
@@ -117,10 +162,11 @@ function copyToClipboard() {
 
 window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('archiveFile').addEventListener("change", uploadTracklist, false)
-    document.getElementById('formatString').addEventListener("input", convertToReadable, false)
-    document.getElementById('startTrackIndex').addEventListener("input", convertToReadable, false)
-    document.getElementById('publicTracks').addEventListener("input", convertToReadable, false)
+    document.getElementById('formatString').addEventListener("input", updateSelectedPlaylist, false)
+    document.getElementById('startTrackIndex').addEventListener("input", updateSelectedPlaylist, false)
+    document.getElementById('publicTracks').addEventListener("input", updateSelectedPlaylist, false)
     document.getElementById('copyToClipboard').addEventListener("click", copyToClipboard, false)
+    document.getElementById('playlistsDropDown').addEventListener('change', updateSelectedPlaylist, false)
     
     const fieldList = Object.keys(TRACK_FIELDS)
         .map((fieldName) => `\${${fieldName}}`)

@@ -1,18 +1,29 @@
 import { expect } from 'chai'
 import * as fs from 'fs';
-import {cueReader, Command, cueParser} from '../../src/cue'
-import {Archive, ArchiveTrack, PlaylistTrack} from '../../src/archive'
+import {cueReader, Command, cueParser, CUEParser} from '../../src/cue'
+import {Archive, ArchiveTrack, Playlist, PlaylistTrack} from '../../src/archive'
 
 describe('CUE Files', function () {
-    it('load file', () => {
-        const p = `${__dirname}/../files/RekordBox_Music and Love.cue`;
-        fs.readFile(p, 'utf8', (err, data) => {
-            if (err) {
-                // console.log(err)
-            } else {
-                // console.log(data)
-            }
-        })
+    describe('support filtering', () => {
+        it('on start track', () => {
+            const p = `${__dirname}/../files/RekordBox_Music and Love.cue`;
+            fs.readFile(p, 'utf8', (err, data) => {
+                expect(err).to.be.null
+                const parser = new CUEParser()
+                expect(parser.supports(data))
+                const archive = parser.parse(data) as Archive
+                expect(archive).to.exist
+                expect(archive.playlists[0]).to.exist
+                const playlist = archive.playlists[0] as Playlist
+                expect(playlist.tracks.length).to.equal(21)
+                
+                let filteredPlaylist = playlist.filter(0, false)
+                expect(filteredPlaylist.tracks.length).to.equal(playlist.tracks.length)
+
+                filteredPlaylist = playlist.filter(1, false)
+                expect(filteredPlaylist.tracks.length).to.equal(playlist.tracks.length - 1)
+            })
+        })    
     })
     describe('Playlists', () => {
         it('supports no playlists', () => {
@@ -66,7 +77,7 @@ describe('CUE Files', function () {
 
                 // check first track
                 let collectionTrack = archive.collection['01'] as ArchiveTrack
-                expect(collectionTrack).to.not.be.null
+                expect(collectionTrack).to.exist
                 expect(collectionTrack.key).to.equal('01')
                 expect(collectionTrack.artist).to.equal('Nile Delta, Knightlife, Chicken Lips, Tornado Wallace')
                 expect(collectionTrack.title).to.equal('Channel')
@@ -78,7 +89,7 @@ describe('CUE Files', function () {
 
                 // check second track
                 collectionTrack = archive.collection['02'] as ArchiveTrack
-                expect(collectionTrack).to.not.be.null
+                expect(collectionTrack).to.exist
                 expect(collectionTrack.key).to.equal('02')
                 expect(collectionTrack.artist).to.equal('Bronx Cheer')
                 expect(collectionTrack.title).to.equal('Westcoast Boogie')

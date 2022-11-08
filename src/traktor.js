@@ -1,3 +1,5 @@
+import { CPlaylist } from "./archive"
+
 export class TraktorParser {
     static format = "Traktor"
     static extensions = ['.nml']
@@ -23,24 +25,24 @@ export class TraktorParser {
         return root.length > 0
     }
     
-    parse(contents, startTrackIndex, onlyPlayedTracks) {
+    parse(contents) {
         const xmlDoc = this.parseXML(contents)
 
         if (!xmlDoc) {
             return null
         }
 
-        return parseTraktor(xmlDoc, startTrackIndex, onlyPlayedTracks)
+        return parseTraktor(xmlDoc)
     }  
 }
 
-function parseTraktor(xmlDoc, startTrackIndex, onlyPlayedTracks) {
+function parseTraktor(xmlDoc) {
     const archive = {
         collection: nmlCollection(xmlDoc),
         playlists: [],
         format: 'Traktor NML'
     }
-    archive.playlists = nmlPlaylists(xmlDoc, archive.collection, startTrackIndex, onlyPlayedTracks)
+    archive.playlists = nmlPlaylists(xmlDoc, archive.collection)
     return archive
 }
 
@@ -94,18 +96,16 @@ function nmlCollection(xmlDoc) {
  * 
  * @param {XMLDocument} xmlDoc
  * @param {Collection} Collection from nmlCollection(xmlDoc)
- * @param {number} startTrackIndex - specifies the track where playlists start.
- * @param {boolean} onlyPlayedTracks - only show tracks that were played.
  * @returns Array of playlists.
  */
-function nmlPlaylists(xmlDoc, collection, startTrackIndex, onlyPlayedTracks) {
+function nmlPlaylists(xmlDoc, collection) {
     const playlistNodes = xmlDoc.querySelectorAll("NML PLAYLISTS NODE[TYPE='PLAYLIST']")
 
     var playlists = Array.prototype.map.call(playlistNodes, (playlistNode) => {
-        const playList = {
-            name: playlistNode.attributes['NAME']?.value,
-            tracks: []
-        }
+        const playList = new CTraktorPlaylist(
+            playlistNode.attributes['NAME']?.value,
+            []
+        )
         playList.tracks = Array.prototype.map.call(playlistNode.querySelectorAll('PLAYLIST > ENTRY'),
             (entry, index) => {
                 const track = { }
@@ -133,13 +133,18 @@ function nmlPlaylists(xmlDoc, collection, startTrackIndex, onlyPlayedTracks) {
                 }
                 return track
             })
-            .filter((_, index) => index >= (startTrackIndex - 1))
-            .filter((track) => onlyPlayedTracks ? track.playedPublic : true)
         
-        computeTrackOffsets(playList)
         return playList
     })
     return playlists
+}
+
+class CTraktorPlaylist extends CPlaylist {
+    filter(startIndex, playedLive) {
+        const result = super.filter(startIndex, playedLive)
+        computeTrackOffsets(result)
+        return result
+    }
 }
 
 /**
@@ -156,7 +161,7 @@ function computeTrackOffsets(playList) {
 
     const start = playList.tracks[0].startTimeJS
     const lastTime = playList.tracks[playList.tracks.length - 1].startTimeJS
-    // TOOD: Use startTimeJS
+    // TOOD - Use startTimeJS
     const hasHours = NMLTimeToTime((lastTime - start) / 1000).hours > 0
     const hasHoursTest = 0 < Math.floor((lastTime - start) / 3600 / 1000)
     console.assert(hasHours === hasHoursTest, `${hasHours} === ${hasHoursTest}`)

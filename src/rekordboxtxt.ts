@@ -1,4 +1,4 @@
-import { Archive, ArchiveTrack, Parser, Playlist, PlaylistTrack } from "./archive"
+import { Archive, ArchiveTrack, CPlaylist, Parser, Playlist, PlaylistTrack } from "./archive"
 import { lineReader } from "./common"
 
 type Headers = {[n: string]: number}
@@ -13,16 +13,13 @@ export class RekordBoxTXTParser implements Parser {
         return contents.trim().startsWith('#\t')
     }
     
-    parse(contents: string, startTrackIndex: number, onlyPlayedTracks: boolean): Archive | null {
+    parse(contents: string): Archive | null {
         const archive = {
             collection: {},
             playlists: [],
             format: 'CUE'
         } as Archive
-        const playlist: Playlist = {
-            name: '',
-            tracks: []
-        }
+        const playlist: Playlist = new CPlaylist()
 
         textReader(contents, (archiveTrack:ArchiveTrack) => {
             const playlistTrack: PlaylistTrack = {

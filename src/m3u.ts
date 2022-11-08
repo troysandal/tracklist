@@ -1,4 +1,4 @@
-import { Archive, ArchiveTrack, Parser, Playlist, PlaylistTrack } from "./archive"
+import { Archive, ArchiveTrack, CPlaylist, Parser, Playlist, PlaylistTrack } from "./archive"
 import { lineReader } from "./common"
 
 export class M3UParser implements Parser {
@@ -9,7 +9,7 @@ export class M3UParser implements Parser {
         return contents.startsWith('#EXTM3U')
     }
     
-    parse(contents: string, startTrackIndex: number, onlyPlayedTracks: boolean): Archive | null {
+    parse(contents: string): Archive | null {
         return parseM3U(contents)
     }  
 }
@@ -24,10 +24,7 @@ function parseM3U(
         playlists: [] as Array<Playlist>,
         format: 'M3U'
     }
-    const playlist = {
-        name: 'Untitled Playlist',
-        tracks: [] as Array<PlaylistTrack>
-    }
+    const playlist = new CPlaylist('Untitled Playlist')
     archive.playlists.push(playlist)
     
     let currentArchiveTrack: ArchiveTrack | undefined

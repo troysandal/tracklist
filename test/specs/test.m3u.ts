@@ -8,9 +8,9 @@ describe('M3U Parser', () => {
         const TEST = `#EXTM3U`
         const parser = new M3UParser()
         expect(parser.supports(TEST)).to.be.true
-        const archive = parser.parse(TEST, 1, true) as Archive
+        const archive = parser.parse(TEST) as Archive
 
-        expect(archive).to.not.be.null
+        expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(0)
         
         const playlist = archive.playlists[0] as Playlist
@@ -26,9 +26,9 @@ describe('M3U Parser', () => {
         `
         const parser = new M3UParser()
         expect(parser.supports(TEST)).to.be.true
-        const archive = parser.parse(TEST, 1, true) as Archive
+        const archive = parser.parse(TEST) as Archive
 
-        expect(archive).to.not.be.null
+        expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(2)
         
         const playlist = archive.playlists[0] as Playlist
@@ -42,9 +42,9 @@ describe('M3U Parser', () => {
         `
         const parser = new M3UParser()
         expect(parser.supports(TEST)).to.be.true
-        const archive = parser.parse(TEST, 1, true) as Archive
+        const archive = parser.parse(TEST) as Archive
 
-        expect(archive).to.not.be.null
+        expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(1)
         const track: ArchiveTrack = archive.collection['__FILE_PATH__'] as ArchiveTrack
         expect(track.artist).to.equal('Block & Crown')
@@ -61,9 +61,9 @@ describe('M3U Parser', () => {
         `
         const parser = new M3UParser()
         expect(parser.supports(TEST)).to.be.true
-        const archive = parser.parse(TEST, 1, true) as Archive
+        const archive = parser.parse(TEST) as Archive
 
-        expect(archive).to.not.be.null
+        expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(1)
         const track: ArchiveTrack = archive.collection['__FILE_PATH__'] as ArchiveTrack
         expect(track.artist).to.equal('')
@@ -79,8 +79,8 @@ describe('M3U Parser', () => {
             expect(err).to.be.null
             const parser = new M3UParser()
             expect(parser.supports(data)).to.be.true
-            const archive = parser.parse(data, 1, true) as Archive
-            expect(archive).to.not.be.null
+            const archive = parser.parse(data) as Archive
+            expect(archive).to.exist
             expect(Object.keys(archive.collection).length).to.equal(11)
             expect(archive.playlists.length).to.equal(1)
             const playlist = archive.playlists[0] as Playlist

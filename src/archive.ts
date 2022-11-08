@@ -26,6 +26,8 @@ export interface PlaylistTrack {
 export interface Playlist {
     name: string
     tracks: Array<PlaylistTrack>
+
+    filter(startIndex: number, playedLive: boolean): Playlist
 }
 export interface Archive {
     collection: { [n: string]: ArchiveTrack }
@@ -39,4 +41,24 @@ export interface Parser {
         contents: string, 
         startTrackIndex: number, 
         onlyPlayedTracks: boolean) : Archive | null
+}
+
+export class CPlaylist implements Playlist {
+    name:string 
+    tracks: Array<PlaylistTrack>
+
+    constructor(name:string = '', tracks: Array<PlaylistTrack> = []) {
+        this.name = name
+        this.tracks = tracks
+    }
+
+    filter(startIndex: number, playedLive: boolean): Playlist {
+        let result = new CPlaylist()
+        result.name = this.name
+        result.tracks = this.tracks
+            .filter((_, index) => index >= (startIndex))
+            .filter((track) => playedLive ? track.playedPublic : true)
+
+        return result
+    }
 }

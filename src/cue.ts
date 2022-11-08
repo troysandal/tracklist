@@ -1,4 +1,4 @@
-import {Parser, Archive, Playlist, PlaylistTrack, ArchiveTrack} from 'src/archive'
+import {Parser, Archive, Playlist, PlaylistTrack, ArchiveTrack, CPlaylist} from './archive'
 import {lineReader} from './common'
 
 // https://wiki.hydrogenaud.io/index.php?title=Cue_sheet
@@ -14,7 +14,7 @@ export class CUEParser implements Parser {
         return contents.startsWith('REM DATE ')
     }
     
-    parse(contents: string, startTrackIndex: number, onlyPlayedTracks: boolean): Archive | null {
+    parse(contents: string): Archive | null {
         return cueParser(contents)
     }
 }
@@ -90,10 +90,8 @@ class PlaylistState implements State {
     onCommand(context: Context, command: Command): void {
         const nameFields = [context.header.title, context.header.performer]
             .filter((field) => field)
-        const playlist: Playlist = {
-            name: (nameFields.join(' - ')),
-            tracks: []
-        }
+        const playlist: Playlist = new CPlaylist(nameFields.join(' - '))
+
         context.archive.playlists.push(playlist)
     } 
     onNextState(context: Context, command: Command): State {

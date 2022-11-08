@@ -17,6 +17,9 @@
         #formatString {
             width: 600px;
         }
+        .hidden {
+            display: none;
+        }
     </style>
     <script src="index.js" type="module"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -44,7 +47,8 @@
         <br />
     </p>
 
-    <h2>Step 2 - Track Formatting</h2>
+    <div id="playlistResults" class="hidden">
+        <h2>Step 2 - Track Formatting</h2>
     <p>The format string defines what your tracks looks like in the playlist.  
         We've chosen a default for you that shows the track index, title and 
         artist name but you can customize it however you want.</p>
@@ -55,19 +59,28 @@
         </p>
         <p id="fieldList">Available Fields: </p>
     </div>
-    <h2>Step 3 - Filters</h2>
-    <p>(Traktor Only) Allows you to eliminate tracks you previewed or didn't play live.</p>
-    <div>
-        <label for="startTrackIndex">Starting Track Index</label>
-        <input type="number" id="startTrackIndex" value="1" min="1" />
-        <br />
-        <label for="publicTracks">Only Show Tracks That Went Live (Traktor Only)</label>
-        <input type="checkbox" id="publicTracks" />
+
+        <h2>Your Playlist(s)</h2>
+        Playlists: <select id="playlistsDropDown">
+        </select>
+        <h3>Filters</h3>
+        <div>
+            <label for="startTrackIndex">Starting Track</label>
+            <input type="number" id="startTrackIndex" value="1" min="1" />
+            <br />
+            <label for="publicTracks">Played Live (Traktor Only)</label>
+            <input type="checkbox" id="publicTracks" />
+        </div>
+            <div id="trackLists">
+            <p><button id="copyToClipboard">Copy To Clipboard</button></p>
+            <pre id="trackList"></pre>
+        </div>
     </div>
 
-    <h2>Your Playlist(s)</h2>
-    <p><button id="copyToClipboard">Copy To Clipboard</button></p>
-    <pre id="trackList">No tracks found yet, upload something!</pre>
+    <div id="errorResults" class="hidden">
+        <h2>Oh No! Something Not Right</h2>
+        <p id="errorMessage"></p>
+    </div>
 </body>
 
 </html>

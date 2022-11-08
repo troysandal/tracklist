@@ -1,3 +1,5 @@
+import { CPlaylist } from "./archive"
+
 export class RekordBoxParser {
     static format = "RekordBox"
     static extensions = ['.xml']
@@ -23,18 +25,18 @@ export class RekordBoxParser {
         return rekordBoxRoot.length > 0
     }
     
-    parse(contents, startTrackIndex, onlyPlayedTracks) {
+    parse(contents) {
         const xmlDoc = this.parseXML(contents)
 
         if (!xmlDoc) {
             return null
         }
 
-        return parseRekordBox(xmlDoc, startTrackIndex, onlyPlayedTracks)
+        return parseRekordBox(xmlDoc)
     }  
 }
 
-function parseRekordBox(xmlDoc, startTrackIndex, onlyPlayedTracks) {
+function parseRekordBox(xmlDoc) {
     const rekordBoxRoot = xmlDoc.getElementsByTagName("DJ_PLAYLISTS")
     if (!rekordBoxRoot.length) {
         return null
@@ -45,7 +47,7 @@ function parseRekordBox(xmlDoc, startTrackIndex, onlyPlayedTracks) {
         playlists: [],
         format: 'RekordBox'
     }
-    archive.playlists = parsePlaylists(xmlDoc, archive.collection, startTrackIndex, onlyPlayedTracks)
+    archive.playlists = parsePlaylists(xmlDoc, archive.collection)
     return archive
 }
 
@@ -68,14 +70,11 @@ function parseCollection(xmlDoc) {
         return collection
 }
 
-function parsePlaylists(xmlDoc, collection, startTrackIndex, onlyPlayedTracks) {
+function parsePlaylists(xmlDoc, collection) {
     const playlistNodes = xmlDoc.querySelectorAll("DJ_PLAYLISTS > PLAYLISTS NODE[KeyType='0']")
 
     var playlists = Array.prototype.map.call(playlistNodes, (playlistNode) => {
-        const playList = {
-            name: playlistNode.attributes['Name'].value,
-            tracks: []
-        }
+        const playList = new CPlaylist(playlistNode.attributes['Name'].value, [])
         playList.tracks = Array.prototype.map.call(playlistNode.getElementsByTagName('TRACK'),
             (entry, index) => {
                 const track = {
@@ -85,10 +84,7 @@ function parsePlaylists(xmlDoc, collection, startTrackIndex, onlyPlayedTracks) {
                 track.collectionEntry = collection[track.key]
                 return track
             })
-            .filter((_, index) => index >= (startTrackIndex - 1))
-            .filter((track) => onlyPlayedTracks ? track.playedPublic : true)
         
-        // computeTrackOffsets(playList)
         return playList
     })
     return playlists

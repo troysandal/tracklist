@@ -13,8 +13,8 @@ describe('RekordBox TXT Files', function () {
         const parser = new RekordBoxTXTParser()
         const contents = '#	Artwork	Track Title	Artist	Album	Genre	BPM	Rating	Time	Key	Date Added'
         expect(parser.supports(contents)).to.be.true
-        const archive = parser.parse(contents, 1, true) as Archive
-        expect(archive).to.not.be.null
+        const archive = parser.parse(contents) as Archive
+        expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(0)
         expect(archive.playlists.length).to.equal(0)
     })
@@ -25,8 +25,8 @@ describe('RekordBox TXT Files', function () {
             expect(err).to.be.null
             const parser = new RekordBoxTXTParser()
             expect(parser.supports(data)).to.be.true
-            const archive = parser.parse(data, 1, true) as Archive
-            expect(archive).to.not.be.null
+            const archive = parser.parse(data) as Archive
+            expect(archive).to.exist
 
             // Check Collection
             expect(Object.keys(archive.collection).length).to.equal(22)
