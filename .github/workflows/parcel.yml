@@ -1,4 +1,4 @@
-name: NodeJS with Webpack
+name: Pacel Build and Test
 
 on:
   push:
