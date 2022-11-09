@@ -1,0 +1,1 @@
+{"manifest_version":2,"name":"Clipboard Permission Manifest","version":"0.1","description":"Allows users to grant direct clipboard access to web pages that use the W3C Clipboard API.","permissions":["http://*/*","https://*/*","clipboardWrite"]}

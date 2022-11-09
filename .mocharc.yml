@@ -1,4 +1,0 @@
-recursive: true
-require: 'ts-node/register'
-spec: 'test/specs/**/test.*.ts'
-timeout: 15000
