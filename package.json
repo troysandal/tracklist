@@ -4,7 +4,7 @@
   "description": "Utility to convert Traktor NML files into human readable track lists.",
   "source": "src/index.html",
   "scripts": {
-    "build": "parcel build",
+    "build": "parcel build --public-url ./",
     "debug": "parcel",
     "postinstall": "parcel build",
     "start": "http-server ./dist",
