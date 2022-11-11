@@ -1,4 +1,4 @@
-name: Pacel Build and Test
+name: Deploy to Github Pages
 
 on:
   push:
