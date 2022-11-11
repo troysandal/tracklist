@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import {cueReader, Command, cueParser, CUEParser} from '../../src/cue'
 import {Archive, ArchiveTrack, Playlist, PlaylistTrack} from '../../src/archive'
 
-describe('CUE Files', function () {
+describe('CUE Parser', function () {
     describe('support filtering', () => {
         it('on start track', () => {
             const p = `${__dirname}/../files/RekordBox_Music and Love.cue`;
@@ -25,8 +25,9 @@ describe('CUE Files', function () {
             })
         })    
     })
-    describe('Playlists', () => {
-        it('supports no playlists', () => {
+
+    describe('playlists', () => {
+        it('can not be present', () => {
             const TEST = `
                 REM DATE 2022-10-29
                 REM RECORDED_BY "rekordbox-dj"
@@ -37,7 +38,7 @@ describe('CUE Files', function () {
             expect(archive.playlists.length).to.equal(0)
             expect(archive.format).to.equal('CUE')
         })
-        it('supports empty playlists', () => {
+        it('may be empty', () => {
             const TEST = `
                 REM DATE 2022-10-29
                 REM RECORDED_BY "rekordbox-dj"
@@ -49,7 +50,7 @@ describe('CUE Files', function () {
             expect(archive.playlists.length).to.equal(0)
             expect(archive.format).to.equal('CUE')
         })
-        it('supports multiple tracks', () => {
+        it('may have 1 or more tracks', () => {
             const TEST = `
                 REM DATE 2022-10-29
                 REM RECORDED_BY "rekordbox-dj"
@@ -101,7 +102,7 @@ describe('CUE Files', function () {
             }
         })
     })
-    describe('Commands', () => {
+    describe('commands', () => {
         it('have names', () => {
             const command = new Command('REM DATE 2022-10-29')
             expect(command.name).to.equal('REM')
@@ -114,30 +115,33 @@ describe('CUE Files', function () {
             const command = new Command('\tTITLE')
             expect(command.stringParam()).to.equal(undefined)
         })
-        it('have unquoted string params', () => {
-            const command = new Command('\tTITLE Channel 5 News')
-            expect(command.stringParam()).to.equal('Channel 5 News')
-        })
-        it('have quoted string params', () => {
-            const command = new Command('\tTITLE "Channel 5 News"')
-            expect(command.stringParam()).to.equal('Channel 5 News')
-        })
-        it('have quoted string params', () => {
-            const command = new Command('\tTITLE "Channel" WAVE')
-            expect(command.stringParam()).to.equal('Channel')
-        })
-        it('have embedded quote string params', () => {
-            const command = new Command('\tTITLE Channel "5"')
-            expect(command.stringParam()).to.equal('Channel "5"')
-        })
-        it('like index have time', () => {
-            const command = new Command('		INDEX 01 00:00:00')
-            expect(command.param(1)).to.equal('01')
-            expect(command.param(2)).to.equal('00:00:00')
+        describe('parameters', () => {
+            it('may be unquoted string', () => {
+                const command = new Command('\tTITLE Channel 5 News')
+                expect(command.stringParam()).to.equal('Channel 5 News')
+            })
+            it('may be quoted strings', () => {
+                const command = new Command('\tTITLE "Channel 5 News"')
+                expect(command.stringParam()).to.equal('Channel 5 News')
+            })
+            it('with quoted strings ignore suffixed parameters', () => {
+                const command = new Command('\tTITLE "Channel" WAVE')
+                expect(command.stringParam()).to.equal('Channel')
+            })
+            it('may have embedded quotes', () => {
+                const command = new Command('\tTITLE Channel "5"')
+                expect(command.stringParam()).to.equal('Channel "5"')
+            })
+            it('may be space separated', () => {
+                const command = new Command('		INDEX 01 00:00:00')
+                expect(command.param(1)).to.equal('01')
+                expect(command.param(2)).to.equal('00:00:00')
+            })            
         })
     })
-    describe('Header Commands', () => {
-        it('header commands', () => {
+
+    describe('headers', () => {
+        it('are parseable', () => {
             const TEST = `
                 REM DATE 2022-10-29
                 REM RECORDED_BY "rekordbox-dj"

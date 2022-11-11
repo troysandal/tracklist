@@ -1,11 +1,11 @@
 import { TraktorParser } from './traktor'
 import { RekordBoxParser } from './rekordbox'
-import { M3UParser } from './m3u'
+import { M3U8Parser } from './m3u8'
 import { CUEParser } from './cue'
 import {RekordBoxTXTParser} from './rekordboxtxt'
 
 const DEFAULT_FORMAT_STRING = '${INDEX}. ${TITLE} - ${ARTIST}'
-const PARSERS = [TraktorParser, RekordBoxParser, M3UParser, CUEParser, RekordBoxTXTParser]
+const PARSERS = [TraktorParser, RekordBoxParser, M3U8Parser, CUEParser, RekordBoxTXTParser]
 
 const TRACK_FIELDS = {
     INDEX: (playList, trackIndex, formatString) => formatString.replace('${INDEX}', trackIndex + 1),

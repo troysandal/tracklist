@@ -1,8 +1,8 @@
 import { Archive, ArchiveTrack, CPlaylist, Parser, Playlist, PlaylistTrack } from "./archive"
 import { lineReader } from "./common"
 
-export class M3UParser implements Parser {
-    static format = "M3U"
+export class M3U8Parser implements Parser {
+    static format = "RekordBox M3U8"
     static extensions = ['.m3u8']
 
     supports(contents: string): boolean {
@@ -10,11 +10,11 @@ export class M3UParser implements Parser {
     }
     
     parse(contents: string): Archive | null {
-        return parseM3U(contents)
+        return parseM3U8(contents)
     }  
 }
 
-function parseM3U(
+function parseM3U8(
     contents: string) {
     if (!contents.startsWith('#EXTM3U')) {
         return null

@@ -3,13 +3,13 @@ import * as fs from 'fs';
 import { Archive, ArchiveTrack, Playlist, PlaylistTrack } from '../../src/archive';
 import {RekordBoxTXTParser} from '../../src/rekordboxtxt'
 
-describe('RekordBox TXT Files', function () {
+describe('RekordBox TXT Parser', function () {
     it('ignores empty files', () => {
         const parser = new RekordBoxTXTParser()
         expect(parser.supports('')).to.be.false
     })
 
-    it('handles empty platlists', () => {
+    it('handles empty playlists', () => {
         const parser = new RekordBoxTXTParser()
         const contents = '#	Artwork	Track Title	Artist	Album	Genre	BPM	Rating	Time	Key	Date Added'
         expect(parser.supports(contents)).to.be.true
@@ -19,7 +19,7 @@ describe('RekordBox TXT Files', function () {
         expect(archive.playlists.length).to.equal(0)
     })
 
-    it('is really simple', () => {
+    it('handles the Rezidence 22.txt', () => {
         const p = `${__dirname}/../files/RekordBox_Rezidence 22.txt`;
         fs.readFile(p, 'utf16le', (err, data) => {
             expect(err).to.be.null

@@ -1,12 +1,12 @@
 import { expect } from 'chai'
 import * as fs from 'fs';
 import { Archive, ArchiveTrack, Playlist } from '../../src/archive';
-import {M3UParser} from '../../src/m3u'
+import {M3U8Parser} from '../../src/m3u8'
 
-describe('M3U Parser', () => {
+describe('M3U8 Parser', () => {
     it('handles empty playlists', () => {
         const TEST = `#EXTM3U`
-        const parser = new M3UParser()
+        const parser = new M3U8Parser()
         expect(parser.supports(TEST)).to.be.true
         const archive = parser.parse(TEST) as Archive
 
@@ -24,7 +24,7 @@ describe('M3U Parser', () => {
         #EXTINF:293,Da Funk Junkies, Rubber People - Holdin On (Original Mix)
         /Users/troy/Music/iTunes/iTunes Media/Music/Da Funk Junkies, Rubber People/The Best of Rubber People, Vol. 1/16266992_Holdin On_(Original Mix)_PN.mp3
         `
-        const parser = new M3UParser()
+        const parser = new M3U8Parser()
         expect(parser.supports(TEST)).to.be.true
         const archive = parser.parse(TEST) as Archive
 
@@ -40,7 +40,7 @@ describe('M3U Parser', () => {
         #EXTINF:293,Block & Crown - Boogie Renegade (Original Mix)
         __FILE_PATH__
         `
-        const parser = new M3UParser()
+        const parser = new M3U8Parser()
         expect(parser.supports(TEST)).to.be.true
         const archive = parser.parse(TEST) as Archive
 
@@ -59,7 +59,7 @@ describe('M3U Parser', () => {
         #EXTINF:391,Angelo Ferreri  Man In Soul (Original Mix)
         __FILE_PATH__
         `
-        const parser = new M3UParser()
+        const parser = new M3U8Parser()
         expect(parser.supports(TEST)).to.be.true
         const archive = parser.parse(TEST) as Archive
 
@@ -77,7 +77,7 @@ describe('M3U Parser', () => {
         const p = `${__dirname}/../files/RekordBox_Rezidence20.m3u8`;
         fs.readFile(p, 'utf8', (err, data) => {
             expect(err).to.be.null
-            const parser = new M3UParser()
+            const parser = new M3U8Parser()
             expect(parser.supports(data)).to.be.true
             const archive = parser.parse(data) as Archive
             expect(archive).to.exist
