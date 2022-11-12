@@ -1,4 +1,5 @@
 import { Archive, ArchiveTrack, Collection, CPlaylist, Parser, PlaylistTrack } from "./archive"
+import { querySelectorAllParents } from "./common"
 
 export class RekordBoxParser implements Parser {
     static format = "RekordBox"
@@ -52,10 +53,8 @@ function parseRekordBox(xmlDoc:XMLDocument) {
 }
 
 function parseCollection(xmlDoc:XMLDocument) {
-    const tracks = xmlDoc
-        .getElementsByTagName('DJ_PLAYLISTS')[0]
-        ?.getElementsByTagName("COLLECTION")[0]
-        ?.getElementsByTagName("TRACK")
+    // Selector we are simulating 'DJ_PLAYLISTS > COLLECTION > TRACK'
+    const tracks = querySelectorAllParents(xmlDoc, ['DJ_PLAYLISTS', 'COLLECTION', 'TRACK'])
     
     const collection = Array.prototype.map.call(tracks,
         (entry:Element, index:number) => {

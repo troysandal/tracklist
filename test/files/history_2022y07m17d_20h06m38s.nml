@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<NML VERSION="19">
+
+    <HEAD COMPANY="www.native-instruments.com" PROGRAM="Traktor"></HEAD>
+    <MUSICFOLDERS></MUSICFOLDERS>
+    <COLLECTION ENTRIES="46">
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82198"
+            AUDIO_ID="AZpcqavLq8uqnMu9yqmsurzKqry6zbqpzKrMuqmFRb7bvNus3Kus273bqr3LvNqqvtvNqYabhpyHq7d62ohmmJarqWu6qf/////////////u/f/u/97e/v3/3t//7/3v3+7v/u7v/+/9/f/avGREd1R5VEWGVb7O3u3u/O7Ozt3//u7u7v3s7u7P3uz+7u/e3f7865dnqVa4aKyHjcmYaZqJzKicy6uYhoqZi8uXzLq/397///3ez+///u7v/+/97f/qr/79/+//3u7+/vhDNXU1hkM3dUft7t7u3uz97t/f3v3+79/f7e3979/e///93s/v7rVER2RIhVRpZWlBAA=="
+            TITLE="It's Not Enough" ARTIST="Dusky, Janai">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Dusky/:Stick By This (incl. Amazon Exclusive Track)/:"
+                FILE="11 It's Not Enough.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM OF_TRACKS="15" TRACK="11" TITLE="Stick By This (incl. Amazon Exclusive Track)"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" COMMENT="5A - Energy 5 - Amazon.com Song ID: 225163247"
+                COVERARTID="127/51NGW0D4R5RKLDTJKOWFCF5K5YPC" KEY="5A" PLAYCOUNT="17" PLAYTIME="410"
+                PLAYTIME_FLOAT="409.965729" IMPORT_DATE="2013/8/2" LAST_PLAYED="2022/7/17" RELEASE_DATE="2011/1/1"
+                FLAGS="14" FILESIZE="12160"></INFO>
+            <TEMPO BPM="123.000000" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.834386" PERCEIVED_DB="2.682353" ANALYZED_DB="1.263596"></LOUDNESS>
+            <MUSICAL_KEY VALUE="12"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="194.773614" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="194.773614" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="78243.554102" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="125072.822394" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="187511.846785" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="234341.115077" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="281170.383370" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="327999.651663" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="343609.407760" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82707"
+            AUDIO_ID="A5YZu7u7u7u7u7u7u7upvczczN3u/e3t7/7e397f7u64iGZVZnd4h4mIiIiav//////////////////////////////////////////////c7tztqs7t7cuZh3ZneHZ5ZXZXUlRkZnZFU1VVVmrc7e3u7v/////////////////////////////////////////////////f/////////////////////////////////////////////////////////////////9y7mJqamph5iIiHeIdnl2Z3ipdVZmVmVVdlRVVVVVVlVWZlVndmZoq6iJhlVUREMjMhETZSAA=="
+            TITLE="Time on the Fucking Moon" ARTIST="Scumfrog">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Scrumfrog and Robot Heart/:Unknown Album/:"
+                FILE="01 Time on the Fucking Moon.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM OF_TRACKS="1" TRACK="1"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" COMMENT="6A - Energy 5" KEY_LYRICS="yes" KEY="6A" PLAYCOUNT="9"
+                PLAYTIME="918" PLAYTIME_FLOAT="917.681641" IMPORT_DATE="2013/7/4" LAST_PLAYED="2022/7/17"
+                RELEASE_DATE="2012/1/1" FLAGS="12" FILESIZE="13924"></INFO>
+            <TEMPO BPM="123.999786" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-3.816106" PERCEIVED_DB="0.093224" ANALYZED_DB="0.093224"></LOUDNESS>
+            <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="1335.078478" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="1335.078478" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="47786.771548" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="109722.362308" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="156174.055378" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="280045.236897" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="326496.929967" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="388432.520727" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="721336.321061" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82387"
+            AUDIO_ID="AYhKqJqqiKmYeZmHqZh6moepqHqbmKqoeZqImamJqqmnRDMjMzM1dlVESv3e383t/f7fzO7+3u/t7f////3u/9//++7/7+/77v/e7/zu/+/v/e7/7u797+/f/f3f7+///u/v7///7/66qYdphDJVaGRM7P3e3/78/v////z+zs/+/v/f//7t777O/e7/z//+7d++///v78///57/zf/+3+/v///uz9z//+/v/f//gzMzMzMzR2VUQzREMzMzRURERVef/O7/zu777e++7/zu/87u/N7v3u///+/O7v7//93/////7v7////+/oZ1VVVEQzMzMzIiIiIRERESIiEQAA=="
+            TITLE="Red Stripes" ARTIST="Jody Wisternoff">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jody Wisternoff/:Trails We Blaze/:"
+                FILE="04 Red Stripes.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM OF_TRACKS="12" TRACK="4" TITLE="Trails We Blaze"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" COMMENT="6A - Energy 7 - Amazon.com Song ID: 229601476"
+                COVERARTID="061/3JQ1SXBVD3M3IB5P03MFBYOCRO0B" KEY="6A" PLAYCOUNT="3" PLAYTIME="392"
+                PLAYTIME_FLOAT="391.967346" IMPORT_DATE="2015/3/13" LAST_PLAYED="2022/7/17" RELEASE_DATE="2012/1/1"
+                FLAGS="12" FILESIZE="12540"></INFO>
+            <TEMPO BPM="122.999588" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.441152" PERCEIVED_DB="1.214386" ANALYZED_DB="1.214386"></LOUDNESS>
+            <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="155.096948" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="155.096948" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="46984.522100" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="62594.330484" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="156253.180789" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="171862.989173" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="234302.222709" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="265521.839477" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="296741.456245" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82463"
+            AUDIO_ID="AgFszMzMzMzMzMzMzMzMzMoqzMzMzMzMzMzMzd3MzJZ53d3d3d3d3u3d3d3d3cd4r///////////////qrq8jv/////////////////9zP///////////////////M////////////////7c79qIZlVEMzMjZkNGd4QzRHe7mIqpmHqXZ+/+3avqqpiMzMu6vtvLqb7KqIiYZjE////////93//////////////////////////////////93Ny7y8vf/+///Zq83////////////////////////////////////////////////////////////+7cuodTMiIiIA=="
+            TITLE="Hey Now (Sasha Remix)" ARTIST="London Grammar">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:London Grammar/:If You Wait (Remixes)/:"
+                FILE="06 Hey Now (Sasha Remix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="6" TITLE="If You Wait (Remixes)"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" LABEL="Metal &amp; Dust Recordings Ltd" COMMENT="5A - Energy 5"
+                REMIXER="Sasha" COVERARTID="050/SF5JWHBIE5HAZAQ3WNSSBQ15U4EA" KEY="5A" PLAYCOUNT="24" PLAYTIME="513"
+                PLAYTIME_FLOAT="512.626953" IMPORT_DATE="2014/7/19" LAST_PLAYED="2022/7/17" RELEASE_DATE="2014/1/1"
+                FLAGS="12" FILESIZE="20224"></INFO>
+            <TEMPO BPM="123.999947" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.983848" PERCEIVED_DB="-1.095596" ANALYZED_DB="-1.095596"></LOUDNESS>
+            <MUSICAL_KEY VALUE="12"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="175.971761" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="175.971761" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="62111.482104" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="185982.502791" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="216950.257963" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="309853.523478" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="356305.156236" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="383401.942011" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="398885.819597" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82464"
+            AUDIO_ID="AZsBEREREREREREREiERIhESEREiXs3s7N3Ozs3s/93ezs3s/N3ez/3s7f3ez93t/O//397c7f3vzrNL7P/uz+/+/fzf79/+7P//7//N+v7v79/9/v/+78eIeIqXd4dmeIz93s/N3ez93s/O3f3839/e/ez+/t/uzf/+/+7O7/3/7t//7/79/6qXipdnmImqms3c28zN3d3d7u/u7/7+7v7v7/7v///+7u3Lu9ypr93s7O3ez93szf7v383t7O3ez/3d7Ozezs3d7P5VRjVEZ/zezs797Ozdzs7N7Ozfzs7N7OtUVEREREVERFQyIyIiIiIiIiMiEREREREREREREA=="
+            TITLE="If You Wait (Riva Starr Remix)" ARTIST="London Grammar">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:London Grammar/:Unknown Album/:"
+                FILE="If You Wait (Riva Starr Remix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" COMMENT="5A - Energy 5" KEY="5A" PLAYCOUNT="14" PLAYTIME="412"
+                PLAYTIME_FLOAT="411.324097" IMPORT_DATE="2015/3/11" LAST_PLAYED="2022/7/17" FLAGS="12" FILESIZE="16096">
+            </INFO>
+            <TEMPO BPM="124.029716" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.753323" PERCEIVED_DB="0.246597" ANALYZED_DB="0.246597"></LOUDNESS>
+            <MUSICAL_KEY VALUE="12"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="194.355816" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="194.355816" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="31154.678260" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="93075.323148" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="139515.806814" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="154995.968036" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="216916.612924" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="278837.257812" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="325277.741478" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82680"
+            AUDIO_ID="Ad5t7d397Pzs/Ov87P3s7u3e3d/ez86/z7/OiXmJiIiXmJff///////////////////////////v////////+Jm4uLjf/////////////////rzNvP/////////////6ybz93evP///////////////////////////////////////////////////////szdu73Lrfu8y8zKyru7uZn///////////YyIzIjMiJCIkIRMhEyESIQNmVGV2UidSEWeFZ3inRpln//////////////////////7u7t7dzt3Nzcy8zLy8vLy7vLu7u7y7vLu7u7u7u8vLy7lDMyEQAA=="
+            TITLE="Sordid Affair (Maceo Plex Mix)" ARTIST="Royksopp">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Royksopp/:Sordid Affair (Maceo Plex Mix)/:"
+                FILE="Royksopp - Sordid Affair (Maceo Plex Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="1" TITLE="Sordid Affair (Maceo Plex Mix)"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" LABEL="Dog Triumph" COMMENT="3A - Energy 6" REMIXER="Maceo Plex"
+                COVERARTID="090/0S1XSLCSEMAKBCWH55ALAYH5OYJA" KEY="3A" PLAYCOUNT="10" PLAYTIME="479"
+                PLAYTIME_FLOAT="478.354279" IMPORT_DATE="2018/8/17" LAST_PLAYED="2022/7/17" RELEASE_DATE="2014/1/1"
+                FLAGS="12" FILESIZE="19456"></INFO>
+            <TEMPO BPM="123.000336" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.685120" PERCEIVED_DB="0.013206" ANALYZED_DB="0.013206"></LOUDNESS>
+            <MUSICAL_KEY VALUE="22"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="61.660327" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="61.660327" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="187378.221804" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="265426.789086" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="296646.215998" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="312255.929455" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="343475.356368" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="359085.069824" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="374694.783280" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82860"
+            AUDIO_ID="AfoAAAAAAAABEREREREREREREiIjMyIiMzM0VWd3d3ef/////////////////////P///////////////////////////////////////v/tzMy7u7zO/9zNzN3d3+//3d3MzM3t//7d3d3dy8uZ3/////////7//////////////////////////////////////////////////////////////////+3Myph1QyIiERES3//////////9/////////////////////////////////////////////////+7u7d3d3dzMzMy7u7u6qqqqqZqpmpmZmZgwAAAAAA=="
+            TITLE="Room 1.5" ARTIST="Joseph Ray">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Unknown Artist/:Unknown Album/:"
+                FILE="Joseph Ray - Room 1.5.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" COMMENT="3A - Energy 6" KEY="3A" PLAYCOUNT="17" PLAYTIME="506"
+                PLAYTIME_FLOAT="505.913483" IMPORT_DATE="2019/8/26" LAST_PLAYED="2022/7/17" FLAGS="12" FILESIZE="12288">
+            </INFO>
+            <TEMPO BPM="124.000114" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-1.093550" PERCEIVED_DB="-0.514351" ANALYZED_DB="-0.514351"></LOUDNESS>
+            <MUSICAL_KEY VALUE="22"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="294.280648" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="294.280648" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="31261.994113" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="62229.707578" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="186100.561439" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="217068.274904" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="232552.131637" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="340939.128765" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="356422.985497" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82873"
+            AUDIO_ID="AcYnaFdmd3V1dnm/2nmIif64mJiv64qJi//sqrvv25qKnf7Kubzv+puKjv7Kuanvuayqj//Lyqn/+7yqj/7Luqn/27yrz/7Muqn/6qmZn/2rqqinZmREWXZWVY7/2suq3+69zd//28q53/27q6z/3Nu67/29vc/9y8q57/y8q4u6iMqnu6iMqoy6iLmWuqeLma7YVodlZ3d2Q1iIl4VUZWZ2Zmd2Znh3ZlVVZZ/tvbus/+zL29/9vbyt/+3czf/cvLuu/9zLyu/8vLuf/9u7zP63ZlVd/Id2Vv/5iXiP/6eXaJaGd2doaGd2doWGd3doWGhncxEREREREREREQAAAA=="
+            TITLE="Hayling (John Digweed &amp; Nick Muir Remix)" ARTIST="FC Kahuna">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Unknown Artist/:Unknown Album/:"
+                FILE="Premiere_ FC Kahuna - Hayling (John Digweed &amp; Nick Muir Remix) [Subtract].mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Electronica" COMMENT="5A - Energy 5" KEY="5A" PLAYCOUNT="10" PLAYTIME="455"
+                PLAYTIME_FLOAT="454.399994" IMPORT_DATE="2020/9/2" LAST_PLAYED="2022/7/17" FLAGS="12" FILESIZE="7100">
+            </INFO>
+            <TEMPO BPM="120.000069" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.608401" PERCEIVED_DB="2.732544" ANALYZED_DB="2.732544"></LOUDNESS>
+            <MUSICAL_KEY VALUE="12"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="359.097689" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="359.097689" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="48359.070089" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="80359.051689" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="144359.014889" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="160359.005689" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="256358.950489" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="304358.922889" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="368358.886089" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82122"
+            AUDIO_ID="AVI3ZWVVVVVFVFVFVFbu/u/e7e7f7f7f7Yv//////////////6////////////////uqmqrNzM7v//////////////////////////////////vP////////////////3///////////////////////////////+YiIiJqIiHeIiJqZmYiZmbqqmZmqmsu7y9zLvNzM7v7t7t//////////////////////////////u/////////////////3//////////////////////////////////////////////67+797u7u7u7u7u6XdlVVVVVVVVVVVVV1MQAAAAAA=="
+            TITLE="This Groove (Original Mix)" ARTIST="DJ Dan, Mike Balance">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Dan, Mike Balance/:The Best Of Mike Balance/:"
+                FILE="DJ Dan, Mike Balance - This Groove (Original Mix).mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="11" TITLE="The Best Of Mike Balance"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky / Groove / Jackin' House" LABEL="InStereo Recordings"
+                COMMENT="8A - Energy 6 - Purchased at Beatport.com" COVERARTID="071/HCHH3PASFVX2VA4ETUNHCELG5LZB"
+                KEY="8A" PLAYCOUNT="5" PLAYTIME="339" PLAYTIME_FLOAT="338.364075" IMPORT_DATE="2020/10/10"
+                LAST_PLAYED="2022/7/16" RELEASE_DATE="2017/1/1" FLAGS="14" FILESIZE="14380"></INFO>
+            <TEMPO BPM="121.999992" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-1.509584" PERCEIVED_DB="-2.991035" ANALYZED_DB="-2.991035"></LOUDNESS>
+            <MUSICAL_KEY VALUE="21"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="40.579192" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="40.579192" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="31515.991092" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="62991.402992" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="78729.108942" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="157417.638692" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="188893.050592" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="204630.756542" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="283319.286292" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82127"
+            AUDIO_ID="AWqO3t7e3e3t7e3e3u/e3t3t7e3t3t7Wn97t7e3t7t7v3t2v/////////////////////////////Jq7vMzNzd3d3cRf/////////////8//////////////r//////////6dVVv/////////////9r//////////////2VVVERDREMzQzM0RENERENFREREREREREVFVFZWZnZnZpqrzN3d7u7u7uk3//////////////z/////////////+8/////////+llVZ//////////////////////////////7+/v7/7+/v//7F7v7+7u/v3+7u/cXd7d7e3t7e7e3t4A=="
+            TITLE="Squissh (Original Mix)" ARTIST="DJ Dan">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Dan/:DJ Dan Presents 15 Years Of InStereo/:"
+                FILE="DJ Dan - Squissh (Original Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="DJ Dan Presents 15 Years Of InStereo"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky / Groove / Jackin' House" LABEL="InStereo Recordings"
+                COMMENT="8A - Energy 6" COVERARTID="067/DKKZNXCZ3CS3LDYPFJDBCWGGMLXB" KEY="8A" PLAYCOUNT="8"
+                PLAYTIME="363" PLAYTIME_FLOAT="362.057129" IMPORT_DATE="2020/10/10" LAST_PLAYED="2022/7/16"
+                RELEASE_DATE="2017/1/1" FLAGS="12" FILESIZE="14348"></INFO>
+            <TEMPO BPM="121.999985" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-1.211967" PERCEIVED_DB="-1.666107" ANALYZED_DB="-1.666107"></LOUDNESS>
+            <MUSICAL_KEY VALUE="21"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="51.792566" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="51.792566" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="78740.326831" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="94478.033684" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="141691.154243" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="173166.567949" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="220379.688508" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="236117.395361" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="283330.515920" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82132"
+            AUDIO_ID="AYY1VEVFVFRVRUVUj/////////////xURFRERUVWiJu7/////////////////////////u7////////////////////////////Lqqu7uqqruruqqrqqrLu6q8y6u8u6u6qsz/////////////////////////7+////////////////////////////qqqqqqqpqqurqqqruruqmrmJq6momruZq7qqu6u73////////////////////////+7v//////////////////////////7v//////////////////////////7///////////////////////////8QAA=="
+            TITLE="Do You Feel Alright (Original Mix)" ARTIST="DJ Fopp, Daniele Danieli">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Fopp, Daniele Danieli/:Do You Feel Alright/:"
+                FILE="DJ Fopp, Daniele Danieli - Do You Feel Alright (Original Mix).mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="Do You Feel Alright"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky / Groove / Jackin' House" LABEL="MONOSIDE" COMMENT="6A - Energy 6"
+                COVERARTID="071/HWVJJHASCYGYVBM4MKZDBOFVDSLD" KEY="6A" PLAYCOUNT="4" PLAYTIME="390"
+                PLAYTIME_FLOAT="389.642456" IMPORT_DATE="2020/10/10" LAST_PLAYED="2022/7/16" RELEASE_DATE="2017/1/1"
+                FLAGS="12" FILESIZE="15380"></INFO>
+            <TEMPO BPM="122.002014" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-1.746767" PERCEIVED_DB="-0.335663" ANALYZED_DB="-0.335663"></LOUDNESS>
+            <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="57.978652" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="57.978652" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="15795.423773" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="31532.868894" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="47270.314016" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="110220.094500" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="149563.707303" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="212513.487788" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="259725.823152" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82526"
+            AUDIO_ID="AZAlVVVVVVVUVVVFr+7u/u7v7u7+7u/u7v7u7+/v///YiIiIiIiIiZms7///////////////////////////////////////+bqHd3iZypmIi7///////////////////////73dv//////////////////////////8e7vNyr2bu5d2eJuonMqJurqcuqvuze2+rd7t/9z////+7///7/vf3e7L7t7KvLqv/q///////////////////////////////////////////////////O3f/+7+/u/v7v7+7+/u7v7u7+7u/u1lVWVVVlVVZVVWVVVlVVZVVmnd2UAAAA=="
+            TITLE="Clouds (Purple Disco Machine Remix)" ARTIST="Martin Waslewski">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Martin Waslewski/:Clouds EP/:"
+                FILE="Martin Waslewski - Clouds (Purple Disco Machine Remix).mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="Clouds EP"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="House" LABEL="Suara" COMMENT="7A - Energy 5" REMIXER="Purple Disco Machine"
+                COVERARTID="100/E50MSRARSFTE2C1TUY3YCOYOVHSB" KEY="7A" PLAYCOUNT="14" PLAYTIME="401"
+                PLAYTIME_FLOAT="400.065308" IMPORT_DATE="2020/10/10" LAST_PLAYED="2022/7/16" RELEASE_DATE="2016/1/1"
+                FLAGS="14" FILESIZE="16428"></INFO>
+            <TEMPO BPM="121.499931" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-1.005450" PERCEIVED_DB="-2.088013" ANALYZED_DB="-2.088013"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="123.953611" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="123.953611" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="47531.387941" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="63333.866051" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="110741.300381" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="126543.778491" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="189753.690932" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="268766.081482" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="331975.993922" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82559"
+            AUDIO_ID="AfY7zMzMvLy8zLzMzMzMzMzMqIiIiIiHVFb//////v///////////////////////////////v/d3rupd5qIh3d2ZWZ3VVVVVoZmZUZlVXZr///////////////////7z////////////////////ey7//////////////uoVUn//////////////////7q8qZypq5mYZnp3ZkRXRFNDRENERUQzRERmZnZndmaHe////////////////////////////////////////bv////////////////////r2qz/////////////////////////////7u/v/+7/+1EAAA=="
+            TITLE="Safe (Original Mix)" ARTIST="Monkey Safari">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Monkey Safari/:Alpine Grooves 12 (Kristallhütte)/:"
+                FILE="14527447_Safe_(Original Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="2" TITLE="Alpine Grooves 12 (Kristallhütte)"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" LABEL="Musicpark Records" COMMENT="3B - Energy 6"
+                COVERARTID="091/1GSIHOCHP5CLCBXM1VWXC5XFNCBA" KEY="3B" PLAYCOUNT="22" PLAYTIME="502"
+                PLAYTIME_FLOAT="501.707764" IMPORT_DATE="2021/1/16" LAST_PLAYED="2022/7/17" RELEASE_DATE="2021/1/1"
+                FLAGS="12" FILESIZE="19676"></INFO>
+            <TEMPO BPM="123.999687" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.269149" PERCEIVED_DB="2.334373" ANALYZED_DB="2.334373"></LOUDNESS>
+            <MUSICAL_KEY VALUE="1"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="410.560191" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="410.560191" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="124281.840608" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="155249.660712" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="310088.761234" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="325572.671286" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="341056.581338" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="372024.401442" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82670"
+            AUDIO_ID="AT9IVVNlNENGZWVXQ1Q2////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8A=="
+            TITLE="Waste Tomorrow (Original Mix)" ARTIST="Rodriguez Jr., Liset Alea">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Rodriguez Jr., Liset Alea/:Buddha-Bar XX/:"
+                FILE="10587325_Waste Tomorrow_(Original Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="14" TITLE="Buddha-Bar XX"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Electronica" LABEL="George V Records" COMMENT="9A - Energy 5"
+                COVERARTID="048/QVOXSZCGNS1G0CE4KRTJA2Q3HJYC" KEY="9A" PLAYCOUNT="6" PLAYTIME="319"
+                PLAYTIME_FLOAT="318.693878" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/16" RELEASE_DATE="2018/6/1"
+                FLAGS="12" FILESIZE="12960"></INFO>
+            <TEMPO BPM="119.999985" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.413190" PERCEIVED_DB="-0.112175" ANALYZED_DB="-0.112175"></LOUDNESS>
+            <MUSICAL_KEY VALUE="16"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="65.423086" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="65.423086" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="16065.425086" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="80065.433086" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="112065.437086" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="128065.439086" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="160065.443086" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="176065.445086" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="240065.453086" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="81970"
+            AUDIO_ID="Ae0BEREhEhEiETrLzMu8y7y7zMu8zMzLvMu8y7zMzMzMy7XP7+/v7////////////////////v7+//7+/v/+//////lVVWVmZmZmZmdmdmZnZmZmVVVVVlVmVmdmV2Zndmd2Z4ZWhmeWVnZnh1WGZ4dVd2ee/////////+//7+/v/+/v7//////////////////////4eHd2d2ZmZnd3iHZ4dmZ2ZniXdnZ3dmZ3iJmHiIiIdniImpeImIiHeIiamHiYiId53////v/+/v7////////////////////v3v/v7+//7+/v///////////8u7u7vLu8u6UzMzMzMzMzMA=="
+            TITLE="Secret of Happiness (Original Mix)" ARTIST="Amonita">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Amonita/:Secret of Happiness/:"
+                FILE="11750131_Secret of Happiness_(Original Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="3" TITLE="Secret of Happiness"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Melodic House &amp; Techno" LABEL="All Day I Dream " COMMENT="11A - Energy 6"
+                COVERARTID="061/3FA2QPAE33XXHDN0AHABCJWQMBSD" KEY="11A" PLAYCOUNT="8" PLAYTIME="494"
+                PLAYTIME_FLOAT="493.217957" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/17" RELEASE_DATE="2019/4/19"
+                FLAGS="12" FILESIZE="19648"></INFO>
+            <TEMPO BPM="121.000099" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.902925" PERCEIVED_DB="1.982628" ANALYZED_DB="1.982628"></LOUDNESS>
+            <MUSICAL_KEY VALUE="18"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="330.841333" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="330.841333" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="16198.596945" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="159008.397456" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="222479.419906" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="254214.931130" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="309752.075773" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="349421.464804" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="381156.976029" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82502"
+            AUDIO_ID="AbIkMzREM0MzRDQ0REVERFREVUR//M78zf/M3szf/M3sy2VUVkNO/u3/7P/v3/3P/u3/3f/u3/3f//7/3e/+7/7e/+7/7ahlZ2Vb/+3/7v/+3/7v/+//7v/96YdW/+7v7u/+/v7v/+7v/u///v/s/+///v//7v//2Xicl5undodmiGZmZnd1Z4d3iYd4h3iYd4mYr/7//v7/7////////////////////////8mXn////////////biJy6zNmouonf/u/+3v/t/+3f/u/+3f/u/6ev/t7+3f/d7+3f/d7+62VVVURd/Lzru9/LzsulQzNDM0RERURCAAAAAAAAAAAA=="
+            TITLE="Lost In Mind (Volen Sentir Extended Vision)" ARTIST="Malou, Ben Bohmer">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Malou, Ben Bohmer/:Lost In Mind (Volen Sentir Mixes)/:"
+                FILE="13534688_Lost In Mind_(Volen Sentir Extended Vision).mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="Lost In Mind (Volen Sentir Mixes)"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Melodic House &amp; Techno" LABEL="Anjunadeep" COMMENT="3A - Energy 6"
+                COVERARTID="121/ZDZ5JTA33CVIYBF0O3RQB0BVM4HA" KEY="3A" PLAYCOUNT="5" PLAYTIME="434"
+                PLAYTIME_FLOAT="433.606537" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/17" RELEASE_DATE="2020/5/12"
+                FLAGS="12" FILESIZE="17288"></INFO>
+            <TEMPO BPM="124.000259" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.703020" PERCEIVED_DB="1.220757" ANALYZED_DB="1.220757"></LOUDNESS>
+            <MUSICAL_KEY VALUE="22"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="52.798763" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="52.798763" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="61988.153269" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="123923.507775" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="201342.700907" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="216826.539534" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="247794.216787" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="309729.571293" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="325213.409919" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82235"
+            AUDIO_ID="AaUSIiIiIiIiIiIn3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d1SM1//////////////////////1lVc///////////t7//////////8m////////////////////////+63Vlmat3VVn9yamIZ2d1dVZ7eGiHZoeId2dmZ3aKmqhXdVdWeXh5vOucl5iVZVZWVVVmiIlohkaWiP///////////d//////+6h4uqrv///////////v///////////az////////////////////////c///////////93//////////u7v/u7v3+7+/u5Uf+79/v7v3+72UgAAAAAA=="
+            TITLE="Lullaby (Original Mix)" ARTIST="Fake Mood">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Fake Mood/:Howling/:"
+                FILE="13922008_Lullaby_(Original Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="2" TITLE="Howling"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Organic House / Downtempo" LABEL="Ruvenzori" COMMENT="3A - Energy 5"
+                COVERARTID="119/X15GLUD2RZHQKDQK14LTD2PRLD5C" KEY="3A" PLAYCOUNT="2" PLAYTIME="421"
+                PLAYTIME_FLOAT="420.571442" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/17" RELEASE_DATE="2020/7/27"
+                FLAGS="12" FILESIZE="16716"></INFO>
+            <TEMPO BPM="120.999840" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.950532" PERCEIVED_DB="0.029243" ANALYZED_DB="0.029243"></LOUDNESS>
+            <MUSICAL_KEY VALUE="22"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="51.371962" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="51.371962" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="15919.161539" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="126993.688580" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="190464.846889" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="222200.426043" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="253936.005198" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="285671.584352" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="349142.742661" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82582"
+            AUDIO_ID="AfB//////////////////////////////////////////7/////////////////////////////////////+p4iXjf///////////////////////////////5d3d4iIiIma////////////////////////////////6pmaia3KiXi7mXl3i8qIeJuIZ2jP//7e/7yqut///+/+27qqn///7f/8qpiv//7bvLqXdniIiJmf////////////////////////////////////+8qpqqz////////////////////////////////v////////////////////cAAAAA=="
+            TITLE="Raccoon (Original Mix)" ARTIST="Nico Szabo">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Nico Szabo/:Compilation of the Year 2020/:"
+                FILE="14146692_Raccoon_(Original Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="Compilation of the Year 2020"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Organic House / Downtempo" LABEL="TRYBESof" COMMENT="7A - Energy 6"
+                COVERARTID="006/GERRNFB23BBF2BOJSJBTDSSJ24TD" KEY="7A" PLAYCOUNT="7" PLAYTIME="496"
+                PLAYTIME_FLOAT="495.804077" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/16" RELEASE_DATE="2020/10/2"
+                FLAGS="12" FILESIZE="19680"></INFO>
+            <TEMPO BPM="122.000046" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.903637" PERCEIVED_DB="1.553688" ANALYZED_DB="1.553688"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="174.193487" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="174.193487" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="126075.785360" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="181157.731805" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="283452.775202" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="307059.323678" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="346403.571138" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="393616.668091" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="409354.367075" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82181"
+            AUDIO_ID="AacWRVRkZFVGRVRkZWZWRVVlZVZXarq5qpqamqm5qpqbmqm5qpqbmqndzr3c7OzNvr3c7O3ezs3c7N3Ozs3c7O3ezs3d7O3ezszJuamKab27qrqpq6uLyrrKqYuZmLmXm5qcyYeoh5uIh5iHmmZZdmeYZniHaJdmiWZ4h2eIh4qGV4dmiGVVUzTP3u78/v/f7/7+7d7f3v79/u/f7+3s/u/f3v39/+/v7//9/+/v7/797u/f7/39/+/u3u397u/f7/797+/v//7+/+/v/u39/u/v7v7+/97O3dvbzL29u8rKqot5h5aXeGmJVEdkRXZEV2VWhjN2VFd0NDEAAAAAAA=="
+            TITLE="Greatest Day feat. Reigan (Lost Desert Remix)" ARTIST="Double Touch, Reigan">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Double Touch, Reigan/:Greatest Day/:"
+                FILE="14235333_Greatest Day feat. Reigan_(Lost Desert Remix).mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="3" TITLE="Greatest Day"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Organic House / Downtempo" LABEL="All Day I Dream " COMMENT="8A - Energy 5"
+                COVERARTID="007/HIR2OBAMVTHVDCLHX1G3BKSAUBHD" KEY="8A" PLAYCOUNT="6" PLAYTIME="423"
+                PLAYTIME_FLOAT="422.556732" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/16" RELEASE_DATE="2020/9/25"
+                FLAGS="12" FILESIZE="16540"></INFO>
+            <TEMPO BPM="119.999451" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.438149" PERCEIVED_DB="1.749550" ANALYZED_DB="1.749550"></LOUDNESS>
+            <MUSICAL_KEY VALUE="21"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="376.324773" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="376.324773" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="64376.617574" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="160377.056776" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="176377.129977" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="224377.349578" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="352377.935180" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/14" MODIFIED_TIME="14475"
+            AUDIO_ID="AXUAAAFFVVVWVUVWVVVlVVVlZWZlVWZmVWVXaHd3Z2Z3iGh3dmd4h4d2ZoiYiHeKrLy8u6uqu8vLurq7y7y7uqu8u8uru73MvczMvN3M3MvKy+zMy7u8zbzMvMvMy7u7uqvLvMu6qpmGdVVEdnZWZVav/////+7////+7v////7/7/////////////7v//////7//////v//////7//////+//////3u////7u7v/+/e3t7v7aiZrf////////////////////////////////////////////////////////////7//////+/////////////////9p72pqakwAA=="
+            TITLE="Symmetry (Rodriguez Jr. Remix)" ARTIST="Verboten Berlin">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Verboten Berlin/:Symmetry/:"
+                FILE="14600338_Symmetry_(Rodriguez Jr. Remix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="1" TITLE="Symmetry"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" LABEL="Stone Free Berlin" COMMENT="11A - Energy 6"
+                COVERARTID="031/5UWJO0DIBQJLXBM2HXBSCKFL1L4D" KEY="11A" PLAYCOUNT="7" PLAYTIME="374"
+                PLAYTIME_FLOAT="373.446533" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/17" RELEASE_DATE="2020/12/18"
+                FLAGS="12" FILESIZE="14992"></INFO>
+            <TEMPO BPM="120.500320" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.144274" PERCEIVED_DB="2.676498" ANALYZED_DB="2.676498"></LOUDNESS>
+            <MUSICAL_KEY VALUE="18"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="55.152781" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="4038.544678" LEN="15933.567588" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="4038.544692" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="163374.221145" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="262959.018928" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="290842.762308" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="306776.329953" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82484"
+            AUDIO_ID="AKwAAAAAAAAAAAAAABEQAQEBABEREAAQAREQAAEQAAAAABAQEAAQABEREQhyIiVDhjUyEREAAAEREREREREQAAAAAWgyIUUoY1QhEREAAREQESERERERERERE3QiE2NXRFIREREREiEREREiIhIhISIiKr3/793qn//////Jh1MRERERaHiId3Zmz///7KdFh2VUREREREREMyIiIiIiIREW7//bidy7//////64VXd1RFZlQzRVQxJriIiZirvu///8l1QzIiIhERERERERERJ0IRJTNjJSERAAAAAAAAAAAAViEREQAAMxERAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="Raspberry Garden (Outro Mix)" ARTIST="M.O.S.">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:M.O.S_/:U Reki/:"
+                FILE="14720045_Raspberry Garden_(Outro Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="4" TITLE="U Reki"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Organic House / Downtempo" LABEL="Melody Of the Soul" COMMENT="7A - Energy 3"
+                COVERARTID="040/IROQO3AG1SGWHDVYJABVCEHEOBDA" KEY="7A" PLAYCOUNT="4" PLAYTIME="173"
+                PLAYTIME_FLOAT="172.068573" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/16" RELEASE_DATE="2021/1/22"
+                FLAGS="12" FILESIZE="8944"></INFO>
+            <TEMPO BPM="179.999649" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.072369" PERCEIVED_DB="6.642227" ANALYZED_DB="6.642227"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="67.668237" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="67.668237" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="16067.699437" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="48067.761837" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="64067.793037" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="128067.917837" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="144067.949038" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82613"
+            AUDIO_ID="AcgURERERERERESLu7u7u7u7qriOvO7LzOvO7LvOzO7Mzezv/NyYZ5p4iYh3ZUb//////////////////////////////////////////////+u7u7y7u8vLy++6mZmImYd4dH///////////////////////v///////////bqoZ5dVd1RnQ0RFVVVlVWdkMzRWd3ZlV3h1f9ZDVUMzdFpDM1ZpREREQzRDM0Q1ZVM0QzVUNGVd//////////////////////+v////////////////7JmYiIR/////////7/////7///////////////////y7u7u7pURDMyEAAA=="
+            TITLE="Forest Language (Original Mix)" ARTIST="Pambouk">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Pambouk/:Janabar/:"
+                FILE="14733962_Forest Language_(Original Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="3" TITLE="Janabar"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Organic House / Downtempo" LABEL="Hoomidaas" COMMENT="1B - Energy 6"
+                COVERARTID="096/AD1EXKCPUT05DDE5QHKPBFWDIKYB" KEY="1B" PLAYCOUNT="5" PLAYTIME="457"
+                PLAYTIME_FLOAT="456.333069" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/17" RELEASE_DATE="2021/1/22"
+                FLAGS="12" FILESIZE="18564"></INFO>
+            <TEMPO BPM="119.999939" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.397000" PERCEIVED_DB="2.449707" ANALYZED_DB="2.449707"></LOUDNESS>
+            <MUSICAL_KEY VALUE="11"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="302.650779" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="302.650779" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="80302.691446" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="176302.740246" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="224302.764646" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="240302.772779" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="272302.789046" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="324302.815479" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="388302.848012" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82005"
+            AUDIO_ID="AWIAEQAQEQERERERERIzNERDIiIiIiIiIiRmZWQzRFd1Z3VVVXd2Z2ZlWId3ZVR3VDNf////////////////////////////3P///////////////////////////bnf///////////////v/t/v3Lu7qqmZiZiYd3eId2iGZVZlVWZVREREMzMzIiIn//////////////vf////////////7////////////////////////////+y8///////////////////////dy7qamLqqiIiId4ioeHeHeHmGdmdmZndlVVVVVVREQzMiMzIiIiIiIiIiIhEiIREREREAAA=="
+            TITLE="Run Away (Extended Mix)" ARTIST="Ben Bohmer, Felix Raphael, Tinlicker">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Ben Bohmer, Felix Raphael, Tinlicker/:Run Away/:"
+                FILE="14734195_Run Away_(Extended Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="Run Away"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Melodic House &amp; Techno" LABEL="Anjunadeep" COMMENT="6A - Energy 7"
+                COVERARTID="039/HREHSWBKA1NRTD2A0ZN5AVNUCP5B" KEY="6A" PLAYCOUNT="3" PLAYTIME="354"
+                PLAYTIME_FLOAT="353.802460" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/17" RELEASE_DATE="2021/1/20"
+                FLAGS="12" FILESIZE="14308"></INFO>
+            <TEMPO BPM="121.999969" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.623239" PERCEIVED_DB="0.961472" ANALYZED_DB="0.961472"></LOUDNESS>
+            <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="300.726235" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="300.726235" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="19972.862381" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="35710.571298" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="67185.989132" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="145874.533717" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="161612.242634" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="193087.660468" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="279645.059511" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82516"
+            AUDIO_ID="AdUTMzMzMzMzMzW7u7u7u7u7u7u7u7y7vMzMzMzMzMzMzMzMxzMzMzMzMzMzMzMzMzQzMzM3/////////////////////4v//////////33//////////5VlVWZWVlZWVVRERERFREREf/////////////////////////////////////////////lnZmZmZ3ZmdmZmZWZVZlVWVVVVVFVVVVVVVVZERCNEU1QyNWVEQyNFNEMhERESN+//////////////////////7////////////////////+jf//////////////////7///zMzMzMzMu8zMu7u7ujMzMzMA=="
+            TITLE="There For Me (Amonita Extended Mix)" ARTIST="Marsh">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Marsh/:Lailonie (The Remixes_ Part 1)/:"
+                FILE="14772056_There For Me_(Amonita Extended Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="2" TITLE="Lailonie (The Remixes: Part 1)"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Melodic House &amp; Techno" LABEL="Anjunadeep" COMMENT="9A - Energy 5"
+                COVERARTID="047/PRLYE4ALKQQP5CWE52V5C2IIR5DD" KEY="9A" PLAYCOUNT="10" PLAYTIME="470"
+                PLAYTIME_FLOAT="469.080811" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/17" RELEASE_DATE="2021/1/1"
+                FLAGS="12" FILESIZE="19200"></INFO>
+            <TEMPO BPM="121.002220" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-1.779544" PERCEIVED_DB="1.221550" ANALYZED_DB="1.221550"></LOUDNESS>
+            <MUSICAL_KEY VALUE="16"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="163.420632" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="163.420632" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="63633.330523" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="95368.285468" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="174705.672832" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="190573.150305" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="269910.537668" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="285778.015141" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="341314.186296" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82625"
+            AUDIO_ID="AaASIiIiIiIiIiIiIiIiIiIyMzMiOf/////////////////////v/kKf///////////////////////3W////////////////////////77////////////////////////5WMu8/////////////////////+/////////////////////+3auFWf//////////////3My7u7u6yodVQ1VkRUdVeHZ5qXeKp5q8vM3JaP////////////////////////3/////////////////////////pf////////7////+7//+///u/+//7e3u3u3u3u3t7t7t7d7e7e7bEA=="
+            TITLE="Don't Wait (Frost Extended Mix)" ARTIST="Phenoir, Mariel Beausejour, Marsh">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Phenoir, Mariel Beausejour, Marsh/:Lailonie (The Remixes_ Part 1)/:"
+                FILE="14772057_Don't Wait_(Frost Extended Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="3" TITLE="Lailonie (The Remixes: Part 1)"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Melodic House &amp; Techno" LABEL="Anjunadeep" COMMENT="12A - Energy 6"
+                COVERARTID="047/PRLYE4ALKQQP5CWE52V5C2IIR5DD" KEY="12A" PLAYCOUNT="4" PLAYTIME="417"
+                PLAYTIME_FLOAT="416.182861" IMPORT_DATE="2021/4/3" LAST_PLAYED="2022/7/17" RELEASE_DATE="2021/1/1"
+                FLAGS="12" FILESIZE="17056"></INFO>
+            <TEMPO BPM="120.000031" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.322811" PERCEIVED_DB="0.436081" ANALYZED_DB="0.436081"></LOUDNESS>
+            <MUSICAL_KEY VALUE="13"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="60.698133" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="60.698133" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="64060.681600" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="160060.656800" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="240060.636133" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="256060.632000" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="272060.627866" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="288060.623733" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="352060.607200" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/4/16" MODIFIED_TIME="82340"
+            AUDIO_ID="Aetbu7u7u7u7u7u7u7u7u7u7v9zM3f/t3Nzv7Nze//3t3Y////7P///+z////t////7f////7v///+7////t////7f///9zv/fyIz////f////3v///97////e////7v///+7////+//////+ZqZiXh4mph3iph3ZniGZminh5zYmKic6qm7vOvLur7sy7vN7dy7vO28zLzKq5u9zv///b////2////+zv///t3////u///7qszayYeYh2Zlj//////////////////////////////////////////////u7//u7u//7u7v/+7u3//u3t7u7u3d7e3t7e3t7e3CAA=="
+            TITLE="Living (Original Mix)" ARTIST="James Grant, Andrew Bayer">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:James Grant, Andrew Bayer/:James Grant's Anjunadeep 05 Sampler/:"
+                FILE="4530861_Living_(Original Mix).mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="3" TITLE="James Grant's Anjunadeep 05 Sampler"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" LABEL="Anjunadeep" COMMENT="3A - Energy 6"
+                COVERARTID="116/UP45OTBA2V2HRBMICC0BC3LGLJKC" KEY="3A" PLAYCOUNT="2" PLAYTIME="492"
+                PLAYTIME_FLOAT="491.258789" IMPORT_DATE="2021/11/13" LAST_PLAYED="2022/7/17" RELEASE_DATE="2013/1/1"
+                FLAGS="12" FILESIZE="19228"></INFO>
+            <TEMPO BPM="122.000107" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.793724" PERCEIVED_DB="-0.838280" ANALYZED_DB="-0.838280"></LOUDNESS>
+            <MUSICAL_KEY VALUE="22"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="121.661231" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="121.661231" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="63072.425692" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="141760.881269" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="204711.645730" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="299137.792422" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="346350.865768" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="362088.556883" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="409301.630229" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72419"
+            AUDIO_ID="AWk1MiIiIiIiIiISNTIiMzREREREV5q6rJuqybqsraq6uqybqsm6vK2qpjIhEjRXhnZ4Z6zLu827vMu7zFSM7t/O7fzu39/t7O7fzu387t/Ol6zt387t/O7f3+3s7d/O7fzu39/t7O7fzu397t/f7ezu387t/O7fzZeGMiEiIiM0VWdXmZd3iHd4h3eIQmzcvM3LzNy8zcvcy7u7urq6qqp0jO7f3v397t/v7ezu397t/N3e3qRWVERkRDM0RGRone7f3+39/t/v7e3u397t/e7e3pSM7t/O7fzu39/t7O7fzu383s7NYlzu387t/O7f3+3s7t/O7Pzezs3u5iEAAA=="
+            TITLE="Funkology (Original Mix)" ARTIST="Dirty &amp; Acid">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Dirty &amp; Acid/:Rock The Disco/:"
+                FILE="1793274_Funkology_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="2" TITLE="Rock The Disco"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Breaks / Breakbeat / UK Bass" LABEL="iBreaks Spain" COMMENT="7A - Energy 7"
+                COVERARTID="120/YP1N3RANMJC2GDEHZWQSBI3PYZ5C" KEY="7A" PLAYCOUNT="3" PLAYTIME="362"
+                PLAYTIME_FLOAT="361.142853" IMPORT_DATE="2022/6/18" LAST_PLAYED="2022/7/16" RELEASE_DATE="2011/4/11"
+                FLAGS="12" FILESIZE="14176"></INFO>
+            <TEMPO BPM="135.000061" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="299.563557" LEN="0.000000" REPEATS="-1" HOTCUE="-1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="299.563557" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="28743.995149" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="57188.426741" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="85632.858332" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="170966.153108" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="227855.016291" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="256299.447883" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="270521.663679" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72419"
+            AUDIO_ID="ASVbu6q7qruqqrqquqqqa7u7u7u6q6qruqq7qnq7u7zLzMzMzMzd3d24l3dnZmZmZ2d3d3ZniM7e7d7u7t3d7t3u7uvO3u3e7e7d3t7d7u7Yrd3t3e7e3d7e7d2YmZ3u7u7u7u3e7u7u7qmc7u7u7u7t3u7u7u7u2YVEQ0QzQ0RDVTVlVmSaiIaKlXloqIlVmYiImomJmJmZmqmqqbq6qqzu7t3u7u3e7u7e7u677e7u7u7t3e7u3u7tu93u3t7u7d3u7u3u7uvd7u7u7u7e7u7u7uqZve7t7u7u3e7u7u7u7b3MzMzMzMzMzMzMzMyru7u7u7u7u7u7u7u7qHMQAA=="
+            TITLE="Holdin On (Original Mix)" ARTIST="Da Funk Junkies, Rubber People">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Da Funk Junkies, Rubber People/:The Best of Rubber People, Vol. 1/:"
+                FILE="16266992_Holdin On_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="4" TITLE="The Best of Rubber People, Vol. 1"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="InStereo Recordings" COMMENT="10A - Energy 6"
+                COVERARTID="094/4G0RVABOKDDV5C2SLMXMCRF1ZN0B" KEY="10A" PLAYCOUNT="3" PLAYTIME="294"
+                PLAYTIME_FLOAT="293.407349" IMPORT_DATE="2022/6/18" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="11676"></INFO>
+            <TEMPO BPM="125.999939" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="23"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="56.769807" LEN="0.000000" REPEATS="-1" HOTCUE="-1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="56.769807" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="30532.975038" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="45771.077653" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="61009.180268" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="106723.488114" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="137199.693344" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="152437.795960" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="182914.001190" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72419"
+            AUDIO_ID="AXQTMzMzMzIzMjMzJbu6y7u7ysvMy8d7zLzLy7u8y8y8hszMvLy7vLy8vMunZVRFVTVVREVlZVdmZnZ2ZnV2aGVYzc3c3u/N3N7e3bzdzs3e7c7N3d6Gzdzd3u/c3e7d66zd3dzu/d3d7e77zdzd3e7t3d7epEq9vMy8rLzLvLylnMy8u8vMzMvLy7hlVUVVRFVURGVlVmVmZ2dmdmdodla93d3O39zdzt3uvN3N3N7uzdzd3cWs7N3d7uzd3u3tnN3d3d7vzd3e3u693d7N3u3ezd3WR7u7u8u7u7vbu7p6ysu7urvLu7q6hKu7q6urq6urq6tjMzMzMzMzMzIzMA=="
+            TITLE="Party Starter (Original Mix)" ARTIST="DJ Dan, Mike Balance, Fleetwood Smack">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Dan, Mike Balance, Fleetwood Smack/:The Best of Mike Balance, Vol. 2/:"
+                FILE="16361165_Party Starter_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="6" TITLE="The Best of Mike Balance, Vol. 2"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="InStereo Recordings" COMMENT="10A - Energy 6"
+                COVERARTID="071/H0OECZCXKM0CMCVXZRMMA2PU5D5A" KEY="10A" PLAYCOUNT="4" PLAYTIME="372"
+                PLAYTIME_FLOAT="371.696320" IMPORT_DATE="2022/6/18" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="14652"></INFO>
+            <TEMPO BPM="124.000122" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="23"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="61.706007" LEN="0.000000" REPEATS="-1" HOTCUE="-1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="61.706007" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="31029.417474" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="61997.128942" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="92964.840409" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="170384.119077" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="201351.830544" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="232319.542011" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="309738.820680" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72419"
+            AUDIO_ID="AThbu7u7u6u7q7q7q7ururu7u7u7q7u7ururu7u7u7u7u7u7u7u7u7u7vLu7u8vMzM2neIeIiIiIiImJiYiJmJmpmZmZmZqqqqqqq83u3d3d3d3d3d3d3d7+7u7u7u7t7u7u7piJmZiJmZmJmpmZmpiK7d7d3d3d3d3e3e3d2Ih4iIiIiIiIiIiam4dnd3d3d3d3h4iIiIiImJmZmIiImYmYiZmIiIiZmZmru7u7vLvO3d3d3d3d3d3d3e7u3d3d3d3d3d3d3dzM7d3d3d3d3d3d3d3e/t3d3d3d3d3d3d27rMzMzMvMvMy8y8zMzezMzMzMy8y8zLzMdnYzIhEAAA=="
+            TITLE="Everybody Pumpin' (Original Mix)" ARTIST="Antoine Clamaran, Agua Sin Gas">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Antoine Clamaran, Agua Sin Gas/:Houseu Picks 2022/:"
+                FILE="16397819_Everybody Pumpin__(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="2" TITLE="Houseu Picks 2022"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="HouseU Tunes" COMMENT="4A - Energy 6"
+                COVERARTID="097/BTEQW1DGB4ZP0BNBJZDOAS1DUCNA" KEY="4A" PLAYCOUNT="3" PLAYTIME="312"
+                PLAYTIME_FLOAT="311.510193" IMPORT_DATE="2022/6/18" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="13868"></INFO>
+            <TEMPO BPM="126.000008" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="17"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="76.853611" LEN="0.000000" REPEATS="-1" HOTCUE="-1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="76.853611" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="61029.230693" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="91505.419235" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="121981.607776" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="137219.702046" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="167695.890588" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="198172.079129" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="213410.173399" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72419"
+            AUDIO_ID="AVsTRERERERDQzQzQ0zLu7y7u8rLvLu2Ndu7vKy7y7u7vLy7tlZldmdmdndod4dp3d3e3d3t3d7d3d3t3d7d3e3d3d7dmHzdzt3d3d3dzd3d64iHiHeGd2d2dldlvd3d3d3t3d3d3d293t3d3e3t3d3dyYnd3d3d7e3e3d3riL7u7u3szLu6qpmYl2d2dldVZFZFY1VIzt3d3e3d3t3d64et3d3c3d3d3d3d3d7e3d3d3aiHh3eIec7d3d3d3c7d7d3d3d3d7e3e3t3ad3eMzdzc3M3NzMzczMzNzNzMzLy8y8vJRIy7y8u7vLy7y8u7tkREREREREREREREEAAAAA=="
+            TITLE="Shok Zoom (Jay Vegas' The Breaks Remix)" ARTIST="Kenny Summit">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Kenny Summit/:Shok Zoom/:"
+                FILE="16454718_Shok Zoom_(Jay Vegas_ The Breaks Remix)_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="2" TITLE="Shok Zoom"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="House" LABEL="Good For You Records" COMMENT="12A - Energy 7"
+                COVERARTID="078/OWBJAJC3H5WJDD042VOIBMBAN4BC" KEY="12A" PLAYCOUNT="4" PLAYTIME="347"
+                PLAYTIME_FLOAT="346.749390" IMPORT_DATE="2022/6/18" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="14144"></INFO>
+            <TEMPO BPM="123.999771" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="13"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="338.885576" LEN="0.000000" REPEATS="-1" HOTCUE="-1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="338.885576" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="31306.684702" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="46790.584265" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="62274.483828" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="124210.082080" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="186145.680332" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="201629.579895" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="248081.278584" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72419"
+            AUDIO_ID="AUwkNEMzMzMzMzMzMzTLq7q7q7q7q7q7pjXMvMvMzMzMzMzczczczczczcyHZmZmZnjdzd3tzd3d3d3d3d3d3d3d3d3d3t3t3pjd3d3d3dzdzdzd3dnd3dzd3dzdzdzdzdzdzdzdzdqHd2d2d4rtztztztztztztztzt3t3s3t3t7tqHh2zt3t7t7t7t7t7t7tp3d3d3d3d3d3d3d4zc3c3d3c3d3c3d3Z3d3d3d3d3d3cmIiI3d7d7d7d3d7d7d7d3d3d3d3d3d3s3bh53c3d3c3d3c3c3c3c3c3c3MzczMzJVEQ2zLu7y7u7y7y7y7y3RERERERERERERERCAAAA=="
+            TITLE="Rock Tha Show (Original Mix)" ARTIST="Jay Vegas">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:"
+                FILE="16561214_Rock Tha Show_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="1" TITLE="Hot Stuff - Summer 2022"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="House" LABEL="Hot Stuff" COMMENT="8A - Energy 6"
+                COVERARTID="000/AUR4XHBJBCSKQC0ISWEHDASNPXGA" KEY="8A" PLAYCOUNT="3" PLAYTIME="332"
+                PLAYTIME_FLOAT="331.781219" IMPORT_DATE="2022/6/18" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="13296"></INFO>
+            <TEMPO BPM="122.999893" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="21"></MUSICAL_KEY>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="66.493988" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="66.493988" LEN="0.000000" REPEATS="-1" HOTCUE="-1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="31286.033342" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="62505.572695" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="93725.112049" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="140554.421079" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="171773.960433" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="202993.499786" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="265432.578493" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72419"
+            AUDIO_ID="AWxsq6urq6urqqqqqrq6urq6urq6urqru8u7vLu8vLy8zdy8zMzM3cvM2nZmi8zdzLzdzM3dzd3Nvd3MzdzL3dzaeLzM3Nvd3Mzdzd3czM3MzM3Nvd3Nt3rL3dzM3dzM3Nvdi8zdzM3dzM3dzM3dvd3MzNzczMdmZ7zM3Nvd3Mzdzd7czM3MzM3NvN3MyHrLzNzM3MzM3Mzcy8zNzL3NzM3Nzdy8zM3MzNzb3dzd3LzM3dzN3MzN3d7dvM3dzM3MzN3d3dvL3NzM3czM3c2niry9vLzMvLzLy8zLu8zLy9vLzMvLzLqqq6urq6urq6uqRERERERERERERFYhEAAAAA=="
+            TITLE="One Day (Original Mix)" ARTIST="Jay Vegas">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:"
+                FILE="16561218_One Day_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="2" TITLE="Hot Stuff - Summer 2022"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="House" LABEL="Hot Stuff" COMMENT="11A - Energy 6"
+                COVERARTID="000/AUR4XHBJBCSKQC0ISWEHDASNPXGA" KEY="11A" PLAYCOUNT="5" PLAYTIME="364"
+                PLAYTIME_FLOAT="363.937958" IMPORT_DATE="2022/6/18" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="14552"></INFO>
+            <TEMPO BPM="123.999939" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="18"></MUSICAL_KEY>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="67.760691" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="67.760691" LEN="0.000000" REPEATS="-1" HOTCUE="-1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="31035.517861" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="62003.275030" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="123938.789369" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="139422.667954" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="170390.425124" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="247809.818048" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="294261.453802" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72419"
+            AUDIO_ID="AWBKmZmpqZmZmpqZmampmZqampmpqZmZmpqZqampqZqampmqy8zMzMzMypm4qYjd3dvd7czd3b3e3M3t3N3dzN3tzN7dztuZqZmK7e7d3u3e3u3e3typqompuZqZmIh4eM3e3N3d3N3tzd7dvd3szd3c3e7M3eze3d293tzd2pqYqXzd7czd3c3e3M3t2+3uzd7tzd3c3d3LmJmIiIeHeHeHeHjd3dzd3tzd7c3e3b3e3N3t3N3uzN3pvd3dzd7cze3b3e3M3d3N3tzN3tzN3X7d7cze3b3d3M3d3M3d293tzN7dvd7dyamqmpqamampqZpjMzMzMzMzMzMzMzAAAA=="
+            TITLE="Body &amp; Soul (2020 Reboot)" ARTIST="Jay Vegas">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:"
+                FILE="16561226_Body &amp; Soul_(2020 Reboot)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="6" TITLE="Hot Stuff - Summer 2022"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="Hot Stuff" COMMENT="12A - Energy 5"
+                COVERARTID="000/AUR4XHBJBCSKQC0ISWEHDASNPXGA" KEY="12A" PLAYCOUNT="5" PLAYTIME="353"
+                PLAYTIME_FLOAT="352.365723" IMPORT_DATE="2022/6/18" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="14100"></INFO>
+            <TEMPO BPM="123.999786" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="13"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="101.913795" LEN="0.000000" REPEATS="-1" HOTCUE="-1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="101.913795" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="45585.863259" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="61069.760949" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="99779.505174" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="115263.402864" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="130747.300554" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="177198.993624" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="223650.686694" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72419"
+            AUDIO_ID="AUBamZqZqZmpmpmqmamaqqqqqqqqqqqqqrqrqququqqqqqqqqqqqqruqu6u6u6q7q7q7u7u6u6u6q7q7u3d2Vr3e3e3e3e3e3e7e7O7N7d7d7d7d7d7dxVfd7s7s3t3t3t3t3t3t3t3t3u3uze3e3eyKqpmId3ZWZmVFVEQzVmVEVVVVVmZlZmZmZ4d3eHd3eIiIiIiGV83t3uzuze3e3e3e3e3e3e3e3e7O7N7NhVvd7d7d7d7d7d7t7s7s3t3t3t3t3t3t3tqd3u3uzu3f3e3e3e3e3e3e7e7e7O7e/dlVi6qrqrqquququqqqq6qqqqqqqququqqURBAAAAAAAA=="
+            TITLE="Break Ya Down (Crazibiza Remix)" ARTIST="Jay Vegas">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:"
+                FILE="16561245_Break Ya Down_(Crazibiza Remix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="14" TITLE="Hot Stuff - Summer 2022"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="Hot Stuff" COMMENT="7A - Energy 5"
+                COVERARTID="000/AUR4XHBJBCSKQC0ISWEHDASNPXGA" KEY="7A" PLAYCOUNT="2" PLAYTIME="321"
+                PLAYTIME_FLOAT="320.078369" IMPORT_DATE="2022/6/18" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="12840"></INFO>
+            <TEMPO BPM="123.000046" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="72.640747" LEN="0.000000" REPEATS="-1" HOTCUE="-1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="72.640747" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="15682.391007" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="78121.392046" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="109340.892565" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="148365.268215" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="187389.643864" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="218609.144384" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="249828.644903" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72490"
+            AUDIO_ID="Aitaqqqqqqqqqqqqqqqqqqrbq9qryqy6raq9qsyr26XLvNu9y726vbvNu9y727vbvcu9u727p1V2VYREc0jbvcu9u827zLvcu9u8297LvbvNu8y73LzsvNu5VFy7zbvNu9y767zbvcu+u87MzczdzOzM7M3czszOzKhVdkWFRXRFUyYyJyI2IiMyIiIiIjM0REQzVjNUI8ur2qzKrbq9u727zLvcu9u8273Lvbu9u9y727uTN9u9y77LzbvNzNy7plaGWsu9u827zLvcu+u827zLvcu+u8273LvbvNu9273LvbvMu8y726vbvMu9u727uqqqqqqqqqqqqqqqqqqqUA=="
+            TITLE="Learning to Let Go (Original Mix)" ARTIST="Weird Sounding Dude">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Weird Sounding Dude/:Star Child/:"
+                FILE="13739199_Learning to Let Go_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="2" TITLE="Star Child"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Progressive House" LABEL="3rd Avenue" COMMENT="11A - Energy 6"
+                COVERARTID="031/5AS3HGCZAARAQAK0ZV01BN4S1RQB" KEY="11A" PLAYCOUNT="1" PLAYTIME="556"
+                PLAYTIME_FLOAT="555.337158" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2020/6/29"
+                FLAGS="12" FILESIZE="21776"></INFO>
+            <TEMPO BPM="117.999969" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="18"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="92.000544" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="92.000544" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="65176.763405" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="113990.335551" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="130261.526267" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="260431.051989" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="325515.814850" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="390600.577712" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="423142.959142" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72467"
+            AUDIO_ID="ASETMzMzMzMyMzMzMzMzM83d3d3c3d3dzd3d3GM23t7Nze3szN7dzc3sRGiGd3d3d2R3ZWZ2VmZmjv3t3d7O3e7s7dze3rWe7u3e7u7d3u7c3u7FVs7u3d7t7d3e7t3u7ZVnZlVlVWVWVWZWZlVVVXh2ZnZnZmZ4ZGZlV2Vnjf7d3d7e3e7t7N3eyESO7e3e7t7d3e7t3u7WRb7u7d7u7d3e7tze7u3e/t7d3u3t3u/e7u3u7Xnu3s3N7e3e7t7Nze3t2nVVZVVVVVVURENENERN7d3t7t7u3e3u7d7e2m3d3d3e3e3d7d3d3t3sdDMzMzMzMzMzMzIzIyIRAAAAAA=="
+            TITLE="Remember My Lady (Original Mix)" ARTIST="Ghostbusterz">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Ghostbusterz/:Remember My Lady/:"
+                FILE="16559524_Remember My Lady_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="1" TITLE="Remember My Lady"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="Tactical Records" COMMENT="8A - Energy 7"
+                COVERARTID="005/FMGCW4BLHEBS5AIBP13MBP3DB03D" KEY="8A" PLAYCOUNT="1" PLAYTIME="290"
+                PLAYTIME_FLOAT="289.253876" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="12148"></INFO>
+            <TEMPO BPM="121.999985" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="21"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="79.015426" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="79.015426" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="15816.722279" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="47292.135985" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="63029.842838" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="141718.377103" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="157456.083956" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="220406.911368" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="236144.618221" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72470"
+            AUDIO_ID="AUskRFRFVVVVVVVVVUSbu7u7u7u7u7u7uUXMzdvdvdvNvdvdu4jdvdvdvtvcvsvsmXjsvsvsvszrzrmXipvc3c3c3c3c3c3ciI3c3c3c3s3c3c3c3ZdVVFdVZWZFVGZWaK3M687c7M3d7M3Ihs3d3N3d3N3d3N7IiM3N297N297N293O28y8y8vMu8vMu8vMuHVmV3ZlVmRVVmVVV3eIh3d4jNzdvdzdvezdvezdveztvtztvtztztrIrt3szt3szt3czd3czd3c3d3c3d3c3d3czd3c3t3c3s7b3b3avKzKy6y6y7y7y7y7u7u7u7umVVVVRUVCIiIiIiMhEQAAAA=="
+            TITLE="What U Want (Original Mix)" ARTIST="Coxswain">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Coxswain/:What U Want/:"
+                FILE="16577670_What U Want_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="1" TITLE="What U Want"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="Senssual Records" COMMENT="9A - Energy 7"
+                COVERARTID="053/VZ1EH3CCR3P5KBEA5MUUDR04DURC" KEY="9A" PLAYCOUNT="1" PLAYTIME="332"
+                PLAYTIME_FLOAT="331.441620" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="14568"></INFO>
+            <TEMPO BPM="123.999489" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="16"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="119.006485" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="119.006485" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="93022.615144" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="108506.549921" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="123990.484697" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="154958.354250" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="185926.223803" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="209152.125968" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="278829.832463" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72481"
+            AUDIO_ID="AUIABJVVVVVVRVRURVRURZtENERENERENEREREre7u7u7u7u7e7u7s7u7u7u7u7u7u7uuq7e7e7e7u7u7u7u7uuqqrqqqrqqqrh2d3re7u7u7u7u7u7u7u7u7e7e7u7u7uy8y7ve7u7u7u7u7u7u7uuqqqqqqqhVVWVVRVmqqrqqqrqqqqqqqqqqqqqqqqqqqqqquore7u7u7u7u7u7u7u7u7u7u7u7u7u7upH3e7u7u7u7u7u7u7bre7e7u7uyqqqqqqpne7u7u7u7u7u7u7u7u7u7u7u7u7uy7y7ne7u7u7u7u7u7u7u27u7y7u7u7u7y7y3je7u7u7u7u7VAAAA=="
+            TITLE="Free Soul (Original Mix)" ARTIST="Sergio Pardo">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Sergio Pardo/:A Dream/:"
+                FILE="16580334_Free Soul_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="26" TITLE="A Dream"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="369 Music" COMMENT="5A - Energy 6"
+                COVERARTID="119/XDZ5O1CUEZTQ2BOHBPSEAJNSZ5OC" KEY="5A" PLAYCOUNT="1" PLAYTIME="323"
+                PLAYTIME_FLOAT="322.246521" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="14172"></INFO>
+            <TEMPO BPM="125.999947" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="12"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="666.158259" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="2094.730288" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="17332.831936" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="32570.933584" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="93523.340175" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="123999.543471" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="184951.950062" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="245904.356653" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="276380.559948" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72464"
+            AUDIO_ID="ANACNErv/v7+7+/u/v/+7+7v7v7+3+/v/v7v7+7u/v7//+/u/v7u7+78Wf7+7//u/v7u7//v7v7u7u/u/pr+7+7v7v7+7//v7v7u7+7u7v7oVUREREREQzNDMzQzMzMzMyMkM0RTQzQ0RENDREVERFRVVVVVVVRH7v7u/+/v7v7+7//u7v7u7+/v/v7+7u/u7v7u/+/v7v/+7//u7v6FRERERERERERERDQ0REMzQ0REVVRUVEVFVVREVUVFVVRUREVEVVVUVFVVRVVWZlVWVmVlZmZnYzRJ7v7u/+/v7u7+7u/u7v7u/+/v7v/+7+/u7v/u/u/v7v/+7u/u7YZCEA=="
+            TITLE="Shake It (Radio Edit)" ARTIST="DJ Vartan, Techcrasher">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Vartan, Techcrasher/:Which Bottle__ Radio Box, Vol. 23/:"
+                FILE="16580639_Shake It_(Radio Edit)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="Which Bottle?: Radio Box, Vol. 23"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="Which Bottle?" COMMENT="7A - Energy 7"
+                COVERARTID="105/JXNBXKBG2KAGEDTVB2PAC4VIJTXA" KEY="7A" PLAYCOUNT="1" PLAYTIME="209"
+                PLAYTIME_FLOAT="208.326538" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="10388"></INFO>
+            <TEMPO BPM="121.999931" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="118.412457" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="2085.626684" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="33561.054322" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="72905.338869" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="96511.909598" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="143725.051054" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="175200.478692" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="72470"
+            AUDIO_ID="AYNszNzczc3NzNzczc3MzNzczc3M3NzMzczM3Nzdzc3DIiIiIji7qru6vN3M3NzNzczc3MdDREQzRFRVRUM0IzRTMznu7u7u7+7u7umd7f7+7+xDREVUQzVFREQ2zu3u7u5TVFQzRc7u7+/udERDNES9/u7f7/7+7u/vlVVUVEM2VVRURFMiJDIjUyQ0MjRTREZEVGRFRkNEbe/v7+3+7u7v7u7u7u7u7t7u7e3u793u7e/u3u7d7+7e7e3u7t7t7e/t3t7d7+3d3t3v7v7+7+/u/v7v793c3N3dzc3c3N3NzMzczMzNzMzM3M3NzMzc3M3NzNzczM3NYzMzMzMQAA=="
+            TITLE="Get Me In (Extended Mix)" ARTIST="B.A.N.G!">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:B.A.N.G!/:Get Me In/:"
+                FILE="16620666_Get Me In_(Extended Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="2" TITLE="Get Me In"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Funky House" LABEL="Chemiztri Recordings" COMMENT="7A - Energy 6"
+                COVERARTID="112/QLJKBKADRLZMLDEQKLYSA3PPI5OB" KEY="7A" PLAYCOUNT="1" PLAYTIME="388"
+                PLAYTIME_FLOAT="387.082458" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="16492"></INFO>
+            <TEMPO BPM="124.999954" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="79.845443" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="79.845443" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="76879.873705" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="99919.882184" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="138319.896315" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="153679.901968" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="199759.918925" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="215119.924578" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="230479.930230" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="74630"
+            AUDIO_ID="ANdZiJmZiZiJmYiZiJmYiZiZIyNc7/7f+87/7f+87/7f/M7/7//FeJiGVEMzMzIzMzMzIzMzMzI1VXVVRVVWVURERFVERVVWUiJI/////87////77////87//+/97//+/93//+/93////+VkRVNEV4iIdlRURERERFRFVFVVVVVVarmZiHeGh3dodod3Znd4iEI03/////zv////zv//7/3f////3v//7/3f//7/7P////9VNFQ0Ss3////O////++/////O///v/P////++/////O///v+kQ0MzRs7/7f+87/7f/M7/7f/M7/7//amIiJiZmIiJmZiIiJmZiIcjIA=="
+            TITLE="One, Two Step (Original Mix)" ARTIST="Lee Foss, SIDEPIECE">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Lee Foss, SIDEPIECE/:1, 2 Step/:"
+                FILE="16518366_1, 2 Step (Supersonic)_(Original Mix)_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="1, 2 Step"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Tech House" LABEL="Insomniac Records" COMMENT="2A - Energy 6"
+                COVERARTID="030/4U5OGPBU0ICPLCYCC5FDC3BL13YA" KEY="2A" PLAYCOUNT="1" PLAYTIME="216"
+                PLAYTIME_FLOAT="215.092239" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="8820"></INFO>
+            <TEMPO BPM="125.000153" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="15"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="78.803584" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="78.803584" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="30798.765983" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="46158.747182" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="61518.728382" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="92238.690780" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="122958.653179" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="153678.615578" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="184398.577977" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="74637"
+            AUDIO_ID="AXBbq7qqqrq6ulMzOMq7u7q7u6u7umev/f7v3/7979/t/v/f7v3/7979/t/3RFVERVVVVVVVVlVVVVZWZlZWVVVnZGZ2VmdmZmZnZmZWZ2Zmd3d3d3d1REREXLv/7+/+///v/v2q3/7+/+///v/v2q3/7+/+/+/v+amb3/7+7+///v+aqKzv3+79/+/u/f/v7/7/7+/6dnd3d3eHZ3d2d4d3d3Z3eIeIiHiJiIiIdmZUREVGy8/+/v/v//7/79qt/+/v/v/v7/mpm9/+/v/v/v7/mpmt/9/u/f/v7v3+7+/9/u/f/v7v3+3+y7u7y8vLu7u7vLurq6y7q6uru6u4AA=="
+            TITLE="OoooH (Original Mix)" ARTIST="CID, Will K">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:CID, Will K/:OoooH/:"
+                FILE="16528402_OoooH_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="OoooH"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="House" LABEL="Repopulate Mars" COMMENT="5A - Energy 6"
+                COVERARTID="010/KIKYYKBVDEEDYCXXZY40BDVOSYDD" KEY="5A" PLAYCOUNT="1" PLAYTIME="368"
+                PLAYTIME_FLOAT="367.699585" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="14880"></INFO>
+            <TEMPO BPM="125.999924" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="12"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="77.592291" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="77.592291" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="15315.696720" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="61030.010008" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="76268.114438" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="106744.323296" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="127696.716887" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="259125.367590" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="304839.680878" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="74648"
+            AUDIO_ID="AYsUVVRERVZlZlVVVVVVVVVWZmZmZ33//////////+/////////+/////4h3d3eIh3Z3d3iHd3dmd3Z3d1VWhkQzNESGRDMzNHZEREREh2VmdmWf////////////7////////////L/////////v/////////////////XZVQzIiMzMhETNVZlVVVmZmZVVWZmZmZmdmZmZmZmd2ZmZndnZ3dnd2d2ZmZmZmZmZ3d1QzVVV4VDNFVWhWVFVWeWZnh3Z9/////////////////////////87/////////////////////////////////////7/+FVVVVVVRVVVVVMA=="
+            TITLE="On My Knees (Cassian Remix)" ARTIST="RÜFÜS DU SOL">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:RÜFÜS DU SOL/:On My Knees (Cassian Remix)/:"
+                FILE="16553664_On My Knees_(Cassian Remix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="1" TITLE="On My Knees (Cassian Remix)"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Melodic House &amp; Techno" LABEL="Rose Avenue/Reprise"
+                COMMENT="4A - Energy 6" COVERARTID="028/2YDZALAJSE05FD3FHO0CBD4IAFJD" KEY="4A" PLAYCOUNT="1"
+                PLAYTIME="396" PLAYTIME_FLOAT="395.258789" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16"
+                RELEASE_DATE="2022/1/1" FLAGS="12" FILESIZE="15940"></INFO>
+            <TEMPO BPM="122.000053" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="17"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="414.305836" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="414.305836" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="79102.796242" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="126315.890485" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="157791.286648" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="205004.380891" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="299430.569378" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="315168.267459" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="330905.965540" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="74639"
+            AUDIO_ID="AQ9qqqqqqqqqqqqqqqqnIii7u7u7u7y7u7vLu7uGZFVVZUVWVmRWZmZmZ2ZmaIiIiIiIiIh4d3d3ZmZmZVVVbf/9//7/7//v/v/9/8me7//v/v/9//7/7//v+5m1ZlVo7//v///+//7/qtmJi5qal6mqqYmJmZeIq5iImauoerq7urqruXq6q5mZmZeZqJmZiHdnZnZWmIeIeId3h3d3d2ZmZlVVVVVX7//v/+/+//7/7//f/In+//7/7//f/+/9//7/ua/v/+/+//7/7//f/+/7rP7/7//f/+/+//7/7/+73aqqqqqqqqqqqqqqqpmdyqqqqqqqqqqqqqqqqXixAA=="
+            TITLE="The Calling (Original Mix)" ARTIST="MARTEN HØRGER, Tchami">
+            <LOCATION DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:MARTEN HØRGER, Tchami/:The Calling/:"
+                FILE="16567920_The Calling_(Original Mix)_PN.mp3" VOLUME="Macintosh HD" VOLUMEID="Macintosh HD">
+            </LOCATION>
+            <ALBUM TRACK="1" TITLE="The Calling"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Electronica" LABEL="Confession Label" COMMENT="3B - Energy 6"
+                COVERARTID="012/M2PUDOBMOHQNWABGQ0O3BMOYWXTD" KEY="3B" PLAYCOUNT="1" PLAYTIME="271"
+                PLAYTIME_FLOAT="270.785309" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="13292"></INFO>
+            <TEMPO BPM="125.000343" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="1"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="77.691413" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="77.691413" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="15437.649265" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="30797.607118" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="46157.564970" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="61517.522822" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="111437.385842" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="153677.269936" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="176717.206714" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/7/16" MODIFIED_TIME="74635"
+            AUDIO_ID="ATdZmZmZmZmpmZmamZmZmZmZmpmZmamZmZlynv///v///v/////9vu/////////////7zJZmZmZlZmdlZmZmd2eHZmZmVmZlVVVVV3jf/////////////83f///////////////N7///////////68zMhlVUUyIiVkRUVEMiJXh3aHZWWIZ3eZdWdneHZYh2dYh3Zpl1aGZ3h3d2VmVWZVZmZoev3v/////////////O//////////////3N///////////////d3////////////7zMzP////7///7/7///7byZmZmZmZmZmZmZmVKZmZmZmZmZmZmZmDMxAAAAAA=="
+            TITLE="Escape (John Summit Remix) feat. Hayla (Extended Mix)" ARTIST="Kaskade, deadmau5, Kx5">
+            <LOCATION
+                DIR="/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Kaskade, deadmau5, Kx5/:Escape (John Summit Remix) (Extended Mix) feat. Hayla/:"
+                FILE="16584242_Escape (John Summit Remix) feat. Hayla_(Extended Mix)_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="Escape (John Summit Remix) (Extended Mix) feat. Hayla"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Dance / Electro Pop" LABEL="mau5trap" COMMENT="8A - Energy 6"
+                COVERARTID="126/4XQRHTAJZFCJ2BAISZKYARTI3FBC" KEY="8A" PLAYCOUNT="1" PLAYTIME="311"
+                PLAYTIME_FLOAT="310.543671" IMPORT_DATE="2022/7/16" LAST_PLAYED="2022/7/16" RELEASE_DATE="2022/1/1"
+                FLAGS="12" FILESIZE="12680"></INFO>
+            <TEMPO BPM="126.000015" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PERCEIVED_DB="0.000000"></LOUDNESS>
+            <MUSICAL_KEY VALUE="21"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="80.331638" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 1" DISPL_ORDER="0" TYPE="0" START="80.331638" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 2" DISPL_ORDER="0" TYPE="0" START="45794.611910" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 3" DISPL_ORDER="0" TYPE="0" START="91508.892182" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 4" DISPL_ORDER="0" TYPE="0" START="137223.172454" LEN="0.000000" REPEATS="-1" HOTCUE="3">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 5" DISPL_ORDER="0" TYPE="0" START="198175.546150" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 6" DISPL_ORDER="0" TYPE="0" START="228651.732999" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 7" DISPL_ORDER="0" TYPE="0" START="243889.826423" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="Cue 8" DISPL_ORDER="0" TYPE="0" START="259127.919847" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+        </ENTRY>
+    </COLLECTION>
+    <SETS ENTRIES="0"></SETS>
+    <PLAYLISTS>
+        <NODE TYPE="FOLDER" NAME="$ROOT">
+            <SUBNODES COUNT="1">
+                <NODE TYPE="PLAYLIST" NAME="HISTORY">
+                    <PLAYLIST ENTRIES="54" TYPE="PROTOCOL" UUID="0c19eddf28184b06a21288fe7d1050ca">
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Kaskade, deadmau5, Kx5/:Escape (John Summit Remix) (Extended Mix) feat. Hayla/:16584242_Escape (John Summit Remix) feat. Hayla_(Extended Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="10.9856358" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="0"
+                                STARTDATE="132515600" STARTTIME="49668"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:MARTEN HØRGER, Tchami/:The Calling/:16567920_The Calling_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="10.8085918" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="0"
+                                STARTDATE="132515600" STARTTIME="49703"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:RÜFÜS DU SOL/:On My Knees (Cassian Remix)/:16553664_On My Knees_(Cassian Remix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="12.0391865" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="0"
+                                STARTDATE="132515600" STARTTIME="49731"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Weird Sounding Dude/:Star Child/:13739199_Learning to Let Go_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="11.3310146" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="0"
+                                STARTDATE="132515600" STARTTIME="49817"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:RÜFÜS DU SOL/:On My Knees (Cassian Remix)/:16553664_On My Knees_(Cassian Remix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="11.0872173" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="0"
+                                STARTDATE="132515600" STARTTIME="49855"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Dirty &amp; Acid/:Rock The Disco/:1793274_Funkology_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="41.1245537" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="61348"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Da Funk Junkies, Rubber People/:The Best of Rubber People, Vol. 1/:16266992_Holdin On_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="392.830414" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="61394"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Antoine Clamaran, Agua Sin Gas/:Houseu Picks 2022/:16397819_Everybody Pumpin__(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="151.423065" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="61921"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Kenny Summit/:Shok Zoom/:16454718_Shok Zoom_(Jay Vegas_ The Breaks Remix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="160.459351" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="62020"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:16561214_Rock Tha Show_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="318.633392" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="0"
+                                STARTDATE="132515600" STARTTIME="62124"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:16561218_One Day_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="363.348694" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="65878"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:16561226_Body &amp; Soul_(2020 Reboot)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="357.805115" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="66156"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Sergio Pardo/:A Dream/:16580334_Free Soul_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="320.463531" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="66510"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Ghostbusterz/:Remember My Lady/:16559524_Remember My Lady_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="142.89444" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="66772"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Coxswain/:What U Want/:16577670_What U Want_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="106.815117" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="0"
+                                STARTDATE="132515600" STARTTIME="66880"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Dan, Mike Balance, Fleetwood Smack/:The Best of Mike Balance, Vol. 2/:16361165_Party Starter_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="68.782959" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="71514"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Da Funk Junkies, Rubber People/:The Best of Rubber People, Vol. 1/:16266992_Holdin On_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="64.5136261" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="71548"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Dan, Mike Balance, Fleetwood Smack/:The Best of Mike Balance, Vol. 2/:16361165_Party Starter_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="319.100891" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="72092"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Da Funk Junkies, Rubber People/:The Best of Rubber People, Vol. 1/:16266992_Holdin On_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="298.366211" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="72356"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:16561218_One Day_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="350.428711" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="72578"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Kenny Summit/:Shok Zoom/:16454718_Shok Zoom_(Jay Vegas_ The Breaks Remix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="350.327759" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="72837"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:16561226_Body &amp; Soul_(2020 Reboot)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="337.030579" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="73102"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Dan/:DJ Dan Presents 15 Years Of InStereo/:DJ Dan - Squissh (Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="338.587128" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="73344"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Fopp, Daniele Danieli/:Do You Feel Alright/:DJ Fopp, Daniele Danieli - Do You Feel Alright (Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="383.87088" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="73589"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:16561214_Rock Tha Show_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="338.008087" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="73748"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Dan, Mike Balance/:The Best Of Mike Balance/:DJ Dan, Mike Balance - This Groove (Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="306.27652" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="74141"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:DJ Vartan, Techcrasher/:Which Bottle__ Radio Box, Vol. 23/:16580639_Shake It_(Radio Edit)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="230.617447" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="74414"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Lee Foss, SIDEPIECE/:1, 2 Step/:16518366_1, 2 Step (Supersonic)_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="238.162827" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="74574"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:CID, Will K/:OoooH/:16528402_OoooH_(Original Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="362.249023" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="74762"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jay Vegas/:Hot Stuff - Summer 2022/:16561245_Break Ya Down_(Crazibiza Remix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="283.539001" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="75040"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:B.A.N.G!/:Get Me In/:16620666_Get Me In_(Extended Mix)_PN.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="336.56839" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="75245"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Martin Waslewski/:Clouds EP/:Martin Waslewski - Clouds (Purple Disco Machine Remix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="398.755707" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="75508"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:M.O.S_/:U Reki/:14720045_Raspberry Garden_(Outro Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="259.09964" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="85282"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Nico Szabo/:Compilation of the Year 2020/:14146692_Raccoon_(Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="544.920227" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="85419"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Rodriguez Jr., Liset Alea/:Buddha-Bar XX/:10587325_Waste Tomorrow_(Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="347.854797" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="85843"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Double Touch, Reigan/:Greatest Day/:14235333_Greatest Day feat. Reigan_(Lost Desert Remix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="411.814636" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515600" STARTTIME="86113"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Marsh/:Lailonie (The Remixes_ Part 1)/:14772056_There For Me_(Amonita Extended Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="446.308716" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="33"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Pambouk/:Janabar/:14733962_Forest Language_(Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="437.808716" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="367"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Phenoir, Mariel Beausejour, Marsh/:Lailonie (The Remixes_ Part 1)/:14772057_Don't Wait_(Frost Extended Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="434.520264" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="703"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Fake Mood/:Howling/:13922008_Lullaby_(Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="369.49527" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="1056"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Malou, Ben Bohmer/:Lost In Mind (Volen Sentir Mixes)/:13534688_Lost In Mind_(Volen Sentir Extended Vision).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="373.899323" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="1354"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Amonita/:Secret of Happiness/:11750131_Secret of Happiness_(Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="483.464325" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="1645"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Verboten Berlin/:Symmetry/:14600338_Symmetry_(Rodriguez Jr. Remix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="362.06839" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="2044"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Ben Bohmer, Felix Raphael, Tinlicker/:Run Away/:14734195_Run Away_(Extended Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="266.013062" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="2321"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Royksopp/:Sordid Affair (Maceo Plex Mix)/:Royksopp - Sordid Affair (Maceo Plex Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="487.071533" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="3034"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Unknown Artist/:Unknown Album/:Joseph Ray - Room 1.5.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="320.726501" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="3425"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:James Grant, Andrew Bayer/:James Grant's Anjunadeep 05 Sampler/:4530861_Living_(Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="493.2659" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="4298"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Monkey Safari/:Alpine Grooves 12 (Kristallhütte)/:14527447_Safe_(Original Mix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="378.988708" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="4691"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Unknown Artist/:Unknown Album/:Premiere_ FC Kahuna - Hayling (John Digweed &amp; Nick Muir Remix) [Subtract].mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="379.121521" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="0"
+                                STARTDATE="132515601" STARTTIME="5024"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:London Grammar/:If You Wait (Remixes)/:06 Hey Now (Sasha Remix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="548.107605" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="6052"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:London Grammar/:Unknown Album/:If You Wait (Riva Starr Remix).mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="408.228699" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="6468"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Dusky/:Stick By This (incl. Amazon Exclusive Track)/:11 It's Not Enough.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="423.757141" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="6798"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Jody Wisternoff/:Trails We Blaze/:04 Red Stripes.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="0" DURATION="421.390411" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="7132"></EXTENDEDDATA>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK"
+                                KEY="Macintosh HD/:Users/:troy/:Music/:iTunes/:iTunes Media/:Music/:Scrumfrog and Robot Heart/:Unknown Album/:01 Time on the Fucking Moon.mp3">
+                            </PRIMARYKEY>
+                            <EXTENDEDDATA DECK="1" DURATION="483.931824" EXTENDEDTYPE="HistoryData" PLAYEDPUBLIC="1"
+                                STARTDATE="132515601" STARTTIME="7472"></EXTENDEDDATA>
+                        </ENTRY>
+                    </PLAYLIST>
+                </NODE>
+            </SUBNODES>
+        </NODE>
+    </PLAYLISTS>
+    <INDEXING></INDEXING>
+</NML>
