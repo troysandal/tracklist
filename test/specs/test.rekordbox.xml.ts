@@ -6,10 +6,6 @@ require('jsdom-global')()
 global.DOMParser = window.DOMParser
 
 describe('RekordBox XML Parser', () => {
-    it('has the jsdom parser available', () => {
-        expect(DOMParser).to.exist
-    })
-
     it('supports multiple playlists', () => {
         const p = `${__dirname}/../files/RekordBox.xml`;
         const fileContents = fs.readFileSync(p, 'utf8')
