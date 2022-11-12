@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import * as fs from 'fs';
-import {cueReader, Command, cueParser, CUEParser} from '../../src/cue'
-import {Archive, ArchiveTrack, Playlist, PlaylistTrack} from '../../src/archive'
+import {cueReader, Command, cueParser, CUEParser} from '../../src/parsers/cue'
+import {Archive, ArchiveTrack, Playlist, PlaylistTrack} from '../../src/parsers/archive'
 
 describe('CUE Parser', function () {
     describe('support filtering', () => {
@@ -9,9 +9,9 @@ describe('CUE Parser', function () {
             const p = `${__dirname}/../files/RekordBox_Music and Love.cue`;
             fs.readFile(p, 'utf8', (err, data) => {
                 expect(err).to.be.null
-                const parser = new CUEParser()
-                expect(parser.supports(data))
-                const archive = parser.parse(data) as Archive
+                const parser = new CUEParser(data)
+                expect(parser.supports()).to.be.true
+                const archive = parser.parse() as Archive
                 expect(archive).to.exist
                 expect(archive.playlists[0]).to.exist
                 const playlist = archive.playlists[0] as Playlist

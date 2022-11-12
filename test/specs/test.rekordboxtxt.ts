@@ -1,19 +1,19 @@
 import { expect } from 'chai'
 import * as fs from 'fs';
-import { Archive, ArchiveTrack, Playlist, PlaylistTrack } from '../../src/archive';
-import {RekordBoxTXTParser} from '../../src/rekordboxtxt'
+import { Archive, ArchiveTrack, Playlist, PlaylistTrack } from '../../src/parsers/archive';
+import {RekordBoxTXTParser} from '../../src/parsers/rekordboxtxt'
 
 describe('RekordBox TXT Parser', function () {
     it('ignores empty files', () => {
-        const parser = new RekordBoxTXTParser()
-        expect(parser.supports('')).to.be.false
+        const parser = new RekordBoxTXTParser('')
+        expect(parser.supports()).to.be.false
     })
 
     it('handles empty playlists', () => {
-        const parser = new RekordBoxTXTParser()
         const contents = '#	Artwork	Track Title	Artist	Album	Genre	BPM	Rating	Time	Key	Date Added'
-        expect(parser.supports(contents)).to.be.true
-        const archive = parser.parse(contents) as Archive
+        const parser = new RekordBoxTXTParser(contents)
+        expect(parser.supports()).to.be.true
+        const archive = parser.parse() as Archive
         expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(0)
         expect(archive.playlists.length).to.equal(0)
@@ -23,9 +23,9 @@ describe('RekordBox TXT Parser', function () {
         const p = `${__dirname}/../files/RekordBox_Rezidence 22.txt`;
         fs.readFile(p, 'utf16le', (err, data) => {
             expect(err).to.be.null
-            const parser = new RekordBoxTXTParser()
-            expect(parser.supports(data)).to.be.true
-            const archive = parser.parse(data) as Archive
+            const parser = new RekordBoxTXTParser(data)
+            expect(parser.supports()).to.be.true
+            const archive = parser.parse() as Archive
             expect(archive).to.exist
 
             // Check Collection

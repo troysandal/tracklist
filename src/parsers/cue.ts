@@ -5,17 +5,20 @@ import {lineReader} from './common'
 export class CUEParser implements Parser {
     static format = "RekordBox CUE"
     static extensions = ['.cue']
-    archive: Archive
-    playlist: Playlist
+    private contents: string
 
-    supports(contents: string): boolean {
+    constructor(contents:string) {
+        this.contents = contents
+    }
+
+    supports(): boolean {
         // Not the best, file doesn't actually have to havce this but RekordBox
         // does output the REM DATE.
-        return contents.startsWith('REM DATE ')
+        return this.contents.startsWith('REM DATE ')
     }
     
-    parse(contents: string): Archive | null {
-        return cueParser(contents)
+    parse(): Archive | null {
+        return cueParser(this.contents)
     }
 }
 

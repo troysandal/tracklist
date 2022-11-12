@@ -1,14 +1,14 @@
 import { expect } from 'chai'
 import * as fs from 'fs';
-import { Archive, ArchiveTrack, Playlist } from '../../src/archive';
-import {M3U8Parser} from '../../src/m3u8'
+import { Archive, ArchiveTrack, Playlist } from '../../src/parsers/archive';
+import {M3U8Parser} from '../../src/parsers/m3u8'
 
 describe('M3U8 Parser', () => {
     it('handles empty playlists', () => {
         const TEST = `#EXTM3U`
-        const parser = new M3U8Parser()
-        expect(parser.supports(TEST)).to.be.true
-        const archive = parser.parse(TEST) as Archive
+        const parser = new M3U8Parser(TEST)
+        expect(parser.supports()).to.be.true
+        const archive = parser.parse() as Archive
 
         expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(0)
@@ -24,9 +24,9 @@ describe('M3U8 Parser', () => {
         #EXTINF:293,Da Funk Junkies, Rubber People - Holdin On (Original Mix)
         /Users/troy/Music/iTunes/iTunes Media/Music/Da Funk Junkies, Rubber People/The Best of Rubber People, Vol. 1/16266992_Holdin On_(Original Mix)_PN.mp3
         `
-        const parser = new M3U8Parser()
-        expect(parser.supports(TEST)).to.be.true
-        const archive = parser.parse(TEST) as Archive
+        const parser = new M3U8Parser(TEST)
+        expect(parser.supports()).to.be.true
+        const archive = parser.parse() as Archive
 
         expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(2)
@@ -40,9 +40,9 @@ describe('M3U8 Parser', () => {
         #EXTINF:293,Block & Crown - Boogie Renegade (Original Mix)
         __FILE_PATH__
         `
-        const parser = new M3U8Parser()
-        expect(parser.supports(TEST)).to.be.true
-        const archive = parser.parse(TEST) as Archive
+        const parser = new M3U8Parser(TEST)
+        expect(parser.supports()).to.be.true
+        const archive = parser.parse() as Archive
 
         expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(1)
@@ -59,9 +59,9 @@ describe('M3U8 Parser', () => {
         #EXTINF:391,Angelo Ferreri  Man In Soul (Original Mix)
         __FILE_PATH__
         `
-        const parser = new M3U8Parser()
-        expect(parser.supports(TEST)).to.be.true
-        const archive = parser.parse(TEST) as Archive
+        const parser = new M3U8Parser(TEST)
+        expect(parser.supports()).to.be.true
+        const archive = parser.parse() as Archive
 
         expect(archive).to.exist
         expect(Object.keys(archive.collection).length).to.equal(1)
@@ -77,9 +77,9 @@ describe('M3U8 Parser', () => {
         const p = `${__dirname}/../files/RekordBox_Rezidence20.m3u8`;
         fs.readFile(p, 'utf8', (err, data) => {
             expect(err).to.be.null
-            const parser = new M3U8Parser()
-            expect(parser.supports(data)).to.be.true
-            const archive = parser.parse(data) as Archive
+            const parser = new M3U8Parser(data)
+            expect(parser.supports()).to.be.true
+            const archive = parser.parse() as Archive
             expect(archive).to.exist
             expect(Object.keys(archive.collection).length).to.equal(11)
             expect(archive.playlists.length).to.equal(1)

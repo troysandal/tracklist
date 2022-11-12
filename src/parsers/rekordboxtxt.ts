@@ -6,14 +6,16 @@ type Headers = {[n: string]: number}
 export class RekordBoxTXTParser implements Parser {
     static format = "RekordBox TXT"
     static extensions = ['.txt']
-    archive: Archive
-    playlist: Playlist
+    private contents: string
 
-    supports(contents: string): boolean {
-        return contents.trim().startsWith('#\t')
+    constructor(contents:string) {
+        this.contents = contents
+    }
+    supports(): boolean {
+        return this.contents.trim().startsWith('#\t')
     }
     
-    parse(contents: string): Archive | null {
+    parse(): Archive | null {
         const archive = {
             collection: {},
             playlists: [],
@@ -21,7 +23,7 @@ export class RekordBoxTXTParser implements Parser {
         } as Archive
         const playlist: Playlist = new CPlaylist()
 
-        textReader(contents, (archiveTrack:ArchiveTrack) => {
+        textReader(this.contents, (archiveTrack:ArchiveTrack) => {
             const playlistTrack: PlaylistTrack = {
                 key: archiveTrack.key,
                 collectionEntry: archiveTrack,

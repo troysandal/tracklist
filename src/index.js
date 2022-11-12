@@ -1,8 +1,8 @@
-import { TraktorParser } from './traktor'
-import { RekordBoxParser } from './rekordbox'
-import { M3U8Parser } from './m3u8'
-import { CUEParser } from './cue'
-import {RekordBoxTXTParser} from './rekordboxtxt'
+import { TraktorParser } from './parsers/traktor'
+import { RekordBoxParser } from './parsers/rekordbox'
+import { M3U8Parser } from './parsers/m3u8'
+import { CUEParser } from './parsers/cue'
+import {RekordBoxTXTParser} from './parsers/rekordboxtxt'
 import {DEFAULT_FORMAT_STRING, playlistToReadable, TRACK_FIELDS} from './formatter'
 
 const PARSERS = [TraktorParser, RekordBoxParser, M3U8Parser, CUEParser, RekordBoxTXTParser]
@@ -20,24 +20,17 @@ function getFormatString() {
  * the archive in canonical JSON format.
  * 
  * @param {string} fileContents  Archive file contents.
- * @param {number} startTrackIndex Offset at which to start displaing tracks.
- * @param {boolean} onlyPlayedTracks (Traktor Only) Only return tracks that 
- *                                   were played live.
  * @return Archive if parsed, otherwise null.
  */
- function parserArchive(fileContents, startTrackIndex, onlyPlayedTracks) {
-    const supportedParsers = PARSERS.map((parserClass) => {
-        const parser = new parserClass()
-        if (parser.supports(fileContents)) {
-            return parser
+ function parserArchive(fileContents) {
+    for (let parserClass of PARSERS) {
+        const parser = new parserClass(fileContents)
+        if (parser.supports()) {
+            return parser.parse(fileContents)
         }
-    }).filter((v) => v)
-
-    if (!supportedParsers.length) {
-        return null
     }
 
-    return supportedParsers[0].parse(fileContents, startTrackIndex, onlyPlayedTracks)
+    return null
 }
 
 function convertToReadable() {

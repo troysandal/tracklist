@@ -1,6 +1,6 @@
 import { expect } from 'chai'
-import { cueParser } from '../../src/cue'
-import { Archive, Playlist, PlaylistTrack } from '../../src/archive'
+import { cueParser } from '../../src/parsers/cue'
+import { Archive, Playlist, PlaylistTrack } from '../../src/parsers/archive'
 import { DEFAULT_FORMAT_STRING, format } from '../../src/formatter'
 
 describe('Track formatting', () => {

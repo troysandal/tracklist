@@ -38,12 +38,9 @@ export interface Archive {
     format: string
 }
 
-export interface Parser {    
-    supports(contents:string): boolean
-    parse(
-        contents: string, 
-        startTrackIndex: number, 
-        onlyPlayedTracks: boolean) : Archive | null
+export interface Parser {   
+    supports(): boolean
+    parse() : Archive | null
 }
 
 export class CPlaylist implements Playlist {

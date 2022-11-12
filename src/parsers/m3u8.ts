@@ -4,13 +4,18 @@ import { lineReader } from "./common"
 export class M3U8Parser implements Parser {
     static format = "RekordBox M3U8"
     static extensions = ['.m3u8']
+    private contents: string
 
-    supports(contents: string): boolean {
-        return contents.startsWith('#EXTM3U')
+    constructor(contents:string) {
+        this.contents = contents
+    }
+
+    supports(): boolean {
+        return this.contents.startsWith('#EXTM3U')
     }
     
-    parse(contents: string): Archive | null {
-        return parseM3U8(contents)
+    parse(): Archive | null {
+        return parseM3U8(this.contents)
     }  
 }
 

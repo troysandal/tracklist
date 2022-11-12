@@ -1,4 +1,4 @@
-import { Playlist } from "./archive"
+import { Playlist } from "./parsers/archive"
 
 export const DEFAULT_FORMAT_STRING = '${INDEX}. ${TITLE} - ${ARTIST}'
 

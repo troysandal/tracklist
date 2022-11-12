@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import * as fs from 'fs'
-import { Archive, Playlist } from '../../src/archive'
-import { TraktorParser } from '../../src/traktor'
+import { Archive, Playlist } from '../../src/parsers/archive'
+import { TraktorParser } from '../../src/parsers/traktor'
 require('jsdom-global')()
 global.DOMParser = window.DOMParser
 
@@ -19,8 +19,9 @@ describe('Traktor Parser', () => {
         const fileContents = fs.readFileSync(p, 'utf8')
         expect(fileContents).to.exist
         expect(fileContents.length).to.be.greaterThan(0)
-        const parser = new TraktorParser()
-        const archive = parser.parse(fileContents) as Archive
+        const parser = new TraktorParser(fileContents)
+        expect(parser.supports()).to.be.true
+        const archive = parser.parse() as Archive
         expect(Object.keys(archive.collection).length).to.equal(22)
         expect(archive?.playlists.length).to.equal(2)
         expect(archive?.playlists[0]?.tracks.length).to.equal(22)
@@ -28,8 +29,8 @@ describe('Traktor Parser', () => {
     })
 
     it('works on Rezidence23', () => {
-        const parser = new TraktorParser()
-        const archive = parser.parse(fileContents)
+        const parser = new TraktorParser(fileContents)
+        const archive = parser.parse()
         expect(archive).to.exist
         if (archive) {
             expect(Object.keys(archive.collection).length).to.equal(17)
@@ -46,8 +47,8 @@ describe('Traktor Parser', () => {
             fileContents = fs.readFileSync(p, 'utf8')
             expect(fileContents).to.exist
             expect(fileContents.length).to.be.greaterThan(0)
-            const parser = new TraktorParser()
-            archive = parser.parse(fileContents) as Archive
+            const parser = new TraktorParser(fileContents)
+            archive = parser.parse() as Archive
             expect(Object.keys(archive.collection).length).to.equal(46)
             expect(archive.playlists[0]?.tracks.length).to.equal(54)
         })

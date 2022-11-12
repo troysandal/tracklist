@@ -4,8 +4,19 @@ import { querySelectorAllParents } from "./common"
 export class TraktorParser implements Parser {
     static format = "Traktor"
     static extensions = ['.nml']
+    xmlDoc: XMLDocument | null
 
-    parseXML(contents:string) {
+    constructor(contents:string) {
+        this.xmlDoc = TraktorParser.parseXML(contents)
+        if (this.xmlDoc) {
+            const root = this.xmlDoc.getElementsByTagName("NML")
+            if (root.length === 0) {
+                this.xmlDoc = null
+            }
+        }
+    }
+
+    private static parseXML(contents:string) {
         const parser = new DOMParser()
         const xmlDoc = parser.parseFromString(contents, "text/xml")
         const parseError = xmlDoc.getElementsByTagName("parsererror")
@@ -16,24 +27,16 @@ export class TraktorParser implements Parser {
         return xmlDoc
     }
 
-    supports(contents:string): boolean {
-        const xmlDoc = this.parseXML(contents)
-
-        if (!xmlDoc) {
-            return false
-        }
-        const root = xmlDoc.getElementsByTagName("NML")
-        return root.length > 0
+    supports(): boolean {
+        return this.xmlDoc !== null
     }
     
-    parse(contents:string): Archive | null {
-        const xmlDoc = this.parseXML(contents)
-
-        if (!xmlDoc) {
+    parse(): Archive | null {
+        if (!this.xmlDoc) {
             return null
         }
 
-        return parseTraktor(xmlDoc)
+        return parseTraktor(this.xmlDoc)
     }  
 }
 
