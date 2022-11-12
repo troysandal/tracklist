@@ -35,6 +35,8 @@
     "@types/chai": "^4.3.3",
     "@types/mocha": "^10.0.0",
     "chai": "^4.3.6",
+    "jsdom": "^20.0.2",
+    "jsdom-global": "^3.0.2",
     "mocha": "^10.1.0",
     "ts-node": "^10.9.1"
   }

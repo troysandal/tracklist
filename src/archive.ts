@@ -29,8 +29,11 @@ export interface Playlist {
 
     filter(startIndex: number, playedLive: boolean): Playlist
 }
+
+export type Collection = { [n: string]: ArchiveTrack }
+
 export interface Archive {
-    collection: { [n: string]: ArchiveTrack }
+    collection: Collection
     playlists: Array<Playlist>
     format: string
 }
