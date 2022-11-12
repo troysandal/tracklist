@@ -49,16 +49,15 @@
 
     <div id="playlistResults" class="hidden">
         <h2>Step 2 - Track Formatting</h2>
-    <p>The format string defines what your tracks looks like in the playlist.  
-        We've chosen a default for you that shows the track index, title and 
-        artist name but you can customize it however you want.</p>
-    <div>
-        <p>Track Format String:
-            <input type="text" id="formatString" value="${INDEX}. ${TITLE} by ${ARTIST}" />
-            <textarea id="archive" style="display:none"></textarea>
-        </p>
-        <p id="fieldList">Available Fields: </p>
-    </div>
+        <p>The format string defines what your tracks looks like in the playlist.  
+            We've chosen a default for you that shows the track index, title and 
+            artist name but you can customize it however you want.</p>
+        <div>
+            <p>Track Format String:
+                <input type="text" id="formatString" value="${INDEX}. ${TITLE} by ${ARTIST}" />
+            </p>
+            <p id="fieldList">Available Fields: </p>
+        </div>
 
         <h2>Your Playlist(s)</h2>
         Playlists: <select id="playlistsDropDown">

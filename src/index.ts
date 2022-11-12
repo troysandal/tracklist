@@ -43,13 +43,11 @@ function getFormatString() {
     return null
 }
 
-function convertToReadable() {
-    const fileContentsElement = getElementById<HTMLTextAreaElement>('archive')
-    const fileContents = fileContentsElement.value
-    const archive = parseArchive(fileContents)
-
+function convertToReadable(fileContents: string) {
     hideErrorResult()
     hidePlaylistResults()
+
+    const archive = parseArchive(fileContents)
 
     if (!archive) {
         showErrorResult('Sorry, we could not parse that file.')
@@ -70,6 +68,7 @@ function convertToReadable() {
         (option as any).playlist = playlist
         dropDown.appendChild(option)
     })
+    
     showPlaylistResults()
     updateSelectedPlaylist()
 }
@@ -116,11 +115,8 @@ function uploadTracklist(e: Event) {XMLHttpRequestEventTarget
 
     reader.readAsText(file)
     reader.onload = function () {
-        if (reader.result) {
-            const archive = getElementById<HTMLTextAreaElement>('archive')
-            archive.value = reader.result.toString()
-        }
-        convertToReadable()
+        const newArchiveText: string = reader?.result?.toString() ?? ''
+        convertToReadable(newArchiveText)
     }
     // If you upload the same file twice the second upload won't trigger
     // this function.  Clearing the value fixes this.
