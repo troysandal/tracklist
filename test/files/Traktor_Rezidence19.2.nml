@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<NML VERSION="19">
+
+    <HEAD COMPANY="www.native-instruments.com" PROGRAM="Traktor"></HEAD>
+    <MUSICFOLDERS></MUSICFOLDERS>
+    <COLLECTION ENTRIES="22">
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18799"
+            AUDIO_ID="Ab8VMzRSQ1MzNSQ1MkNSM1QkNiNYh3eGd4h4eGd4h4eGd4iIeXiJmIeGeHh4eGeJqIeHeYiIeHeHhURkNkY0RUNXhlVmV2dVVnV77IiYipqYiZeb3bmZipmYiamIqZmZepqpmZeYmZqZeaqYqaiZh0Q2NHZUZnRWq5iKeaq5mJiau7qKiqu5lWNHvamqiamZmZiKvbmZmrmJiamYRUVXhmWGVGdnm7qaqbq7qaqbq7qaqbq7qaqZiYaKqsqqqqqavdqpqaqqqqqZnLmaqJiqmZp5mrmpqJqqmZqZq8mYqbuqqYmImsqHmIqZmYmImbqHmHmJmHmHicuHmHiJiImHgA=="
+            TITLE="Moments In Life (16 Bit Lolitas Remix)" ARTIST="(U) Navar">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:"
+                FILE="02-navar-moments_in_life__16_bit_lolitas_remix_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="MacIntosh HD"></LOCATION>
+            <ALBUM OF_TRACKS="4" TRACK="2" TITLE="Moments In Life EP"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Vocal Deep House Groove" LABEL="microCastle"
+                COMMENT="5 - microCastle / MCSL035 www.electrofresh.org" REMIXER="16 Bit Lolitas"
+                COVERARTID="009/JUW0RHDUK1WDJBYUA1BZADG5T2ZA" KEY="12A" PLAYCOUNT="25" PLAYTIME="448"
+                PLAYTIME_FLOAT="447.112000" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2014/1/1" FLAGS="12" FILESIZE="17488"></INFO>
+            <TEMPO BPM="120.500999" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.258934" PERCEIVED_DB="1.368640" ANALYZED_DB="1.368640"></LOUDNESS>
+            <MUSICAL_KEY VALUE="13"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="87.913200" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="127555.735625" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="270957.035853" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="286890.513656" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="350624.424868" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="434275.183335" LEN="7966.738902" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18847"
+            AUDIO_ID="AaBIh4eHeHh3h4eIeHh4h4eHZlQRETq5vKqZqrm8qpqauby6mpq6u2MiOvzuz97s7e7O3v3t38/e+/3flkWb/+7e3ezu3t7s7e7f7v3t3ru6upiLqpqop2RDM0qYapeYdVRDNGQzMzR1Q1VXVDNVMyREZnZDI1ZTM2d2jv393r7M2YUyIiz8/d/P3fz9387u7O7O3uz8mmZXaP/vz9387d/O3fzu797t/e29qYZmZ3RGVHZ3NWZkRXZXd0Ild3iJmIdSTu397s/d/P7vzt38/t/O3fvMmGVc/P3fzuzs7s7e/f3ez93r7LyKiJjszr7M693Ovdzr3c7N6+zOvszr4A=="
+            TITLE="Aldebaran" ARTIST="(U) Armen Miran &amp; Hraach">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="Armen Miran Hraach-Aldebaran Original Mix_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TITLE="Inevitable Ending Ep"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Ethnic Deep House" LABEL="Sol Selectas" COMMENT="5 - 16/09/2016"
+                COVERARTID="099/DTGUVEC1TWG5MABVPRRRDVCMK4MC" KEY="7A" PLAYCOUNT="16" PLAYTIME="417"
+                PLAYTIME_FLOAT="416.260986" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2016/1/1" FLAGS="12" FILESIZE="16348"></INFO>
+            <TEMPO BPM="116.000000" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.459626" PERCEIVED_DB="2.215090" ANALYZED_DB="2.215090"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="85.141000" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="33188.589276" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="316636.865138" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="399395.485828" LEN="16551.724138" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18833"
+            AUDIO_ID="AZlGdmdmdmZndnZ3dnZ3ZnZnZ3d3d2Z3Z2d2d3d3dHzLvLu7y7u8u7y7u8y7vMu7y7vMu7vLu8vLvMuZrLvNzMzczby7vc3M3czMzMzd3M3MzMzMzczMu6m9zc3czMzLzdzc3MzMzM3c3My7zc3M3d3MzM3d3NmIiIiIiIiIiIhTM0MzNDMzMzNENDQzQ0VUNDREVERVRUVVVVVWd5zMvLu7y7vMu8rMzN3dzczM3N3dzczMy93Nzdyqp3d4d3Z2dneHed3czMzNzczczN3Mzd3d3czMzMzczMy8vMzMzczMu7vMzMvLu7u7ipmIh3h3h3dnd3dmZmZnZnZ2ZnYQAA=="
+            TITLE="Balagan (Balcazar Remix)" ARTIST="(U) Betoko">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="9443454 Balagan Balcazar Remix_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="3" TITLE="Balagan"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep Progressive Tech House" LABEL="Einmusika Recordings" COMMENT="6"
+                REMIXER="Balcazar" COVERARTID="100/EXR2AXDK45NBLAB34B5PBR1Y4EGC" KEY="7A" PLAYCOUNT="15" PLAYTIME="410"
+                PLAYTIME_FLOAT="409.338989" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/4/19"
+                RELEASE_DATE="2017/1/1" FLAGS="14" FILESIZE="16116"></INFO>
+            <TEMPO BPM="123.000000" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.697664" PERCEIVED_DB="4.195630" ANALYZED_DB="4.195630"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="91.269500" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="93749.806085" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="156188.830476" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="390335.000000" LEN="15609.800000" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18813"
+            AUDIO_ID="AXQ1VEVmVEZlRGZlRXZUV2VEZmVVZVVruqq7uqu7qqu7q97Mzd673t7t3bZGd1VmVER2VEZVVr7rzP7Znf3Kzuqa7szO/are26zuu73tvO/bnO6qruya7/7u/8rf/t//+p39qM7qqu7JndtliZVGd2VZmFR2VDRERVVURFRVRlVUi7mZq4RJqZmax1a7qpq8uKu8rP7obd3c3ezM3e3f/+u9u83Lvu7e7u/tvu3Nzd7+/tu7yofP7d3v/u/+/f//3P7t3f7+7+7e7qie3c3e3+7tu7zId9/are66vuur7tqryqq7uqrLubu6qqmpqpmZmZmJmYmJiXh4eHciIiIiAA=="
+            TITLE="Airborne" ARTIST="(U) Sammy Legs &amp; Magic Woman">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:"
+                FILE="Sammy Legs &amp; Magic Woman - Airborne Original Mix_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep Vocal Tech" COMMENT="5 &quot;Heyyyy boy, floating through the room&quot;"
+                COVERARTID="117/VHFW3WCPHTMU3CAPMFUWAKH1QBEC" KEY="12A" PLAYCOUNT="19" PLAYTIME="372"
+                PLAYTIME_FLOAT="371.591827" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21" FLAGS="14"
+                FILESIZE="15368"></INFO>
+            <TEMPO BPM="123.999855" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.314492" PERCEIVED_DB="1.873322" ANALYZED_DB="1.873322"></LOUDNESS>
+            <MUSICAL_KEY VALUE="13"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="103.486627" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="46555.153833" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="216877.933589" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="294297.378933" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18803"
+            AUDIO_ID="AXgYmZmZmZmpqampqampqZmZqZmZmZppm6q6m5uruquap5q7q7m5urmoMiIzMyIhERIkMiERERNCISMREkMiIyI328vLy7vcy8y8y53MvbzMvsy9zLy43MzLzLzdy9zLy53bzLzLzdzMy7hWRTIhMiIjQiIiIjMzIhEREiQiIRESMyERAAABQhERERMyERIhESIiEjM0zMrLu8rNy7u8u5rMvMy8vN3MvLy5nby8vMvN27vLy7rby9vMzNzLzLtmmqqampqKm5qamYWrqam5qaq5qamlPMu7u7u9zLu7u7nMu7y8rNy7u7y7jcu7y8rM27vKy7jLy7y8rM27vKyEUA=="
+            TITLE="Gas" ARTIST="(U) Deep Active Sound">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="10388808 Gas Original Mix_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="2" TITLE="Different Attitudes For Miami 2018"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep House" LABEL="Different Attitudes" COMMENT="5 -"
+                COVERARTID="086/WCWCUYB1HYFDSCS2BIAIDC10JQEA" KEY="12A" PLAYCOUNT="25" PLAYTIME="377"
+                PLAYTIME_FLOAT="376.058777" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2018/1/1" FLAGS="14" FILESIZE="15392"></INFO>
+            <TEMPO BPM="122.999908" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.572990" PERCEIVED_DB="1.243118" ANALYZED_DB="1.243118"></LOUDNESS>
+            <MUSICAL_KEY VALUE="13"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="575.418949" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="94234.025247" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="172282.863829" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="359600.076426" LEN="15609.767716" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18850"
+            AUDIO_ID="AcQAABABEAEQATQzMyEREREREjW+387e3e3s7e7e3s7OuHeGhobe3t/f7t7t/f7t7t7f797ZmJr97u7f79/e7f79/f7v79+6iZ39/f7//9/f3+qZqbmqqaqrm47u/f3+7e7f3+/f7v3+/f2Zis/f7u7//f3+76qKiomZmKioqt7f397u7e3s7Ih4d2ZlVVVVVkVURWZ3VEREVUVERENDREREV2d2dWaGVWdWaHd3dlZ2VXZDTO39/f/+39/O7u3t/fyYmYp1n+/u/f79/u/f79/v7v79/Kmb39/v7//9/f7v79/f3uqYqKiq7t7fzu7d7ez8mIhnZ1ZUQzMyAAAAAA=="
+            TITLE="Bring Back The Sound (Kohra Remix)" ARTIST="(U) Shai T">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="11320235 Bring Back The Sound  (Kohra Remix)_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="3" TITLE="Last Days Of Summer / Bring Back The Sound"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep Organic Ethnic Progressive House" LABEL="Beat Boutique" COMMENT="6"
+                COVERARTID="118/W10TRZCOT1LCHAC2ETK4CRWH5U5C" KEY="7A" PLAYCOUNT="17" PLAYTIME="453"
+                PLAYTIME_FLOAT="452.284088" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2018/12/17" FLAGS="12" FILESIZE="17872"></INFO>
+            <TEMPO BPM="120.999931" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.493574" PERCEIVED_DB="3.225349" ANALYZED_DB="3.225349"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="86.786546" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="127029.007343" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="349177.893738" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="380913.448937" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="412649.004136" LEN="15867.777600" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18845"
+            AUDIO_ID="AZMmVlVVVVZmZmZmZlZWZWZmZmZmZmZmZmd3dmZmd3dmZ3d3eIh3iInv/v////////7v7v//7//+7//+7u7u7+7u7u7u7t7u7u7u7u7tdEvu7u7u7u7u7u7u7u7u3u7u3sU0IiIhEREREREREREhIjMzREREVVVVVVVniHdmZmZVVVVVVVVVVVQq/+7u7u/+7u7u7u7u/u/u7u7GRc7u7u7u7u7u7u3u3u7u7+7tQ0R+/+/+///////u/u/v/u1lMhERKP/u7u7v7u3u7u7u7u7u7t7u1zO////////////+/v/v/v//////7cl2ZmZnZmZmZndmZmZmd2ZmZmUQAA=="
+            TITLE="Dustpig" ARTIST="(U) Fabrication">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="Fabrication - Dustpig_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TITLE="Dustpig EP (06 Jul 2020)"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Driving Melodic House &amp; Techno" LABEL="Recovery Collective" COMMENT="6"
+                COVERARTID="055/XRFLR1BEZV5BPBSKR4Q1BLCLTQ5A" KEY="7A" PLAYCOUNT="14" PLAYTIME="404"
+                PLAYTIME_FLOAT="403.173889" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2020/1/1" FLAGS="12" FILESIZE="16812"></INFO>
+            <TEMPO BPM="124.999870" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.393986" PERCEIVED_DB="4.179558" ANALYZED_DB="4.179558"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="105.004944" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="61545.068694" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="245865.259944" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="384105.403382" LEN="15360.015938" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18852"
+            AUDIO_ID="AO5ZmJmZiZmJiYNERFRERERFREVERUVERERUREREVFRERFRUVlZnd2VVVVVWh2mHdmZmd2Vnh3h2ZmZ2Zmd3iYh3dniHZ4iIiIh3ZnZqzLvMvMzM3dzLy7zMvMvN3MzMvMzMzLzMu8y6zMvN28zchnVWZUVVRVVEZlWHVFVVZmVpyquXaHd3h43MzLzMzM3M3NvMzMzMzdzd3czczc3N3MzN3MzNzNy93dzMy8zczdzN3czLvMvN3M3e3dzLzMvM3MzczMu8y8zczt7NzLvMvMzNzdzMy9zM3Nzc3amIiZmYmpmqlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="Lie Alone (16 Bit Lolitas Remix)" ARTIST="(U) L. Doblado">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="L. Doblado - Lie Alone(16 Bit Lolitas Remix)_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Pretty Vocal Deep House" LABEL="TOTV.ORG"
+                COMMENT="6 &quot;There's a life I lost...&quot;" KEY_LYRICS="TOTV.ORG" REMIXER="TOTV.ORG" KEY="7A"
+                PLAYCOUNT="23" PLAYTIME="239" PLAYTIME_FLOAT="238.341217" RANKING="255" IMPORT_DATE="2022/5/21"
+                LAST_PLAYED="2022/5/21" RELEASE_DATE="2018/1/1" FLAGS="12" FILESIZE="9344"></INFO>
+            <TEMPO BPM="122.000244" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.352170" PERCEIVED_DB="2.523926" ANALYZED_DB="2.523926"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="78.755938" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="78.755938" LEN="7868.836712" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="7947.592650" LEN="7868.836712" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="39422.939499" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="196799.673744" LEN="7868.836712" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18808"
+            AUDIO_ID="AXZEWUVkhVdGdHRZNXWEV0d1dFhHVZZnSGWFaVdnlFdYVIZ3R2aUZ3lFdoZHRoRlWUZlhmhGhWRpRmaVV0d0hWlHduVZTYWUm0h37fx+Zaa6SGjUeX2/1chJWMf4bmm1v/////7//+/+///v+HtHlrz/eYWnfM+Y9Wp+dardnLv+/b+q2ulZrPm7v9/a/J2c2/qOWrbP/n+1l51/t+eNa/7VSCVye/xCETIjz3jkaF1mlLlaaO75bmWlyVlrxId9z9v7np3e/M+byv3er8nZzH/b+s2d/v///+///f/v//7/aOR4bc/kyUlZ/fd+RpXHz1rExW7ugAAAAAAAAAAAAA=="
+            TITLE="the only dream" ARTIST="(U) yulia niko">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="yulia niko - the only dream_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Vocal Liquid Whispery Breaky Downtempo"
+                COMMENT="6 &quot;Feed it, it feeds you back&quot;" COVERARTID="078/OC4MF5BGOVTTBBVKHRISCXEEV5CD"
+                KEY="2A" PLAYCOUNT="15" PLAYTIME="375" PLAYTIME_FLOAT="374.360809" RANKING="204" IMPORT_DATE="2022/5/21"
+                LAST_PLAYED="2022/5/21" FLAGS="12" FILESIZE="14792"></INFO>
+            <TEMPO BPM="122.999893" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.135150" PERCEIVED_DB="1.205772" ANALYZED_DB="1.205772"></LOUDNESS>
+            <MUSICAL_KEY VALUE="15"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="149.690341" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="125025.847564" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="203076.695828" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="327952.853051" LEN="15609.769653" REPEATS="-1"
+                HOTCUE="2"></CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="343562.622704" LEN="15609.769653" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18843"
+            AUDIO_ID="AbB93czMzMzNzM3dzd3d3d3e60Xe7u7u7u7u7rn93u3d7d3Zd2YiESIhIiEiIhIiEiIiIjM0RFzu7+7u7u7u7u7e7t7u7d6ndZ7d7t3u3d7t3u3d7t3u3d2Id1MiMzIiMjMzIiMiMyIiIiIiI1VWZkVWVWZUVmVWZUZmVWZmZmVWZVZmRWZVZWRVVVVVVXid/97u3e7t3u3e7t3u7e7t3Ydlv93t3e7d3t3e7d7t3e7d3Hd3zd3t3e3d3t3e3d7t3dd2Z2ZI7d7t3e3d7t3u3e7d3u3d2Id8zMzMzMzMzMzMzMzMzMzMdER8zMzMzMzMzMzMzMzMzMzLZWZBEAAAAA=="
+            TITLE="When I Mod" ARTIST="(U) Bradley Skeng">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:"
+                FILE="15902034 Bradley Skeng When I Mod  (Original Mix)_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="2" TITLE="When I Mod"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deep Clubby Tech House" LABEL="WyldCard" COMMENT="7"
+                COVERARTID="078/O4LI2UBQ4ZC1AAU1BIPHBVRBN2QD" KEY="7A" PLAYCOUNT="17" PLAYTIME="432"
+                PLAYTIME_FLOAT="431.882446" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2021/1/1" FLAGS="12" FILESIZE="17428"></INFO>
+            <TEMPO BPM="127.000000" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="1.362839" PERCEIVED_DB="1.899811" ANALYZED_DB="1.899811"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="Beat Marker" DISPL_ORDER="0" TYPE="4" START="94.331063" LEN="0.000000" REPEATS="-1"
+                HOTCUE="0"></CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="241984.094843" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="272220.315315" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="408283.307441" LEN="7559.055118" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18824"
+            AUDIO_ID="Aa1Kmpmpqamampqpqamqmpqqmamququ7q6q6urq827y9urvKururnLy9yrvcu827zcvL66vNzL3LvNy8zbu9zMvbq6llWXVWmGV4VYzLy8u7vLy8y8zbzN27vdzM273cvL26vNzL3LvMqqqqqZq6mqqrybqrqauqurmau6urqazKuruZrKu7yqu7vKy7vNvczLu9vMvLu7y8zbu93MvsrN28zcu87LzNu8yHZ4ZnmpiKmImId2ZmaXdWdmaKqquqqrupypq73MzcvM3czcvNzMzczM3cvMzM7czOy8x3vN27zbvLyru8vKu6u7m5mpibmam4iZmYmJiIiImImJIAAA=="
+            TITLE="Funkily (Extended Mix)" ARTIST="(U) Quivver">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="16070775 Quivver Funkily  (Extended Mix)_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="9" TITLE="John Digweed Presents Quattro Artists"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Up Deep Melodic House &amp; Techno" LABEL="Bedrock Records" COMMENT="6"
+                COVERARTID="002/CYME2SC12O0HHBNDD02CDTHLJCRB" KEY="7A" PLAYCOUNT="26" PLAYTIME="430"
+                PLAYTIME_FLOAT="429.453064" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2021/1/1" FLAGS="12" FILESIZE="17548"></INFO>
+            <TEMPO BPM="122.000008" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.881877" PERCEIVED_DB="2.407303" ANALYZED_DB="2.407303"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="135.896996" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="31611.304864" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="283414.567805" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="409316.199276" LEN="15737.703934" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18837"
+            AUDIO_ID="AbZHd3d3d3d3d3d3h3d3d4h3d3d3d3eHeHh3d4iIiIh4iIiIiIYzNDM0VVVmd3jMzM3d3dzc3czN3c3N3dzd3d3d3c7e3M3bmIvuzN3e3N3LzNqpmYmZiJiHd3rLmqq7mKuXiIdnZmd2ZYd2eGREbM3MzMy7y7u7rO3N7d7M3czM3Nzd3N283LzN3ezO3e3M7M3ezezNze3MzMy+zezNzOy83M3Ozuzezey93MzNztzNzuzNzLuqq4iampeJl4iJiIeHd3Z3d3eM7t3+7tzey9zt7s793tzuzMzt3c3dzMzMvMzMzMy7u7u6mamZiIiIeId3d3d3d3d3d3d3d3YAAA=="
+            TITLE="Diaspora" ARTIST="(U) DJ Samer">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="16066273 DJ Samer Diaspora  (Original Mix)_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="13" TITLE="Bedrock Collection 2021"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Pretty Driving Progressive House" LABEL="Bedrock Records" COMMENT="6"
+                COVERARTID="084/U0F5D2DWWHCSRD2XJBWDBU3KNTVC" KEY="7A" PLAYCOUNT="18" PLAYTIME="438"
+                PLAYTIME_FLOAT="437.838379" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2021/1/1" FLAGS="12" FILESIZE="18372"></INFO>
+            <TEMPO BPM="124.999908" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="1.470078" PERCEIVED_DB="4.389992" ANALYZED_DB="4.389992"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="93.521103" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="122973.611103" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="341853.771416" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="403293.816416" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="418653.827666" LEN="15360.011250" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18797"
+            AUDIO_ID="AaQ6qqqqqqqquqqqqqqqqrqqqqqqu6qqqqq7qrqqqquqqquqq6q7vN3e3d3d7d3d3d7e7d3d3d7d3d3t3t3d3t3d3e3e7u7d3d3u3Zi93d3d3d3d3d3d3d3d3d3d7d3dZVVEVFRVVUVFVnZkV3ZnVVeFVnh1WJiIdlVniKu6qpmpmqqaqqU0ZCEQN3d73d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3JmJmZmt3e3d3d3d3d3d3d3d3d3d3d2Zvt3d3d3d3d3d3d3d3d3d3d3d3buqqqq6q7u7q7qquququ6q6qrqqqqqqqqqqqqqqqqqqqqqqqqqSEAAA=="
+            TITLE="To the Sea (8Kays Remix)" ARTIST="(U) Booka Shade, Eli &amp; Fur">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:"
+                FILE="Booka Shade, Eli &amp; Fur - To the Sea (8Kays Remix)_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="319992" GENRE="Vocal/Lyric Progressive Tech" LABEL="TraxCrate.com"
+                COMMENT="6 - &quot;Take me to the sea&quot;" KEY_LYRICS="TraxCrate.com" REMIXER="TraxCrate.com"
+                COVERARTID="079/PWOXTTDVW5RIWDXKZG3LA4QMKVJA" KEY="7A" PLAYCOUNT="28" PLAYTIME="420"
+                PLAYTIME_FLOAT="419.761627" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2020/1/1" FLAGS="12" FILESIZE="17472"></INFO>
+            <TEMPO BPM="123.999931" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="2.368781" PERCEIVED_DB="2.761993" ANALYZED_DB="2.761993"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="335.021973" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="62270.540141" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="93238.299224" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="228722.245216" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="352593.281551" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="399044.920177" LEN="15483.879542" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18815"
+            AUDIO_ID="AbkFiIiIiIiIiIiIiIiIiIiIiIiFaruruququ7q7qrqruruqu6u4eLu7u7u7u7u7u7u7u7u7u7u7uou7u7u7u7u7u7u7u7u7u7u5d3e7u7u7u7u7vMvMu7u8y8y7uamLzMu8zMzLy8zMzMu8zMzMzMzLmZiZmZmZiJmZmpmZqqqpqaiImImZiYmIiYhDQ43Nzdzdzczdzc3MzN3NhERVUybMzM3My8zMzMzMzMzMzMzMzaqszMzMzLzMzczMzMzNzMzMzMy5mId2Z3dmZVREbMzMzMzMzMvMzLu8q8vMu7u5ibu7u7u7u7u6u6qqqqqqqZmZmVVERVVWZmd3d4YQAA=="
+            TITLE="Hoba" ARTIST="(U) John Cosani">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="John Cosani - Hoba_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Warm Deep Organic Tribal Sunrise House" COMMENT="5 -"
+                COVERARTID="071/HWVCS3CZ4AB3HALUHHI2A53YQ5VC" KEY="7A" PLAYCOUNT="33" PLAYTIME="441"
+                PLAYTIME_FLOAT="440.581238" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2021/1/1" FLAGS="12" FILESIZE="18256"></INFO>
+            <TEMPO BPM="118.999863" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="1.054261" PERCEIVED_DB="3.672470" ANALYZED_DB="3.672470"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="863.035619" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="65400.925223" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="162207.759630" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="275149.066438" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="355821.428444" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="420359.318048" LEN="16134.472401" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18822"
+            AUDIO_ID="AagSIiIiIiIiIjM0REREREREREREVURVVUVVRFRERFzu7u7v/u7u7u7u7v7u7+/u7v7v7v7/7//v7u7u7u7/7+/+/u7u7uzNvc3c3NzNvMyGZmZmZmZlVVVnzdzc3N/Nzdzd3c3NzNz9zc3M3dzdzc3N+9zdvd3L28y9v8vby83cvMvbzN68vMvM3M3Nzdz83c3N3biHh3d3Z2dnd3iIeIiIiId3d3d8/////////////////////////+7+7+7v7+7+/u/u/v7v/+7v7u7u7+7+7u7+7+/u/u/v7u7v7v7v7+7d3Mu7qqqZiIiHdmZVVVRERDQzMzIiIiIiIiIjIA=="
+            TITLE="Desert Karavan (Elfenberg Remix)" ARTIST="(U) Literatura">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:"
+                FILE="Literatura-Desert Karavan-Elfenberg Remix-30672034_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="2"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Indie Dance/Nu Disco" COMMENT="6"
+                COVERARTID="102/GL51MKD1A4MCLBFLZ2PGCMQPEAZC" KEY="7A" PLAYCOUNT="22" PLAYTIME="425"
+                PLAYTIME_FLOAT="424.489807" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2020/1/1" FLAGS="12" FILESIZE="17584"></INFO>
+            <TEMPO BPM="118.000061" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.810961" PERCEIVED_DB="1.728607" ANALYZED_DB="1.728607"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="Beat Marker" DISPL_ORDER="0" TYPE="4" START="123.356007" LEN="0.000000" REPEATS="-1"
+                HOTCUE="0"></CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="65208.068105" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="146563.958227" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="227919.848349" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="276733.382423" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="358089.272545" LEN="16271.178024" REPEATS="-1"
+                HOTCUE="4"></CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="406902.806618" LEN="16271.178024" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18840"
+            AUDIO_ID="AaMBRERERERERFRVVVVVVWZmZmZmeby7y7u7u7vLvMzMvMvMvMy8tCfd3M3MzMzMzM3MzMzMzMzMzMzM3NzMzN3M3MzMzM3MzMzMzMzMzN3dzNzMzMzMzczMzM3MzMzMzczc3d3dzd3d3d3N3d3e7N3d3d3IiIiHeIh4h3d3dnZmVVZVVURFVmd3d3d3d2d3d2eHd4iIeHeHd4zc3N3c3czczdzczczdzNzNzN3MzMzM3d3M3czczMzt3dzMzMzMqIiIiIiJmYiImWZ2Z2dmZmZmd5zNzN3NzM3M3N3M3M3MzczczczczMzMzNzNzMzId3d2ZmZlVVVUIAAAAAAAAA=="
+            TITLE="Dekline feat. Haptic (Matan Caspi Remix)" ARTIST="(U) Betoko &amp; Th;en">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:"
+                FILE="16220943 Betoko, Th;en, Haptic Dekline feat. Haptic  (Matan Caspi Remix)_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="Dekline - Matan Caspi / Torsten Fassbender Remix"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Vocal Progressive House" LABEL="Afterglow Records" COMMENT="6"
+                COVERARTID="059/1ZWV2FDBW3NI3BO2F4GVDIM4W4EA" KEY="7A" PLAYCOUNT="11" PLAYTIME="419"
+                PLAYTIME_FLOAT="418.612244" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2022/1/1" FLAGS="12" FILESIZE="17588"></INFO>
+            <TEMPO BPM="123.000023" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="2.321404" PERCEIVED_DB="4.142036" ANALYZED_DB="4.142036"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="1060.379267" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="94718.898424" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="250816.430352" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="391304.209088" LEN="15609.753193" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18835"
+            AUDIO_ID="AY9bu7vLy8zMzMy8zczMzMzMy8zMzMzLu7u7u8u7u7u7u7u7u7u7u7u7u7u77Mu7u8zMzLq7vc69u7u93dy7u8vM3Mu7vNzby7vLzNzLvLvNzby7u5qaiYiZmqmph4eN3czszLzM7dy8zd3c3MzM3d3NvMzNz93c3M3d3dzMyni4mYmrqrq5iazaupl4eJmsuod3nd7d3MzMzNzbzM3e7dy9zMvbzMvMzd3NzMvN3czLyrzN3My8rN3My7u73Nzczb3dzc3My83O3dzczc3MzMzN/+zLu7u7u7u7u7u7u7u7y7u7u7u6mpmpqampqaqaq5qamqqqqampqqYQAAAAAA=="
+            TITLE="Arcadia" ARTIST="(U) Nosssia">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="Nosssia-Arcadia-Original Mix-118_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Deepish Clubby Progressive Electro Techno" COMMENT="6"
+                COVERARTID="083/TSGNCXDNRVQ23A4LBHDHDHQJNHAD" KEY="7A" PLAYCOUNT="26" PLAYTIME="399"
+                PLAYTIME_FLOAT="398.759186" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2020/1/1" FLAGS="12" FILESIZE="17008"></INFO>
+            <TEMPO BPM="118.000084" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="1.746488" PERCEIVED_DB="1.608475" ANALYZED_DB="1.608475"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="101.237848" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="65185.937322" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="130270.636795" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="227897.686005" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="325524.735216" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="374338.259821" LEN="16271.174868" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18794"
+            AUDIO_ID="AecAAAAAAAAAAAAAQxFDEBMRESFnVFZ2VWMSdjFFMiJFJFElI3iHd3dEZTFCE2ZBJjZ2UlU3eHmIdmZTJFRmRENXZFRURHl3d3ZlRDMzNUZmQxn+/+3f/f/u3+3v/t7+3/3tnu//3O7f/+3v7v/t7////nfe7/7e/+//3f7///7/7v/+/nd4l3eYiHeXd3iHVEZlRTImVDN1JYY1Q0aGZod3ZTMiIjWIZFZIhnZYiWmYeJaLiIhmZVRVMr///+7/3//u/+//7v/u//yr/v/+3/7v/s7+7/7O/+//1Xzt/+3v7e/d3/zv/t/u3/6Gq5vrmtuq26nMqc25vbm9txEAAA=="
+            TITLE="Come Together (Extended Mix)" ARTIST="(U) Nox Vahn, Marsh">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="Nox Vahn, Marsh - Come Together(Extended Mix)PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Vocal/Talky Pretty Hypnotic Deep Tech" COMMENT="6 -" KEY="7A" PLAYCOUNT="23"
+                PLAYTIME="487" PLAYTIME_FLOAT="486.530609" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2020/1/1" FLAGS="12" FILESIZE="20048"></INFO>
+            <TEMPO BPM="120.000412" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.170518" PERCEIVED_DB="2.604919" ANALYZED_DB="2.604919"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="Beat Marker" DISPL_ORDER="0" TYPE="4" START="10165.539920" LEN="0.000000" REPEATS="-1"
+                HOTCUE="0"></CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="18165.512455" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="154165.045537" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="354164.358894" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="354164.358894" LEN="0.000000" REPEATS="-1" HOTCUE="5">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="418164.139168" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="466163.974374" LEN="15999.945069" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18827"
+            AUDIO_ID="AZUqqqmqqqqqqqqqqqqqqqqqq6qqyqq7q6u6urq6rLu7urq7q7pDNI7u7+7u7v7+7u/u7u7u7u/v7qm+7u7u7u7+/u7s7u7u7u7v7+6Xh3V3ZVdmZXVVV2RDRVM0VFVUVb7u7u7u7v7+7u7v7u7u7u/v7uu+/u7u7+7+/u7d7+/u7v7v7+65qId2ZlZVVEVEVUVDRERENDNDVUQ0MzMiMzMzIyNEM0QzNERVU1R+/v7u7+7+/u7v7+/u7v7v7+7u3v7+7u/v/v7u7u/v7u7+/+/uh2UzQ0M0zv7+7u7v7+7u/u/v7u7u/v7si97t3d7d393d7d3u3d3t3e3czDEAAA=="
+            TITLE="Push It" ARTIST="(U) Proudly People">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="Proudly People - Push It_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="319988" GENRE="Vocal/Rappy Rolly Clubby Tech" COMMENT="6 - " KEY="2A" PLAYCOUNT="17"
+                PLAYTIME="405" PLAYTIME_FLOAT="404.519196" RANKING="255" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2021/1/1" FLAGS="12" FILESIZE="15828"></INFO>
+            <TEMPO BPM="127.000000" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="1.260283" PERCEIVED_DB="1.878479" ANALYZED_DB="1.878479"></LOUDNESS>
+            <MUSICAL_KEY VALUE="15"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="347.338945" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="121292.220835" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="280032.378315" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="340504.819260" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="370741.039732" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="385859.149968" LEN="15118.110236" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18830"
+            AUDIO_ID="Ae1JiIiIiIiIiIiIiIiIiIiIzd3d3d3d3d3d3d3ZVEQiOt3d3d3d3d3d3d3d3d3d223d3d3d3d3d3d3d3d3d3dp2Z2ZnZmdmd3Z3dndlZmVo3d3d3d3d3b7d3d3d3d3L3t3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3dyZmpmZmaqZmamqmZmqqqmnZnZmdnd2Z2VVZlZWVnZWjd3d3d3d3d3d3d3d3d3dyt3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3Id3d3d3d3d3IAAA=="
+            TITLE="Let's Get Bizzee" ARTIST="(U) Jon Lee, Pattern Drama">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:"
+                FILE="10229810 Jon Lee, Pattern Drama Let s Get Bizzee  (Original Mix)_PN.mp3" VOLUME="Macintosh HD"
+                VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="Let's Get Bizzee"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Tech House Groove Layer" LABEL="Desert Hearts Records" COMMENT="6"
+                COVERARTID="109/NDFIE3C2GOX5QD122UK0AVOZVJEA" KEY="2A" PLAYCOUNT="3" PLAYTIME="494"
+                PLAYTIME_FLOAT="493.061218" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/4/19"
+                RELEASE_DATE="2018/2/16" FLAGS="12" FILESIZE="20660"></INFO>
+            <TEMPO BPM="125.999985" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="1.652334" PERCEIVED_DB="2.011444" ANALYZED_DB="2.011444"></LOUDNESS>
+            <MUSICAL_KEY VALUE="15"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="99.042542" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="45813.333792" LEN="0.000000" REPEATS="-1" HOTCUE="6">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="152480.013377" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="304860.984211" LEN="0.000000" REPEATS="-1" HOTCUE="2">
+            </CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18810"
+            AUDIO_ID="AepLu7u7u7u7u7vLu8u7y7vLzdzMzc3dzs7Ozs7Ozc3JZ3zdzt3d3d7u3e7tze3N7e3d7ezd7e3t7f3s7e3bqczM28zc7ezt7Nzd3O3d7u7t3czN3e/93dzd793d3c7f/v/uynVmZVVVVFVVREMzMzM0M0dmVVRFVUZTJFVFVERVRVQ0VVVVVUVVVERVVVVVRVVWed7f/u7f/u7e3u///u/+7+ze7//u7/7u7t7+/e/f/d3u3u7u7t3t3t7d7+7u7u3u3u3u7e3d3t3t2s3bq7q7u8q87u///f7u/+3//v/t/+zv3d3c3Nzs3Nzc3NzczMzLzMtTMzMzIzMzSmZUEA=="
+            TITLE="VCF" ARTIST="(U) James Harcourt">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="James Harcourt - VCF Original Mix_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="VCF | Animal | Parallel Play"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Melodic House &amp; Techno Groove" LABEL="Parquet Recordings" COMMENT="6"
+                COVERARTID="033/BNOP43A2OQLWICYJD5KBDUOAPM3B" KEY="12A" PLAYCOUNT="18" PLAYTIME="490"
+                PLAYTIME_FLOAT="489.978790" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2020/1/1" FLAGS="12" FILESIZE="19560"></INFO>
+            <TEMPO BPM="122.999794" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.417081" PERCEIVED_DB="3.984688" ANALYZED_DB="3.984688"></LOUDNESS>
+            <MUSICAL_KEY VALUE="13"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="139.414385" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="125017.672305" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="405993.752624" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="452823.099344" LEN="15609.782240" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2022/5/22" MODIFIED_TIME="18818"
+            AUDIO_ID="Ai9amZmpmZmampqamqmqqaqqypy6rKrLqtqsyWhVftu7qqqqqr7bqqqqqqq+67qqqqqqrfu6qquqq738uqqqq7qs/bu6q7qrls7O3Mu73LvOvMqqqryqvruqmZiHd3p2VDMzMiNHZVVnd4h4iHZ3dmd2Z4dmdmZmdmZ3dVVlQ0QyN3Q0RVVURFVlVERWVERERDMzR3ZmZVVVVVzr3LvbrMqu+72qy6varPy9usyr27z9u7u7u7u8/su7u7u7zO7Lu7u7u7vvy7u7u7u738u7u7u6uZ/c26zbrbq/2sur2qy6ruzcqtqryZ3qq5m6msmc66yZmZmZmZmZmZmZmZQAAA=="
+            TITLE="Luft" ARTIST="(U) Solee">
+            <LOCATION DIR="/:Users/:steve/:Dropbox/:Crate/:" FILE="Solee - Luft Original Mix_PN.mp3"
+                VOLUME="Macintosh HD" VOLUMEID="Macintosh HD"></LOCATION>
+            <ALBUM TRACK="1" TITLE="www.groovytunes.org"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Progressive House" LABEL="Parquet Recordings" COMMENT="6"
+                COVERARTID="118/W10KD0BKXITH4COKIDTYD3MG5P4D" KEY="2A" PLAYCOUNT="20" PLAYTIME="559"
+                PLAYTIME_FLOAT="558.706909" RANKING="204" IMPORT_DATE="2022/5/21" LAST_PLAYED="2022/5/21"
+                RELEASE_DATE="2020/1/1" FLAGS="12" FILESIZE="22900"></INFO>
+            <TEMPO BPM="122.999962" BPM_QUALITY="100.000000"></TEMPO>
+            <LOUDNESS PEAK_DB="0.589450" PERCEIVED_DB="2.120567" ANALYZED_DB="2.120567"></LOUDNESS>
+            <MUSICAL_KEY VALUE="15"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="141.277686" LEN="0.000000" REPEATS="-1" HOTCUE="0">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="78190.082379" LEN="0.000000" REPEATS="-1" HOTCUE="1">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="101604.723788" LEN="0.000000" REPEATS="-1" HOTCUE="4">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="0" START="335751.137869" LEN="0.000000" REPEATS="-1" HOTCUE="7">
+            </CUE_V2>
+            <CUE_V2 NAME="n.n." DISPL_ORDER="0" TYPE="5" START="546482.910542" LEN="7804.880469" REPEATS="-1"
+                HOTCUE="3"></CUE_V2>
+        </ENTRY>
+    </COLLECTION>
+    <SETS ENTRIES="0"></SETS>
+    <PLAYLISTS>
+        <NODE TYPE="FOLDER" NAME="$ROOT">
+            <SUBNODES COUNT="1">
+                <NODE TYPE="FOLDER" NAME="- 0">
+                    <SUBNODES COUNT="1">
+                        <NODE TYPE="FOLDER" NAME="0 - Rezidence 19">
+                            <SUBNODES COUNT="2">
+                                <NODE TYPE="PLAYLIST" NAME="2022 Rezidence 19">
+                                    <PLAYLIST ENTRIES="22" TYPE="LIST" UUID="a0a91ece76f04f549f13ee438ab4d8cd">
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Nox Vahn, Marsh - Come Together(Extended Mix)PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Booka Shade, Eli &amp; Fur - To the Sea (8Kays Remix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:02-navar-moments_in_life__16_bit_lolitas_remix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:10388808 Gas Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:yulia niko - the only dream_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:James Harcourt - VCF Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Sammy Legs &amp; Magic Woman - Airborne Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:John Cosani - Hoba_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Solee - Luft Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Literatura-Desert Karavan-Elfenberg Remix-30672034_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:16070775 Quivver Funkily  (Extended Mix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Proudly People - Push It_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:10229810 Jon Lee, Pattern Drama Let s Get Bizzee  (Original Mix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:9443454 Balagan Balcazar Remix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Nosssia-Arcadia-Original Mix-118_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:16066273 DJ Samer Diaspora  (Original Mix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:16220943 Betoko, Th;en, Haptic Dekline feat. Haptic  (Matan Caspi Remix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:15902034 Bradley Skeng When I Mod  (Original Mix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Fabrication - Dustpig_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Armen Miran Hraach-Aldebaran Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:11320235 Bring Back The Sound  (Kohra Remix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:L. Doblado - Lie Alone(16 Bit Lolitas Remix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                    </PLAYLIST>
+                                </NODE>
+                                <NODE TYPE="PLAYLIST" NAME="2022 Rezidence 19.2">
+                                    <PLAYLIST ENTRIES="22" TYPE="LIST" UUID="a0a91ece76f04f549f13ee438ab4d8cd">
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Nox Vahn, Marsh - Come Together(Extended Mix)PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Booka Shade, Eli &amp; Fur - To the Sea (8Kays Remix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:02-navar-moments_in_life__16_bit_lolitas_remix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:10388808 Gas Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:yulia niko - the only dream_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:James Harcourt - VCF Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Sammy Legs &amp; Magic Woman - Airborne Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:John Cosani - Hoba_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Solee - Luft Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Literatura-Desert Karavan-Elfenberg Remix-30672034_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:16070775 Quivver Funkily  (Extended Mix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Proudly People - Push It_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:10229810 Jon Lee, Pattern Drama Let s Get Bizzee  (Original Mix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:9443454 Balagan Balcazar Remix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Nosssia-Arcadia-Original Mix-118_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:16066273 DJ Samer Diaspora  (Original Mix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:16220943 Betoko, Th;en, Haptic Dekline feat. Haptic  (Matan Caspi Remix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:15902034 Bradley Skeng When I Mod  (Original Mix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Fabrication - Dustpig_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:Armen Miran Hraach-Aldebaran Original Mix_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:11320235 Bring Back The Sound  (Kohra Remix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                        <ENTRY>
+                                            <PRIMARYKEY TYPE="TRACK"
+                                                KEY="Macintosh HD/:Users/:steve/:Dropbox/:Crate/:L. Doblado - Lie Alone(16 Bit Lolitas Remix)_PN.mp3">
+                                            </PRIMARYKEY>
+                                        </ENTRY>
+                                    </PLAYLIST>
+                                </NODE>
+                            </SUBNODES>
+                        </NODE>
+                    </SUBNODES>
+                </NODE>
+            </SUBNODES>
+        </NODE>
+    </PLAYLISTS>
+    <INDEXING></INDEXING>
+</NML>
