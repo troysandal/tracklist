@@ -7,22 +7,20 @@ describe('CUE Parser', function () {
     describe('support filtering', () => {
         it('on start track', () => {
             const p = `${__dirname}/../files/RekordBox_Music and Love.cue`;
-            fs.readFile(p, 'utf8', (err, data) => {
-                expect(err).to.be.null
-                const parser = new CUEParser(data)
-                expect(parser.supports()).to.be.true
-                const archive = parser.parse() as Archive
-                expect(archive).to.exist
-                expect(archive.playlists[0]).to.exist
-                const playlist = archive.playlists[0] as Playlist
-                expect(playlist.tracks.length).to.equal(21)
-                
-                let filteredPlaylist = playlist.filter(0, false)
-                expect(filteredPlaylist.tracks.length).to.equal(playlist.tracks.length)
+            const data = fs.readFileSync(p, 'utf8')
+            const parser = new CUEParser(data)
+            expect(parser.supports()).to.be.true
+            const archive = parser.parse() as Archive
+            expect(archive).to.exist
+            expect(archive.playlists[0]).to.exist
+            const playlist = archive.playlists[0] as Playlist
+            expect(playlist.tracks.length).to.equal(21)
+            
+            let filteredPlaylist = playlist.filter(0, false)
+            expect(filteredPlaylist.tracks.length).to.equal(playlist.tracks.length)
 
-                filteredPlaylist = playlist.filter(1, false)
-                expect(filteredPlaylist.tracks.length).to.equal(playlist.tracks.length - 1)
-            })
+            filteredPlaylist = playlist.filter(1, false)
+            expect(filteredPlaylist.tracks.length).to.equal(playlist.tracks.length - 1)
         })    
     })
 

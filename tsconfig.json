@@ -6,7 +6,8 @@
     ],
     "outDir": "build",
     "removeComments": true,
-    "target": "ES2020",
+    "target": "ESNext",
+    "module": "CommonJS",
 
     // Module resolution
     "baseUrl": "./", // Lets you set a base directory to resolve non-absolute module names.

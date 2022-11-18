@@ -75,16 +75,14 @@ describe('M3U8 Parser', () => {
 
     it('can parser m3u8 files', () => {
         const p = `${__dirname}/../files/RekordBox_Rezidence20.m3u8`;
-        fs.readFile(p, 'utf8', (err, data) => {
-            expect(err).to.be.null
-            const parser = new M3U8Parser(data)
-            expect(parser.supports()).to.be.true
-            const archive = parser.parse() as Archive
-            expect(archive).to.exist
-            expect(Object.keys(archive.collection).length).to.equal(11)
-            expect(archive.playlists.length).to.equal(1)
-            const playlist = archive.playlists[0] as Playlist
-            expect(playlist.tracks.length).to.equal(11)
-        })
+        const data = fs.readFileSync(p, 'utf8')
+        const parser = new M3U8Parser(data)
+        expect(parser.supports()).to.be.true
+        const archive = parser.parse() as Archive
+        expect(archive).to.exist
+        expect(Object.keys(archive.collection).length).to.equal(11)
+        expect(archive.playlists.length).to.equal(1)
+        const playlist = archive.playlists[0] as Playlist
+        expect(playlist.tracks.length).to.equal(11)
     })
 })
