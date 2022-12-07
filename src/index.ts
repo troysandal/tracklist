@@ -129,12 +129,35 @@ function copyToClipboard() {
     navigator.clipboard.writeText(copyText)
 }
 
+function saveToTxtFile() {
+    const trackListElement = getElementById('trackList')
+    const copyText = trackListElement.innerText
+    const blob = new Blob([copyText], {type: "text/plain;charset=utf-8"});
+    let playlistName = '' as string
+    const dropDown = getElementById<HTMLSelectElement>('playlistsDropDown')
+    const selectedOption = dropDown.selectedOptions[0]
+    if (selectedOption) {
+        playlistName = selectedOption.innerText + '.txt'
+    } else {
+        playlistName = 'playlist.txt'
+    }
+    saveAs(blob, playlistName);
+}
+
+function saveAs(blob: Blob, fileName: string) {
+    const link = document.createElement("a");
+    link.download = fileName
+    link.href = URL.createObjectURL(blob);
+    link.click();
+}
+
 window.addEventListener('DOMContentLoaded', () => {
     getElementById('archiveFile').addEventListener("change", uploadTracklist, false)
     getElementById('formatString').addEventListener("input", updateSelectedPlaylist, false)
     getElementById('startTrackIndex').addEventListener("input", updateSelectedPlaylist, false)
     getElementById('publicTracks').addEventListener("input", updateSelectedPlaylist, false)
     getElementById('copyToClipboard').addEventListener("click", copyToClipboard, false)
+    getElementById('saveToTxtFile').addEventListener("click", saveToTxtFile, false)
     getElementById('playlistsDropDown').addEventListener('change', updateSelectedPlaylist, false)
     
     const fieldList = Object.keys(TRACK_FIELDS)
@@ -148,3 +171,5 @@ window.addEventListener('DOMContentLoaded', () => {
     const uploadInput = getElementById<HTMLInputElement>('archiveFile')
     uploadInput.accept = extensions.join(',')
 });
+
+
