@@ -98,7 +98,7 @@ function updateSelectedPlaylist() {
     const dropDown = getElementById<HTMLSelectElement>('playlistsDropDown')
     const selectedOption = dropDown.selectedOptions[0]
     let startTrackIndex: number = parseInt(getElementById<HTMLInputElement>('startTrackIndex').value) || 1
-    startTrackIndex = Math.max(1, startTrackIndex - 1)
+    startTrackIndex = Math.max(0, startTrackIndex - 1)
     const onlyPlayedTracks = getElementById<HTMLInputElement>('publicTracks')
     const playlist: Playlist = (selectedOption as any).playlist as Playlist
     const filteredPlaylist = playlist.filter(startTrackIndex, onlyPlayedTracks.checked)
