@@ -2,6 +2,7 @@ import { expect } from 'chai'
 import * as fs from 'fs'
 import { Archive, Playlist } from '../../src/parsers/archive'
 import { TraktorParser } from '../../src/parsers/traktor'
+import { format } from '../../src/formatter'
 require('jsdom-global')()
 global.DOMParser = window.DOMParser
 
@@ -37,6 +38,22 @@ describe('Traktor Parser', () => {
             expect(archive.playlists.length).to.equal(1)
             const playlist = archive.playlists[0] as Playlist
             expect(playlist.tracks.length).to.equal(19)
+        }
+    })
+
+    it('strips zero hours', () => {
+        const p = `${__dirname}/../files/Rezidence28.nml`;
+        const fileContents = fs.readFileSync(p, 'utf8')
+        expect(fileContents).to.exist
+        expect(fileContents.length).to.be.greaterThan(0)
+        const parser = new TraktorParser(fileContents)
+        const archive = parser.parse()
+        expect(archive).to.exist
+        if (archive) {
+            let playlist = archive.playlists[0] as Playlist
+            playlist = playlist.filter(1, true)
+            const formattedTrack = format(playlist, 0, '${OFFSET}')
+            expect(formattedTrack).to.equal('00:00')
         }
     })
 

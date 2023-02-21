@@ -142,13 +142,11 @@ function computeTrackOffsets(playList: Playlist) {
 
     if (firstTrack && lastTrack && firstTrack?.startTimeJS && lastTrack?.startTimeJS) {
         const start = firstTrack.startTimeJS.getTime()
-        const lastTime = lastTrack.startTimeJS.getTime()
-        const hasHours = NMLTimeToTime((lastTime - start) / 1000).hours > 0
         
         playList.tracks.forEach((track: PlaylistTrack) => {
             if (track.startTimeJS) {
                 track.timeOffset = (track.startTimeJS.getTime() - start) / 1000
-                track.timeOffsetString = timeString(track.timeOffset, !hasHours)
+                track.timeOffsetString = timeString(track.timeOffset)
             }
         })
     }
@@ -191,11 +189,11 @@ function seconds(t: NMLTimeValue): number { return t % 60 }
 function minutes(t: NMLTimeValue): number { return Math.floor((t - 3600*Math.floor(t/3600))/60) }
 function hours(t: NMLTimeValue): number { return Math.floor(t/3600) }
 
-function timeString(t: NMLTimeValue, stripHours: boolean): string {
+function timeString(t: NMLTimeValue): string {
     const HH = hours(t).toString().padStart(2, '0')
     const MM = minutes(t).toString().padStart(2, '0')
     const SS = seconds(t).toString().padStart(2, '0')
-    if (stripHours) {
+    if (hours(t) === 0) {
         return `${MM}:${SS}`
     } else {
         return `${HH}:${MM}:${SS}`
