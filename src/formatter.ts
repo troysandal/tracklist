@@ -29,6 +29,19 @@ export function format(playList:Playlist, trackIndex:number, formatString:string
     return formatString
 }
 
+export function buildTags(playlist: Playlist): string[] {
+    const tags = playlist.tracks
+      .map((track) => track.collectionEntry.artist)
+      .map((artist) => artist.split(','))
+      .flat()
+      .map((artist) => artist.replace(/\(.*$/g, ''))
+      .map((artist) => artist.split('&'))
+      .flat()
+      .map((artist) => artist.trim().replace(/\s+/g, ''))
+      .map((artist) => `#${artist.toLocaleLowerCase()}`)
+
+    return [...new Set(tags)]
+  }
 
 /**
  * Converts a playlist to a human readable form.
@@ -37,6 +50,10 @@ export function format(playList:Playlist, trackIndex:number, formatString:string
  */
 export function playlistToReadable(playlist:Playlist, FORMAT_STRING:string): string {
     const result = []
+
+    result.push('Artist Tags')
+    result.push(buildTags(playlist).join(' '))
+    result.push('')
 
     result.push(playlist.name)
 
