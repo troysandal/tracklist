@@ -34,9 +34,14 @@ export function buildTags(playlist: Playlist): string[] {
       .map((track) => track.collectionEntry.artist)
       .map((artist) => artist.split(','))
       .flat()
-      .map((artist) => artist.replace(/\(.*$/g, ''))
-      .map((artist) => artist.split('&'))
-      .flat()
+      
+      // Breaks on prefix tags like (U)
+      //.map((artist) => artist.replace(/\(.*$/g, '')) 
+      
+      // Breaks on Eli & Fur
+      //.map((artist) => artist.split('&'))  
+      //.flat()
+      
       .map((artist) => artist.trim().replace(/\s+/g, ''))
       .map((artist) => `#${artist.toLocaleLowerCase()}`)
 
