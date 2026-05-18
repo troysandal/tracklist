@@ -29,6 +29,16 @@ export function format(playList:Playlist, trackIndex:number, formatString:string
     return formatString
 }
 
+export function buildArtistList(playlist: Playlist): string[] {
+    const artists = playlist.tracks
+        .map((track) => track.collectionEntry.artist)
+        .map((artist) => artist.split(','))
+        .flat()
+        .map((artist) => artist.trim())
+
+    return [...new Set(artists)]
+}
+
 export function buildTags(playlist: Playlist): string[] {
     const tags = playlist.tracks
       .map((track) => track.collectionEntry.artist)
@@ -58,6 +68,10 @@ export function playlistToReadable(playlist:Playlist, FORMAT_STRING:string): str
 
     result.push('Artist Tags')
     result.push(buildTags(playlist).join(' '))
+    result.push('')
+
+    result.push('Artists')
+    result.push(buildArtistList(playlist).join(', '))
     result.push('')
 
     result.push(playlist.name)
